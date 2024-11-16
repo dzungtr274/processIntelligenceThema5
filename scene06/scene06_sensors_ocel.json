@@ -1,0 +1,275 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:attribute-names": [],
+    "ocel:object-types": [
+      "distance_sensor_laptop_shelf",
+      "laptop_shelf",
+      "reed_switch_door",
+      "door",
+      "reed_switch_mouse_cupboard",
+      "mouse_cupboard",
+      "temp_hum_sensor_window",
+      "window"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "reed_switch_door_opened_838592b9-15b9-4709-af26-20ad6d28e2bf": {
+      "ocel:timestamp": "2024-03-25T09:30:56.137126",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_closed_d39f8e28-761d-451d-bca7-4a321deacee5": {
+      "ocel:timestamp": "2024-03-25T09:31:00.042790",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_opened_796751ef-7163-4cb4-8362-d321cd79dc79": {
+      "ocel:timestamp": "2024-03-25T09:31:55.512104",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_closed_a9010008-60b9-4343-8501-344040ce0c53": {
+      "ocel:timestamp": "2024-03-25T09:31:59.417874",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_opened_a39fb375-0a9c-42a3-b9d7-35b284771e75": {
+      "ocel:timestamp": "2024-03-25T09:32:58.893287",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_closed_eec170da-53eb-45c4-a2a1-9719e9e28fd2": {
+      "ocel:timestamp": "2024-03-25T09:33:07.304151",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "room_humidity_increased_8a881729-ab30-4934-a498-5f162cf32fb9": {
+      "ocel:timestamp": "2024-03-25T09:33:19.744128",
+      "ocel:activity": "room_humidity_increased",
+      "ocel:omap": [
+        "temp_hum_sensor_window",
+        "window"
+      ],
+      "ocel:vmap": {
+        "scene": "6",
+        "humidity_change_percent": "+3.0"
+      }
+    },
+    "laptop_shelf_laptop_added_50030924-bc60-4bfd-a582-09d7dd79218c": {
+      "ocel:timestamp": "2024-03-25T09:34:47.271722",
+      "ocel:activity": "laptop_shelf_laptop_added",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "6",
+        "distance_change_cm": "-5.17"
+      }
+    },
+    "laptop_shelf_laptop_removed_5c15e4d1-c4a9-4963-ac80-faed4bf27e12": {
+      "ocel:timestamp": "2024-03-25T09:34:49.007008",
+      "ocel:activity": "laptop_shelf_laptop_removed",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "6",
+        "distance_change_cm": "+3.78"
+      }
+    },
+    "reed_switch_door_opened_3be8ac8d-7ad8-48fc-a81d-182e26db838b": {
+      "ocel:timestamp": "2024-03-25T09:35:57.905874",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_closed_bcaa3d7c-2e75-4e81-95be-f3422b692c1d": {
+      "ocel:timestamp": "2024-03-25T09:36:04.815796",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_opened_e8b3b1de-98c8-4b10-9ac8-481e2acc3d22": {
+      "ocel:timestamp": "2024-03-25T09:36:38.760049",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "laptop_shelf_laptop_added_864a7ecf-71df-43b8-9bc4-29bc4df98884": {
+      "ocel:timestamp": "2024-03-25T09:36:41.881993",
+      "ocel:activity": "laptop_shelf_laptop_added",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "6",
+        "distance_change_cm": "-4.74"
+      }
+    },
+    "laptop_shelf_laptop_removed_73b7a828-5fb0-4275-b6ce-7070a0ffd4bd": {
+      "ocel:timestamp": "2024-03-25T09:36:43.607478",
+      "ocel:activity": "laptop_shelf_laptop_removed",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "6",
+        "distance_change_cm": "+2.6"
+      }
+    },
+    "reed_switch_mouse_cupboard_opened_ed1f016e-cc12-423e-a3de-45214da41bf0": {
+      "ocel:timestamp": "2024-03-25T09:36:45.099567",
+      "ocel:activity": "reed_switch_mouse_cupboard_opened",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_mouse_cupboard_closed_9115f101-6d87-4bf3-8f8c-537fd8240f8e": {
+      "ocel:timestamp": "2024-03-25T09:36:49.005399",
+      "ocel:activity": "reed_switch_mouse_cupboard_closed",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    },
+    "reed_switch_door_closed_10ab45d9-403f-4d54-8028-74d5db50863a": {
+      "ocel:timestamp": "2024-03-25T09:36:50.174901",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "6"
+      }
+    }
+  },
+  "ocel:objects": {
+    "distance_sensor_laptop_shelf": {
+      "ocel:type": "distance_sensor_laptop_shelf",
+      "ocel:ovmap": {
+        "location": "laptop shelf",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "HC-SR04 Ultrasonic Sensor"
+      }
+    },
+    "laptop_shelf": {
+      "ocel:type": "laptop_shelf",
+      "ocel:ovmap": {
+        "room_location": "warehouse area"
+      }
+    },
+    "reed_switch_door": {
+      "ocel:type": "reed_switch_door",
+      "ocel:ovmap": {
+        "location": "door",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "reed switch"
+      }
+    },
+    "door": {
+      "ocel:type": "door",
+      "ocel:ovmap": {
+        "room_location": "self service area"
+      }
+    },
+    "reed_switch_mouse_cupboard": {
+      "ocel:type": "reed_switch_mouse_cupboard",
+      "ocel:ovmap": {
+        "location": "cupboard left",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "reed switch"
+      }
+    },
+    "mouse_cupboard": {
+      "ocel:type": "mouse_cupboard",
+      "ocel:ovmap": {
+        "room_location": "warehouse area"
+      }
+    },
+    "temp_hum_sensor_window": {
+      "ocel:type": "temp_hum_sensor_window",
+      "ocel:ovmap": {
+        "location": "window",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "DHT11 temperature and humidity sensor"
+      }
+    },
+    "window": {
+      "ocel:type": "window",
+      "ocel:ovmap": {
+        "room_location": "issue area"
+      }
+    }
+  }
+}

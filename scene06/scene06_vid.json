@@ -1,0 +1,453 @@
+{
+  "offset": "2024-03-25T09:29:43.000Z",
+  "version": 1,
+  "localisations": [
+    {
+      "type": "data",
+      "data": {
+        "process": "New asset inventory",
+        "label": "ID015",
+        "variant": 1
+      },
+      "tcin": null,
+      "tcout": null,
+      "tclevel": 0,
+      "localisation": [
+        {
+          "tcin": "09:30:02.613",
+          "tcout": "09:30:08.469",
+          "level": 1,
+          "data": {
+            "activity": "Pick asset from warehouse",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "laptop_shelf"
+            ]
+          }
+        },
+        {
+          "tcin": "09:30:15.016",
+          "tcout": "09:30:26.491",
+          "level": 1,
+          "data": {
+            "activity": "Unpack asset",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "repair_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:30:26.491",
+          "tcout": "09:30:40.459",
+          "level": 1,
+          "data": {
+            "activity": "Test asset quality and functionality",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "repair_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:30:52.778",
+          "tcout": "09:31:00.084",
+          "level": 1,
+          "data": {
+            "activity": "Install and configure asset",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "repair_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:31:57.081",
+          "tcout": "09:32:16.057",
+          "level": 1,
+          "data": {
+            "activity": "Install and configure asset",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "repair_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:32:19.153",
+          "tcout": "09:32:50.008",
+          "level": 1,
+          "data": {
+            "activity": "Label asset",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "repair_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:33:21.003",
+          "tcout": "09:34:11.037",
+          "level": 1,
+          "data": {
+            "activity": "Create system entry for asset",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "it_working_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:34:43.043",
+          "tcout": "09:34:48.870",
+          "level": 1,
+          "data": {
+            "activity": "Move asset to storage",
+            "note": "",
+            "objects": [
+              "L6"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "laptop_shelf"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "data": {
+        "process": "Self-service asset check-out",
+        "label": "ID016",
+        "variant": 1
+      },
+      "tcin": null,
+      "tcout": null,
+      "tclevel": 0,
+      "localisation": [
+        {
+          "tcin": "09:30:55.103",
+          "tcout": "09:30:59.847",
+          "level": 1,
+          "data": {
+            "activity": "Enter room",
+            "note": "",
+            "objects": [],
+            "actors": [
+              "C10"
+            ],
+            "attributes": [],
+            "locations": [
+              "door"
+            ]
+          }
+        },
+        {
+          "tcin": "09:31:15.275",
+          "tcout": "09:31:50.275",
+          "level": 1,
+          "data": {
+            "activity": "Pick asset from self service desk",
+            "note": "",
+            "objects": [
+              "H11"
+            ],
+            "actors": [
+              "C10"
+            ],
+            "attributes": [],
+            "locations": [
+              "self_service_storage"
+            ]
+          }
+        },
+        {
+          "tcin": "09:31:51.974",
+          "tcout": "09:31:57.974",
+          "level": 1,
+          "data": {
+            "activity": "Leave room",
+            "note": "",
+            "objects": [],
+            "actors": [
+              "C10"
+            ],
+            "attributes": [],
+            "locations": [
+              "door"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "data": {
+        "process": "Asset return",
+        "label": "ID017",
+        "variant": 1
+      },
+      "tcin": null,
+      "tcout": null,
+      "tclevel": 0,
+      "localisation": [
+        {
+          "tcin": "09:32:58.639",
+          "tcout": "09:33:07.155",
+          "level": 1,
+          "data": {
+            "activity": "Enter room",
+            "note": "",
+            "objects": [],
+            "actors": [
+              "C1"
+            ],
+            "attributes": [],
+            "locations": [
+              "door"
+            ]
+          }
+        },
+        {
+          "tcin": "09:34:53.139",
+          "tcout": "09:35:04.139",
+          "level": 1,
+          "data": {
+            "activity": "Handover asset to admin",
+            "note": "",
+            "objects": [
+              "L3",
+              "P2"
+            ],
+            "actors": [
+              "A1",
+              "C1"
+            ],
+            "attributes": [],
+            "locations": [
+              "it_working_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:35:04.139",
+          "tcout": "09:35:46.139",
+          "level": 1,
+          "data": {
+            "activity": "Check asset quality",
+            "note": "",
+            "objects": [
+              "L3",
+              "P2"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "it_working_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:35:54.139",
+          "tcout": "09:36:28.139",
+          "level": 1,
+          "data": {
+            "activity": "Check-In asset to storage",
+            "note": "",
+            "objects": [
+              "L3",
+              "P2"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "it_working_desk"
+            ]
+          }
+        },
+        {
+          "tcin": "09:35:52.643",
+          "tcout": "09:36:00.643",
+          "level": 1,
+          "data": {
+            "activity": "Leave room",
+            "note": "",
+            "objects": [],
+            "actors": [
+              "C1"
+            ],
+            "attributes": [],
+            "locations": [
+              "door"
+            ]
+          }
+        },
+        {
+          "tcin": "09:36:37.086",
+          "tcout": "09:36:42.086",
+          "level": 1,
+          "data": {
+            "activity": "Move asset to storage",
+            "note": "",
+            "objects": [
+              "L3"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "laptop_shelf"
+            ]
+          }
+        },
+        {
+          "tcin": "09:36:37.139",
+          "tcout": "09:36:50.086",
+          "level": 1,
+          "data": {
+            "activity": "Move asset to storage",
+            "note": "",
+            "objects": [
+              "P2"
+            ],
+            "actors": [
+              "A1"
+            ],
+            "attributes": [],
+            "locations": [
+              "mouse_cupboard"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "data": {
+        "process": "Self-service asset check-out",
+        "label": "ID018",
+        "variant": 3
+      },
+      "tcin": null,
+      "tcout": null,
+      "tclevel": 0,
+      "localisation": [
+        {
+          "tcin": "09:36:37.712",
+          "tcout": "09:36:40.712",
+          "level": 1,
+          "data": {
+            "activity": "Enter room",
+            "note": "",
+            "objects": [],
+            "actors": [
+              "C9"
+            ],
+            "attributes": [],
+            "locations": [
+              "door"
+            ]
+          }
+        },
+        {
+          "tcin": "09:36:40.712",
+          "tcout": "09:36:43.712",
+          "level": 1,
+          "data": {
+            "activity": "Pick asset from self service desk",
+            "note": "",
+            "objects": [
+              "K4"
+            ],
+            "actors": [
+              "C9"
+            ],
+            "attributes": [],
+            "locations": [
+              "self_service_storage"
+            ]
+          }
+        },
+        {
+          "tcin": "09:36:43.712",
+          "tcout": "09:36:48.712",
+          "level": 1,
+          "data": {
+            "activity": "Leave room",
+            "note": "",
+            "objects": [],
+            "actors": [
+              "C9"
+            ],
+            "attributes": [],
+            "locations": [
+              "door"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "label": "Scene 06",
+  "start": "2024-03-25T09:29:43",
+  "end": "2024-03-25T09:36:55",
+  "scene_name": "scene06"
+}

@@ -1,0 +1,223 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:attribute-names": [],
+    "ocel:object-types": [
+      "distance_sensor_laptop_shelf",
+      "laptop_shelf",
+      "reed_switch_door",
+      "door",
+      "temp_hum_sensor_window",
+      "window"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "reed_switch_door_opened_e0b0905d-cb19-4420-8ae9-340043c12d78": {
+      "ocel:timestamp": "2024-03-25T11:08:36.403626",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_closed_0a9005be-69ad-4384-8d5b-4eea5781e0ba": {
+      "ocel:timestamp": "2024-03-25T11:08:39.808945",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "laptop_shelf_laptop_removed_dd7c5fd5-22e7-43c6-a2d8-814979b47523": {
+      "ocel:timestamp": "2024-03-25T11:10:50.931333",
+      "ocel:activity": "laptop_shelf_laptop_removed",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "11",
+        "distance_change_cm": "+3.61"
+      }
+    },
+    "reed_switch_door_opened_0bbff8d2-0484-437b-ad17-4ef8381c624d": {
+      "ocel:timestamp": "2024-03-25T11:11:58.437325",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_closed_cc5643e1-30a8-4bce-ba11-b07315cdd1ed": {
+      "ocel:timestamp": "2024-03-25T11:12:01.341844",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_opened_cd281f3f-fa27-48b4-b206-bea0c805d9c6": {
+      "ocel:timestamp": "2024-03-25T11:13:39.860417",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_closed_4a10fb93-c58c-448d-9326-577d8659be18": {
+      "ocel:timestamp": "2024-03-25T11:13:43.270547",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_opened_6740af9d-8f1d-4209-9b28-e193b499702d": {
+      "ocel:timestamp": "2024-03-25T11:13:54.204070",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_closed_8b71e414-46e6-4fa8-9f5c-eff984d6cba1": {
+      "ocel:timestamp": "2024-03-25T11:13:57.615304",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_opened_149d83d1-2ef1-4fbe-9d97-c871f5f6d043": {
+      "ocel:timestamp": "2024-03-25T11:14:30.071261",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_closed_5c07c735-62cb-447e-bd3e-53ad94eb9369": {
+      "ocel:timestamp": "2024-03-25T11:14:33.977922",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_opened_d84060ba-81aa-4a80-84bb-dd331682dd7e": {
+      "ocel:timestamp": "2024-03-25T11:14:50.902544",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "reed_switch_door_closed_7f2a787f-b8ad-4c5c-8ff6-a807b482589c": {
+      "ocel:timestamp": "2024-03-25T11:14:54.310877",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "11"
+      }
+    },
+    "laptop_shelf_laptop_added_f1ab1186-c1b2-4574-918a-20f20abb9d62": {
+      "ocel:timestamp": "2024-03-25T11:16:17.202477",
+      "ocel:activity": "laptop_shelf_laptop_added",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "11",
+        "distance_change_cm": "-2.2"
+      }
+    }
+  },
+  "ocel:objects": {
+    "distance_sensor_laptop_shelf": {
+      "ocel:type": "distance_sensor_laptop_shelf",
+      "ocel:ovmap": {
+        "location": "laptop shelf",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "HC-SR04 Ultrasonic Sensor"
+      }
+    },
+    "laptop_shelf": {
+      "ocel:type": "laptop_shelf",
+      "ocel:ovmap": {
+        "room_location": "warehouse area"
+      }
+    },
+    "reed_switch_door": {
+      "ocel:type": "reed_switch_door",
+      "ocel:ovmap": {
+        "location": "door",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "reed switch"
+      }
+    },
+    "door": {
+      "ocel:type": "door",
+      "ocel:ovmap": {
+        "room_location": "self service area"
+      }
+    },
+    "temp_hum_sensor_window": {
+      "ocel:type": "temp_hum_sensor_window",
+      "ocel:ovmap": {
+        "location": "window",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "DHT11 temperature and humidity sensor"
+      }
+    },
+    "window": {
+      "ocel:type": "window",
+      "ocel:ovmap": {
+        "room_location": "issue area"
+      }
+    }
+  }
+}

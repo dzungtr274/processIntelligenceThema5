@@ -1,0 +1,626 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:attribute-names": [],
+    "ocel:object-types": [
+      "admin_user",
+      "distance_sensor_laptop_shelf",
+      "item_asset",
+      "monitor_storage",
+      "door",
+      "temp_hum_sensor_window",
+      "window",
+      "it_working_desk",
+      "mouse_cupboard",
+      "laptop_shelf",
+      "reed_switch_door",
+      "reed_switch_mouse_cupboard"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Enter room_15630715-bc75-4c7a-8463-a6dd5b44e4c3": {
+      "ocel:timestamp": "2024-03-25T08:48:32.113",
+      "ocel:activity": "Enter room",
+      "ocel:omap": [
+        "C1",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:48:37.040"
+      }
+    },
+    "reed_switch_door_opened_9dc3c582-13ed-4fd2-b47e-379944f4d1f3": {
+      "ocel:timestamp": "2024-03-25T08:48:33.280419",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "reed_switch_door_closed_c89f50e9-f8d6-495e-a381-ee431c323855": {
+      "ocel:timestamp": "2024-03-25T08:48:37.186077",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "Chat_df7578de-0fb6-48dc-b4f8-ec7d4fab8814": {
+      "ocel:timestamp": "2024-03-25T08:48:39.585",
+      "ocel:activity": "Chat",
+      "ocel:omap": [
+        "A1",
+        "C1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:48:48.719"
+      }
+    },
+    "Pick asset from warehouse_c1f2df5b-0865-4077-a42b-9d47979ede93": {
+      "ocel:timestamp": "2024-03-25T08:48:49.404",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:omap": [
+        "L1",
+        "A1",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:49:05.479"
+      }
+    },
+    "laptop_shelf_laptop_removed_e8afd5ca-7934-43d3-a33e-633a50b5770a": {
+      "ocel:timestamp": "2024-03-25T08:48:57.039989",
+      "ocel:activity": "laptop_shelf_laptop_removed",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "distance_change_cm": "+2.81"
+      }
+    },
+    "Pick asset from warehouse_bd8c2a07-745c-4838-80cd-eaa70e6b2bc8": {
+      "ocel:timestamp": "2024-03-25T08:49:05.308",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:omap": [
+        "P2",
+        "A1",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:49:19.530"
+      }
+    },
+    "reed_switch_mouse_cupboard_opened_70003cdb-be41-4c22-a62d-6c183f61e64a": {
+      "ocel:timestamp": "2024-03-25T08:49:10.768503",
+      "ocel:activity": "reed_switch_mouse_cupboard_opened",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "reed_switch_mouse_cupboard_closed_246db69c-c329-4b83-91dc-cb827e21e4aa": {
+      "ocel:timestamp": "2024-03-25T08:49:16.676059",
+      "ocel:activity": "reed_switch_mouse_cupboard_closed",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "Check asset quality_e06ee875-2f91-4353-a502-3e0a3ad09a7b": {
+      "ocel:timestamp": "2024-03-25T08:49:22.000",
+      "ocel:activity": "Check asset quality",
+      "ocel:omap": [
+        "L1",
+        "P2",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:49:45.972"
+      }
+    },
+    "Check-Out asset to user_0289bc61-d6fd-490a-8a25-68725f25bb23": {
+      "ocel:timestamp": "2024-03-25T08:49:54.429",
+      "ocel:activity": "Check-Out asset to user",
+      "ocel:omap": [
+        "L1",
+        "P2",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:50:47.448"
+      }
+    },
+    "Handover asset to user_0e547b62-a699-46de-bcac-0bdb07754e2a": {
+      "ocel:timestamp": "2024-03-25T08:50:49.609",
+      "ocel:activity": "Handover asset to user",
+      "ocel:omap": [
+        "L1",
+        "P2",
+        "A1",
+        "C1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:50:53.599"
+      }
+    },
+    "Leave room_18663be0-bde4-40b0-8a91-7b5d95ea1069": {
+      "ocel:timestamp": "2024-03-25T08:50:55.815",
+      "ocel:activity": "Leave room",
+      "ocel:omap": [
+        "C1",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:50:59.438"
+      }
+    },
+    "reed_switch_door_opened_23e698de-0b82-4342-9ee6-1e5213a23be5": {
+      "ocel:timestamp": "2024-03-25T08:50:57.254385",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "reed_switch_door_closed_85fc9ca5-9c5e-444c-b17b-7025181fb560": {
+      "ocel:timestamp": "2024-03-25T08:51:00.659583",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "Enter room_116ffed3-4666-401a-b176-2e7009d65703": {
+      "ocel:timestamp": "2024-03-25T08:51:18.935",
+      "ocel:activity": "Enter room",
+      "ocel:omap": [
+        "C2",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:51:23.073"
+      }
+    },
+    "reed_switch_door_opened_ac2766e9-c6a2-423f-b688-4b9f359141e2": {
+      "ocel:timestamp": "2024-03-25T08:51:20.088753",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "reed_switch_door_closed_88d0e973-a3e6-470a-add4-56ba8b391fc6": {
+      "ocel:timestamp": "2024-03-25T08:51:23.497010",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "Chat_ff979290-8ae5-4718-a974-a638c2ab2f17": {
+      "ocel:timestamp": "2024-03-25T08:51:26.176",
+      "ocel:activity": "Chat",
+      "ocel:omap": [
+        "A1",
+        "C2",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:51:33.435"
+      }
+    },
+    "Pick asset from warehouse_e8f0c879-c0fb-43f3-a9b8-1b4285f16abd": {
+      "ocel:timestamp": "2024-03-25T08:51:33.489",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:omap": [
+        "M1",
+        "A1",
+        "monitor_storage"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:51:42.352"
+      }
+    },
+    "Check asset quality_d295a7c3-cd3c-42c2-8c10-9a4627a651ed": {
+      "ocel:timestamp": "2024-03-25T08:51:42.352",
+      "ocel:activity": "Check asset quality",
+      "ocel:omap": [
+        "M1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:52:02.216"
+      }
+    },
+    "Enter room_85d18e50-cadd-4f7c-aff9-349ba48944d1": {
+      "ocel:timestamp": "2024-03-25T08:52:01.824",
+      "ocel:activity": "Enter room",
+      "ocel:omap": [
+        "C6",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:52:06.422"
+      }
+    },
+    "reed_switch_door_opened_dde7c785-5889-4300-8fbe-de09f3a7feb2": {
+      "ocel:timestamp": "2024-03-25T08:52:02.448087",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "reed_switch_door_closed_7d35b599-1013-4f86-8eee-2c364c2efe19": {
+      "ocel:timestamp": "2024-03-25T08:52:06.353674",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "Check-Out asset to user_8961d779-36fe-45ea-964a-fc85b860fbd1": {
+      "ocel:timestamp": "2024-03-25T08:52:10.180",
+      "ocel:activity": "Check-Out asset to user",
+      "ocel:omap": [
+        "M1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:52:30.895"
+      }
+    },
+    "Handover asset to user_10f6d5e3-c85f-4c43-8dc7-baa32e662f31": {
+      "ocel:timestamp": "2024-03-25T08:52:33.802",
+      "ocel:activity": "Handover asset to user",
+      "ocel:omap": [
+        "M1",
+        "A1",
+        "C2",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:52:37.552"
+      }
+    },
+    "Chat_eb28bd2c-163a-4622-acbf-f1a4b1666355": {
+      "ocel:timestamp": "2024-03-25T08:52:38.891",
+      "ocel:activity": "Chat",
+      "ocel:omap": [
+        "A1",
+        "C6",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:52:52.020"
+      }
+    },
+    "Leave room_e1a0c039-4513-49e5-bffd-59106b8a0002": {
+      "ocel:timestamp": "2024-03-25T08:52:40.897",
+      "ocel:activity": "Leave room",
+      "ocel:omap": [
+        "C2",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:52:47.625"
+      }
+    },
+    "reed_switch_door_opened_0610e41e-fc24-4a27-8664-b98bffc50748": {
+      "ocel:timestamp": "2024-03-25T08:52:41.803636",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "reed_switch_door_closed_0ae5224a-d67c-43ad-99e1-1635d9a683af": {
+      "ocel:timestamp": "2024-03-25T08:52:46.710493",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "Pick asset from warehouse_351dad02-380d-4e54-91b0-c466d49ecf58": {
+      "ocel:timestamp": "2024-03-25T08:52:52.020",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:omap": [
+        "P3",
+        "A1",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:53:08.440"
+      }
+    },
+    "reed_switch_mouse_cupboard_opened_5ec5138c-185c-4357-a06e-00a97c4d46aa": {
+      "ocel:timestamp": "2024-03-25T08:52:57.323666",
+      "ocel:activity": "reed_switch_mouse_cupboard_opened",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "reed_switch_mouse_cupboard_closed_1a0bf077-4f85-4407-8a87-d3d86f701e21": {
+      "ocel:timestamp": "2024-03-25T08:53:03.231408",
+      "ocel:activity": "reed_switch_mouse_cupboard_closed",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    },
+    "Pick asset from warehouse_e7d963d4-2ca0-4e75-b670-7d53049c5bc2": {
+      "ocel:timestamp": "2024-03-25T08:53:08.440",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:omap": [
+        "L2",
+        "A1",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:53:33.913"
+      }
+    },
+    "laptop_shelf_laptop_removed_0f22ea03-c88a-448c-8c7d-77044be67881": {
+      "ocel:timestamp": "2024-03-25T08:53:13.937715",
+      "ocel:activity": "laptop_shelf_laptop_removed",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "distance_change_cm": "+2.36"
+      }
+    },
+    "Check asset quality_d6f53cab-69bc-4955-9f8c-2f2d1d74803f": {
+      "ocel:timestamp": "2024-03-25T08:53:35.226",
+      "ocel:activity": "Check asset quality",
+      "ocel:omap": [
+        "L2",
+        "P3",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:53:46.520"
+      }
+    },
+    "Check-Out asset to user_8e694aa5-00fe-4c79-ba7e-327007903117": {
+      "ocel:timestamp": "2024-03-25T08:53:55.602",
+      "ocel:activity": "Check-Out asset to user",
+      "ocel:omap": [
+        "L2",
+        "P3",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:54:33.406"
+      }
+    },
+    "Handover asset to user_3a5c4b7b-c31f-4dd2-92ad-cd692993a3a1": {
+      "ocel:timestamp": "2024-03-25T08:54:36.487",
+      "ocel:activity": "Handover asset to user",
+      "ocel:omap": [
+        "L2",
+        "P3",
+        "A1",
+        "C6",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:54:46.870"
+      }
+    },
+    "Leave room_242e6450-6354-4996-b195-57a59b1a10a0": {
+      "ocel:timestamp": "2024-03-25T08:54:52.178",
+      "ocel:activity": "Leave room",
+      "ocel:omap": [
+        "C6",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1",
+        "end_time": "2024-03-25T08:54:55.833"
+      }
+    },
+    "reed_switch_door_opened_04d1e913-2f90-46a6-b8ba-e01392d54abb": {
+      "ocel:timestamp": "2024-03-25T08:54:53.763291",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "1"
+      }
+    }
+  },
+  "ocel:objects": {
+    "C1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "door": {
+      "ocel:type": "door",
+      "ocel:ovmap": {
+        "room_location": "self service area"
+      }
+    },
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "it_working_desk": {
+      "ocel:type": "it_working_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "L1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "laptop_shelf": {
+      "ocel:type": "laptop_shelf",
+      "ocel:ovmap": {
+        "room_location": "warehouse area"
+      }
+    },
+    "P2": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "mouse_cupboard": {
+      "ocel:type": "mouse_cupboard",
+      "ocel:ovmap": {
+        "room_location": "warehouse area"
+      }
+    },
+    "C2": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "M1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "monitor_storage": {
+      "ocel:type": "monitor_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "C6": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "P3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L2": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "distance_sensor_laptop_shelf": {
+      "ocel:type": "distance_sensor_laptop_shelf",
+      "ocel:ovmap": {
+        "location": "laptop shelf",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "HC-SR04 Ultrasonic Sensor"
+      }
+    },
+    "reed_switch_door": {
+      "ocel:type": "reed_switch_door",
+      "ocel:ovmap": {
+        "location": "door",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "reed switch"
+      }
+    },
+    "reed_switch_mouse_cupboard": {
+      "ocel:type": "reed_switch_mouse_cupboard",
+      "ocel:ovmap": {
+        "location": "cupboard left",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "reed switch"
+      }
+    },
+    "temp_hum_sensor_window": {
+      "ocel:type": "temp_hum_sensor_window",
+      "ocel:ovmap": {
+        "location": "window",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "DHT11 temperature and humidity sensor"
+      }
+    },
+    "window": {
+      "ocel:type": "window",
+      "ocel:ovmap": {
+        "room_location": "issue area"
+      }
+    }
+  }
+}
