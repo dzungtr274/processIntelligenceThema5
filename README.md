@@ -1,6 +1,6 @@
 Bitte lade den Folder dataProcessing runter mit so eingestellter Darstellung im Projekt
 
-![image](https://github.com/user-attachments/assets/20dade0a-3420-45ae-8217-085967ca7e23)
+![image](https://github.com/user-attachments/assets/4c4064c3-aab3-4639-82d6-db3d2ad29213)
 
 Vergiss nicht geforderte Packages wie Jupyter, Pandas, Numpy oder PM4PY zu installieren
 
