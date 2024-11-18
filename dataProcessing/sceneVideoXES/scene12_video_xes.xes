@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="M1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_1e8c2022-f967-46fc-8ce8-db5eb8cfef20" />
+			<date key="time:timestamp" value="2024-03-25T11:19:58.702000+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:20:08.181" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_02c44489-ac40-4159-952d-b375c631ddd9" />
+			<date key="time:timestamp" value="2024-03-25T11:20:10.905000+00:00" />
+			<string key="concept:name" value="Check asset quality" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:20:31.799" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check-Out asset to user_551aa80c-acb6-44e8-a0ae-c666bedfc7f3" />
+			<date key="time:timestamp" value="2024-03-25T11:20:33.248000+00:00" />
+			<string key="concept:name" value="Check-Out asset to user" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:21:17.472" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to user_42b92671-802d-44f7-b802-cef77db93cbc" />
+			<date key="time:timestamp" value="2024-03-25T11:21:24.376000+00:00" />
+			<string key="concept:name" value="Handover asset to user" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:21:34.350" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_d773668e-dd1e-4aea-821a-d5a2fe51d19e" />
+			<date key="time:timestamp" value="2024-03-25T11:21:49.245000+00:00" />
+			<string key="concept:name" value="Leave room" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:21:56.733" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="M2" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_4eddf2dd-2361-47b4-b37f-c67e7d2794f2" />
+			<date key="time:timestamp" value="2024-03-25T11:22:19.021000+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:22:26.174" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_1e2c91a4-ce3b-4817-a0c6-4cca6b9f9788" />
+			<date key="time:timestamp" value="2024-03-25T11:22:27.285000+00:00" />
+			<string key="concept:name" value="Check asset quality" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:22:47.214" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check-Out asset to user_58a75340-6257-4dbf-ba73-d0a1b5c05ebd" />
+			<date key="time:timestamp" value="2024-03-25T11:22:51.486000+00:00" />
+			<string key="concept:name" value="Check-Out asset to user" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:23:19.042" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to user_ee0da235-09e8-4783-aa4f-65794a63df2d" />
+			<date key="time:timestamp" value="2024-03-25T11:23:21.314000+00:00" />
+			<string key="concept:name" value="Handover asset to user" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:23:26.433" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_23f68e86-675a-4fff-a92a-55823c7e693b" />
+			<date key="time:timestamp" value="2024-03-25T11:23:29.040000+00:00" />
+			<string key="concept:name" value="Leave room" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:23:34.241" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H5" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Enter room_953fd0e5-9d34-493d-bee3-e6a2750ce161" />
+			<date key="time:timestamp" value="2024-03-25T11:22:54.322000+00:00" />
+			<string key="concept:name" value="Enter room" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:22:58.849" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_5c1a4ea7-2c91-439e-a7f5-a5784a68180e" />
+			<date key="time:timestamp" value="2024-03-25T11:23:52.831000+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:23:55.001" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_0db5f9fa-c0ac-4198-a5a1-a117b51ac7f8" />
+			<date key="time:timestamp" value="2024-03-25T11:23:55.704000+00:00" />
+			<string key="concept:name" value="Check asset quality" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:24:02.240" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check-In asset to storage_0896be53-610c-4aa4-b1d9-85b1321a4d7e" />
+			<date key="time:timestamp" value="2024-03-25T11:24:03.984000+00:00" />
+			<string key="concept:name" value="Check-In asset to storage" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:26:36.805" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_d4a86d2e-aeea-4a1d-900c-5c6cf35a080d" />
+			<date key="time:timestamp" value="2024-03-25T11:26:37.756000+00:00" />
+			<string key="concept:name" value="Move asset to storage" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:26:44.703" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H7" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Enter room_d49bf035-fcb5-40bf-801d-9ba90f73c01a" />
+			<date key="time:timestamp" value="2024-03-25T11:26:55.558000+00:00" />
+			<string key="concept:name" value="Enter room" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:26:59.660" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_9dc2ea57-e7fa-4cb0-961d-2bbd53fe5a46" />
+			<date key="time:timestamp" value="2024-03-25T11:27:03.289000+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:27:05.873" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_5a5daf07-2924-4ea7-a90e-b484f403f65c" />
+			<date key="time:timestamp" value="2024-03-25T11:27:05.873000+00:00" />
+			<string key="concept:name" value="Check asset quality" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:27:20.432" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check-In asset to storage_06685b7b-1a33-45c6-a1b8-124fe60dde55" />
+			<date key="time:timestamp" value="2024-03-25T11:27:24.744000+00:00" />
+			<string key="concept:name" value="Check-In asset to storage" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:27:47.066" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_ada2a144-68d0-40f3-8e9a-27dec3200ccd" />
+			<date key="time:timestamp" value="2024-03-25T11:27:47.506000+00:00" />
+			<string key="concept:name" value="Move asset to storage" />
+			<string key="scene" value="12" />
+			<string key="end_time" value="2024-03-25T11:27:53.633" />
+		</event>
+	</trace>
+</log>
