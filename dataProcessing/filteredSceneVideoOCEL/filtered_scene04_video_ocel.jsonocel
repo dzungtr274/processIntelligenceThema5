@@ -1,0 +1,177 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "self_service_storage",
+      "repair_desk"
+    ],
+    "ocel:attribute-names": [
+      "end_time",
+      "scene",
+      "type"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Pick asset from self service desk_7443045e-fe56-427a-9914-e6efa3ebaabb": {
+      "ocel:timestamp": "2024-03-25T09:20:11Z",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:20:17.942"
+      },
+      "ocel:omap": [
+        "H1",
+        "self_service_storage"
+      ]
+    },
+    "Unpack asset_cf430193-cdde-41c9-b5d6-24e8823e9800": {
+      "ocel:timestamp": "2024-03-25T09:20:17Z",
+      "ocel:activity": "Unpack asset",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:20:21.468"
+      },
+      "ocel:omap": [
+        "H1",
+        "repair_desk"
+      ]
+    },
+    "Pick asset from warehouse_2d2bd9a9-8735-4d5a-ae16-5cbcccd12fd4": {
+      "ocel:timestamp": "2024-03-25T09:20:17Z",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:20:56.621"
+      },
+      "ocel:omap": [
+        "H2",
+        "self_service_storage"
+      ]
+    },
+    "Test asset quality and functionality_b84af0ed-f018-48e3-a734-73cdc494436d": {
+      "ocel:timestamp": "2024-03-25T09:20:21Z",
+      "ocel:activity": "Test asset quality and functionality",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:20:30.036"
+      },
+      "ocel:omap": [
+        "H1",
+        "repair_desk"
+      ]
+    },
+    "Install and configure asset_1c20ce92-bb0a-4a34-a9bb-0723d199587c": {
+      "ocel:timestamp": "2024-03-25T09:20:31Z",
+      "ocel:activity": "Install and configure asset",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:20:38.088"
+      },
+      "ocel:omap": [
+        "H1",
+        "repair_desk"
+      ]
+    },
+    "Label asset_9151312a-3562-449f-9921-aa41259efc21": {
+      "ocel:timestamp": "2024-03-25T09:20:44Z",
+      "ocel:activity": "Label asset",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:20:50.574"
+      },
+      "ocel:omap": [
+        "H1",
+        "repair_desk"
+      ]
+    },
+    "Move asset to storage_a67df862-9e9a-4f90-8626-05aea51912c8": {
+      "ocel:timestamp": "2024-03-25T09:20:51Z",
+      "ocel:activity": "Move asset to storage",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:20:55.051"
+      },
+      "ocel:omap": [
+        "H1",
+        "self_service_storage"
+      ]
+    },
+    "Unpack asset_d8ea3c83-c04f-4fb8-ba78-1edb0ede3f3e": {
+      "ocel:timestamp": "2024-03-25T09:20:57Z",
+      "ocel:activity": "Unpack asset",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:21:01.263"
+      },
+      "ocel:omap": [
+        "H2",
+        "repair_desk"
+      ]
+    },
+    "Test asset quality and functionality_03a81ff6-f8f4-41c3-8f93-69624800f400": {
+      "ocel:timestamp": "2024-03-25T09:21:01Z",
+      "ocel:activity": "Test asset quality and functionality",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:21:08.928"
+      },
+      "ocel:omap": [
+        "H2",
+        "repair_desk"
+      ]
+    },
+    "Install and configure asset_4b781ec4-9e4a-4db5-9404-62352217b158": {
+      "ocel:timestamp": "2024-03-25T09:21:09Z",
+      "ocel:activity": "Install and configure asset",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:21:23.639"
+      },
+      "ocel:omap": [
+        "H2"
+      ]
+    },
+    "Move asset to storage_07619511-d28d-4795-bf98-e7020dd1cdec": {
+      "ocel:timestamp": "2024-03-25T09:21:27Z",
+      "ocel:activity": "Move asset to storage",
+      "ocel:vmap": {
+        "scene": "4",
+        "end_time": "2024-03-25T09:21:32.892"
+      },
+      "ocel:omap": [
+        "H2",
+        "self_service_storage"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "H1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "self_service_storage": {
+      "ocel:type": "self_service_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "repair_desk": {
+      "ocel:type": "repair_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "H2": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    }
+  }
+}

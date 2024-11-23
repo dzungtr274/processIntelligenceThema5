@@ -1,0 +1,113 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "window",
+      "admin_user",
+      "door",
+      "item_asset",
+      "self_service_storage"
+    ],
+    "ocel:attribute-names": [
+      "end_time",
+      "scene",
+      "type"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Open window_3c428351-b6ec-477b-b69c-b394194149ed": {
+      "ocel:timestamp": "2024-03-25T09:24:18Z",
+      "ocel:activity": "Open window",
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:24:25.216"
+      },
+      "ocel:omap": [
+        "window"
+      ]
+    },
+    "Enter room_d953c051-bc69-40ee-98e0-4813611ea1d3": {
+      "ocel:timestamp": "2024-03-25T09:26:10Z",
+      "ocel:activity": "Enter room",
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:16.496"
+      },
+      "ocel:omap": [
+        "C4",
+        "door"
+      ]
+    },
+    "Chat_cb09fd36-3a3a-4dbd-b3fe-58ef601dfef2": {
+      "ocel:timestamp": "2024-03-25T09:26:16Z",
+      "ocel:activity": "Chat",
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:19.155"
+      },
+      "ocel:omap": [
+        "C4"
+      ]
+    },
+    "Pick asset from self service desk_1e5f3504-d367-4a8b-b81d-970c4139be7d": {
+      "ocel:timestamp": "2024-03-25T09:26:17Z",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:17.417"
+      },
+      "ocel:omap": [
+        "K3",
+        "C4",
+        "self_service_storage"
+      ]
+    },
+    "Leave room_cc8d5904-c2b4-4106-8e65-d38d3dd5d1ff": {
+      "ocel:timestamp": "2024-03-25T09:26:23Z",
+      "ocel:activity": "Leave room",
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:29.508"
+      },
+      "ocel:omap": [
+        "C4",
+        "door"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "window": {
+      "ocel:type": "window",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "C4": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "door": {
+      "ocel:type": "door",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "K3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "self_service_storage": {
+      "ocel:type": "self_service_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    }
+  }
+}

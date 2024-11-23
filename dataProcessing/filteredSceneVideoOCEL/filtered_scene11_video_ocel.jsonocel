@@ -1,0 +1,125 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "admin_user",
+      "item_asset",
+      "self_service_storage"
+    ],
+    "ocel:attribute-names": [
+      "end_time",
+      "scene",
+      "type"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Pick asset from self service desk_4138517e-a3ee-4581-9328-904273235973": {
+      "ocel:timestamp": "2024-03-25T11:13:43Z",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:vmap": {
+        "scene": "11",
+        "end_time": "2024-03-25T11:13:45.097"
+      },
+      "ocel:omap": [
+        "H5",
+        "self_service_storage"
+      ]
+    },
+    "Leave room_00cbef26-45db-45e3-93ec-4f7eb302010b": {
+      "ocel:timestamp": "2024-03-25T11:13:51Z",
+      "ocel:activity": "Leave room",
+      "ocel:vmap": {
+        "scene": "11",
+        "end_time": "2024-03-25T11:13:54.724"
+      },
+      "ocel:omap": [
+        "H5"
+      ]
+    },
+    "Enter room_89bb7db7-1b5d-4401-b34c-8afe3dbd2b9f": {
+      "ocel:timestamp": "2024-03-25T11:14:27Z",
+      "ocel:activity": "Enter room",
+      "ocel:vmap": {
+        "scene": "11",
+        "end_time": "2024-03-25T11:14:32.276"
+      },
+      "ocel:omap": [
+        "C9"
+      ]
+    },
+    "Chat_5be1d0cf-2999-4e4d-8b07-17aa05543669": {
+      "ocel:timestamp": "2024-03-25T11:14:31Z",
+      "ocel:activity": "Chat",
+      "ocel:vmap": {
+        "scene": "11",
+        "end_time": "2024-03-25T11:14:48.748"
+      },
+      "ocel:omap": [
+        "C9"
+      ]
+    },
+    "Chat_ead19520-4600-478f-9a17-e31a76cc22ed": {
+      "ocel:timestamp": "2024-03-25T11:14:32Z",
+      "ocel:activity": "Chat",
+      "ocel:vmap": {
+        "scene": "11",
+        "end_time": "2024-03-25T11:14:35.767"
+      },
+      "ocel:omap": [
+        "C9"
+      ]
+    },
+    "Pick asset from self service desk_b31e915a-dbd1-49e0-87dc-8c000ddaf48b": {
+      "ocel:timestamp": "2024-03-25T11:14:35Z",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:vmap": {
+        "scene": "11",
+        "end_time": "2024-03-25T11:14:45.793"
+      },
+      "ocel:omap": [
+        "H7",
+        "C9",
+        "self_service_storage"
+      ]
+    },
+    "Leave room_8f737774-5d67-4150-9635-9716609ac663": {
+      "ocel:timestamp": "2024-03-25T11:14:47Z",
+      "ocel:activity": "Leave room",
+      "ocel:vmap": {
+        "scene": "11",
+        "end_time": "2024-03-25T11:14:51.710"
+      },
+      "ocel:omap": [
+        "H7",
+        "C9"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "C9": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "H5": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "self_service_storage": {
+      "ocel:type": "self_service_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "H7": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    }
+  }
+}

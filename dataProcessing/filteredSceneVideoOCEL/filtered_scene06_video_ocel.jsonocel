@@ -1,0 +1,222 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "repair_desk",
+      "admin_user",
+      "self_service_storage"
+    ],
+    "ocel:attribute-names": [
+      "end_time",
+      "scene",
+      "type"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Pick asset from warehouse_8270401c-5b47-46b4-bc8e-f0c039b7a47b": {
+      "ocel:timestamp": "2024-03-25T09:30:02Z",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:30:08.469"
+      },
+      "ocel:omap": [
+        "L6"
+      ]
+    },
+    "Unpack asset_80107d91-39cf-4324-89f0-8c19633a22fd": {
+      "ocel:timestamp": "2024-03-25T09:30:15Z",
+      "ocel:activity": "Unpack asset",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:30:26.491"
+      },
+      "ocel:omap": [
+        "L6",
+        "repair_desk"
+      ]
+    },
+    "Test asset quality and functionality_40595994-5397-4f70-9256-277ce9e12a1f": {
+      "ocel:timestamp": "2024-03-25T09:30:26Z",
+      "ocel:activity": "Test asset quality and functionality",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:30:40.459"
+      },
+      "ocel:omap": [
+        "L6",
+        "repair_desk"
+      ]
+    },
+    "Install and configure asset_9aff5ef6-932b-4b14-8f3a-a6f834d20d59": {
+      "ocel:timestamp": "2024-03-25T09:30:52Z",
+      "ocel:activity": "Install and configure asset",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:31:00.084"
+      },
+      "ocel:omap": [
+        "L6",
+        "repair_desk"
+      ]
+    },
+    "Enter room_4ae81da9-bbc2-46c4-8be1-bfbfa50fdad2": {
+      "ocel:timestamp": "2024-03-25T09:30:55Z",
+      "ocel:activity": "Enter room",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:30:59.847"
+      },
+      "ocel:omap": [
+        "C10"
+      ]
+    },
+    "Pick asset from self service desk_3bc2ba99-cea2-4669-80ee-9521097ce364": {
+      "ocel:timestamp": "2024-03-25T09:31:15Z",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:31:50.275"
+      },
+      "ocel:omap": [
+        "H11",
+        "C10",
+        "self_service_storage"
+      ]
+    },
+    "Leave room_12ee961a-2d92-459d-bdd6-71d44c5c5974": {
+      "ocel:timestamp": "2024-03-25T09:31:51Z",
+      "ocel:activity": "Leave room",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:31:57.974"
+      },
+      "ocel:omap": [
+        "C10"
+      ]
+    },
+    "Install and configure asset_a31b0e77-8ad2-40c3-be91-8e8f7aae9c39": {
+      "ocel:timestamp": "2024-03-25T09:31:57Z",
+      "ocel:activity": "Install and configure asset",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:32:16.057"
+      },
+      "ocel:omap": [
+        "L6",
+        "repair_desk"
+      ]
+    },
+    "Label asset_59d91257-3abf-4f2c-af82-d484912c1331": {
+      "ocel:timestamp": "2024-03-25T09:32:19Z",
+      "ocel:activity": "Label asset",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:32:50.008"
+      },
+      "ocel:omap": [
+        "L6",
+        "repair_desk"
+      ]
+    },
+    "Create system entry for asset_3077636c-2db7-4596-b890-c0ed91c1bf53": {
+      "ocel:timestamp": "2024-03-25T09:33:21Z",
+      "ocel:activity": "Create system entry for asset",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:34:11.037"
+      },
+      "ocel:omap": [
+        "L6"
+      ]
+    },
+    "Move asset to storage_e2b2c0b3-1ab8-492e-9940-6c899d94a2aa": {
+      "ocel:timestamp": "2024-03-25T09:34:43Z",
+      "ocel:activity": "Move asset to storage",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:34:48.870"
+      },
+      "ocel:omap": [
+        "L6"
+      ]
+    },
+    "Enter room_5d6fa383-6e3c-4043-adac-bf6be912a345": {
+      "ocel:timestamp": "2024-03-25T09:36:37Z",
+      "ocel:activity": "Enter room",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:36:40.712"
+      },
+      "ocel:omap": [
+        "C9"
+      ]
+    },
+    "Pick asset from self service desk_887d93a8-d4b1-4535-8b51-1fa33074d807": {
+      "ocel:timestamp": "2024-03-25T09:36:40Z",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:36:43.712"
+      },
+      "ocel:omap": [
+        "K4",
+        "C9",
+        "self_service_storage"
+      ]
+    },
+    "Leave room_4c35a6e9-58d8-47f1-96eb-9dfb3b2bca1a": {
+      "ocel:timestamp": "2024-03-25T09:36:43Z",
+      "ocel:activity": "Leave room",
+      "ocel:vmap": {
+        "scene": "6",
+        "end_time": "2024-03-25T09:36:48.712"
+      },
+      "ocel:omap": [
+        "C9"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "L6": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "repair_desk": {
+      "ocel:type": "repair_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "C10": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "H11": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "self_service_storage": {
+      "ocel:type": "self_service_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "C9": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "K4": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    }
+  }
+}

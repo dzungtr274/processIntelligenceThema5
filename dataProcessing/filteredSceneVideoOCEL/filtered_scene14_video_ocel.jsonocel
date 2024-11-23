@@ -1,0 +1,98 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "admin_user",
+      "item_asset",
+      "self_service_storage"
+    ],
+    "ocel:attribute-names": [
+      "end_time",
+      "scene",
+      "type"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Enter room_05f03ca4-04bc-4f57-92ee-9ea3b5e7f4fd": {
+      "ocel:timestamp": "2024-03-25T11:50:46Z",
+      "ocel:activity": "Enter room",
+      "ocel:vmap": {
+        "scene": "14",
+        "end_time": "2024-03-25T11:50:51.300"
+      },
+      "ocel:omap": [
+        "C3"
+      ]
+    },
+    "Chat_49872407-7731-44a2-96e4-0c841f5865e3": {
+      "ocel:timestamp": "2024-03-25T11:50:50Z",
+      "ocel:activity": "Chat",
+      "ocel:vmap": {
+        "scene": "14",
+        "end_time": "2024-03-25T11:51:29.087"
+      },
+      "ocel:omap": [
+        "C3"
+      ]
+    },
+    "Pick asset from self service desk_c39a8806-4a2d-4f8d-9a14-bdf2eb6141be": {
+      "ocel:timestamp": "2024-03-25T11:50:53Z",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:vmap": {
+        "scene": "14",
+        "end_time": "2024-03-25T11:50:55.276"
+      },
+      "ocel:omap": [
+        "K1",
+        "C3",
+        "self_service_storage"
+      ]
+    },
+    "Chat_ae82baea-bd1b-4591-9c49-3fdc809f63e6": {
+      "ocel:timestamp": "2024-03-25T11:50:55Z",
+      "ocel:activity": "Chat",
+      "ocel:vmap": {
+        "scene": "14",
+        "end_time": "2024-03-25T11:51:29.217"
+      },
+      "ocel:omap": [
+        "C3"
+      ]
+    },
+    "Leave room_bc6356ba-4dd5-4c9a-bbbe-a9dc478bb8f9": {
+      "ocel:timestamp": "2024-03-25T11:51:31Z",
+      "ocel:activity": "Leave room",
+      "ocel:vmap": {
+        "scene": "14",
+        "end_time": "2024-03-25T11:51:36.196"
+      },
+      "ocel:omap": [
+        "K1",
+        "C3"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "C3": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "K1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "self_service_storage": {
+      "ocel:type": "self_service_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    }
+  }
+}
