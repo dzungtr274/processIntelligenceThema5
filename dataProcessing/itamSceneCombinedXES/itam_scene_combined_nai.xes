@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
-	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<string key="origin" value="csv" />
 	<trace>
 		<string key="concept:name" value="L1" />
@@ -35,6 +35,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44381" />
@@ -47,6 +48,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44392" />
@@ -59,6 +61,7 @@
 			<string key="note" value="checked in for repair by client 1" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44403" />
@@ -71,6 +74,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44412" />
@@ -83,6 +87,7 @@
 			<string key="note" value="Mousepad slightly dirty" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44413" />
@@ -95,6 +100,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44426" />
@@ -107,6 +113,7 @@
 			<string key="note" value="Returned because of bluescreen" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44431" />
@@ -119,6 +126,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44447" />
@@ -131,6 +139,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44448" />
@@ -143,6 +152,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44484" />
@@ -155,6 +165,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44494" />
@@ -167,6 +178,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44498" />
@@ -179,6 +191,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44562" />
@@ -191,6 +204,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44567" />
@@ -203,6 +217,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44568" />
@@ -215,6 +230,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -249,6 +265,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44380" />
@@ -261,42 +278,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Handover asset to admin_d182d3b1-6ff5-4f2f-999e-b18fe7acfcde" />
-			<date key="time:timestamp" value="2024-03-25T09:34:53.139000+00:00" />
-			<string key="concept:name" value="Handover asset to admin" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:35:04.139" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Check asset quality_d70ceec6-2ea8-4f59-bbb7-94d76fb959a0" />
-			<date key="time:timestamp" value="2024-03-25T09:35:04.139000+00:00" />
-			<string key="concept:name" value="Check asset quality" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:35:46.139" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Check-In asset to storage_ea510d59-38ee-47bf-bb28-6a2ea8d26955" />
-			<date key="time:timestamp" value="2024-03-25T09:35:54.139000+00:00" />
-			<string key="concept:name" value="Check-In asset to storage" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:36:28.139" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44406" />
@@ -309,18 +291,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Move asset to storage_b71ae536-f0e3-4bb3-ab15-13388548b113" />
-			<date key="time:timestamp" value="2024-03-25T09:36:37.139000+00:00" />
-			<string key="concept:name" value="Move asset to storage" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:36:50.086" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44439" />
@@ -333,6 +304,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44442" />
@@ -345,6 +317,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -379,6 +352,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44383" />
@@ -391,6 +365,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44400" />
@@ -403,6 +378,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44432" />
@@ -415,6 +391,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44433" />
@@ -427,6 +404,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44481" />
@@ -439,6 +417,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44482" />
@@ -451,6 +430,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44483" />
@@ -463,6 +443,7 @@
 			<string key="note" value="defect after client had it. " />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44488" />
@@ -475,6 +456,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44563" />
@@ -487,6 +469,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44564" />
@@ -499,6 +482,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44571" />
@@ -511,6 +495,7 @@
 			<string key="note" value="does not work" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -545,6 +530,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44387" />
@@ -557,6 +543,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44411" />
@@ -569,6 +556,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44475" />
@@ -581,6 +569,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44476" />
@@ -593,6 +582,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -627,6 +617,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44386" />
@@ -639,6 +630,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44410" />
@@ -651,6 +643,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44416" />
@@ -663,6 +656,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44419" />
@@ -675,6 +669,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44539" />
@@ -687,6 +682,7 @@
 			<string key="note" value='keyboard broken "e" key' />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44544" />
@@ -699,6 +695,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -733,6 +730,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44415" />
@@ -745,6 +743,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44418" />
@@ -757,6 +756,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44450" />
@@ -769,6 +769,7 @@
 			<string key="note" value="Mouse not working" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44459" />
@@ -781,6 +782,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44467" />
@@ -793,6 +795,7 @@
 			<string key="note" value="client dropped the mouse in sight" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44468" />
@@ -805,6 +808,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44474" />
@@ -817,6 +821,7 @@
 			<string key="note" value="client notices the mous does not work" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44477" />
@@ -829,6 +834,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -863,6 +869,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44391" />
@@ -875,6 +882,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44399" />
@@ -887,6 +895,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -921,6 +930,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44395" />
@@ -933,42 +943,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Handover asset to admin_d182d3b1-6ff5-4f2f-999e-b18fe7acfcde" />
-			<date key="time:timestamp" value="2024-03-25T09:34:53.139000+00:00" />
-			<string key="concept:name" value="Handover asset to admin" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:35:04.139" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Check asset quality_d70ceec6-2ea8-4f59-bbb7-94d76fb959a0" />
-			<date key="time:timestamp" value="2024-03-25T09:35:04.139000+00:00" />
-			<string key="concept:name" value="Check asset quality" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:35:46.139" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Check-In asset to storage_ea510d59-38ee-47bf-bb28-6a2ea8d26955" />
-			<date key="time:timestamp" value="2024-03-25T09:35:54.139000+00:00" />
-			<string key="concept:name" value="Check-In asset to storage" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:36:28.139" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44407" />
@@ -981,18 +956,7 @@
 			<string key="note" value="was returned quite dirty. " />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Move asset to storage_7e20d5a0-2453-45ae-a855-3b86e6d61b4f" />
-			<date key="time:timestamp" value="2024-03-25T09:36:37.086000+00:00" />
-			<string key="concept:name" value="Move asset to storage" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:36:42.086" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44420" />
@@ -1005,6 +969,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44421" />
@@ -1017,6 +982,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44445" />
@@ -1029,6 +995,7 @@
 			<string key="note" value="Screen not working" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44454" />
@@ -1041,6 +1008,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44463" />
@@ -1053,6 +1021,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44465" />
@@ -1065,6 +1034,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44469" />
@@ -1077,6 +1047,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44479" />
@@ -1089,6 +1060,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44520" />
@@ -1101,6 +1073,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44521" />
@@ -1113,6 +1086,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44526" />
@@ -1125,6 +1099,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1132,106 +1107,22 @@
 		<string key="ocel:type" value="item_asset" />
 		<float key="email" value="nan" />
 		<float key="first_name" value="nan" />
-		<float key="obj.type" value="nan" />
-		<float key="obj.relationType" value="nan" />
-		<float key="obj.id_full" value="nan" />
-		<float key="obj.link" value="nan" />
-		<float key="obj.id" value="nan" />
-		<float key="name" value="nan" />
-		<float key="asset_tag" value="nan" />
-		<float key="physical" value="nan" />
+		<string key="obj.type" value="item_asset" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_asset_10230" />
+		<string key="obj.link" value="hardware/10230" />
+		<string key="obj.id" value="L6" />
+		<string key="name" value="tintenklecks" />
+		<string key="asset_tag" value="L6" />
+		<string key="physical" value="1" />
 		<float key="last_checkout" value="nan" />
-		<float key="last_checkin" value="nan" />
-		<float key="checkin_counter" value="nan" />
-		<float key="checkout_counter" value="nan" />
-		<float key="model.name" value="nan" />
-		<float key="model.manufacturer.name" value="nan" />
+		<string key="last_checkin" value="2024-03-25T16:48:10Z" />
+		<string key="checkin_counter" value="2" />
+		<string key="checkout_counter" value="2" />
+		<string key="model.name" value="Latitude E7450" />
+		<string key="model.manufacturer.name" value="Dell" />
 		<float key="requestable" value="nan" />
 		<float key="type" value="nan" />
-		<event>
-			<string key="ocel:eid" value="Pick asset from warehouse_8270401c-5b47-46b4-bc8e-f0c039b7a47b" />
-			<date key="time:timestamp" value="2024-03-25T09:30:02.613000+00:00" />
-			<string key="concept:name" value="Pick asset from warehouse" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:30:08.469" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Unpack asset_80107d91-39cf-4324-89f0-8c19633a22fd" />
-			<date key="time:timestamp" value="2024-03-25T09:30:15.016000+00:00" />
-			<string key="concept:name" value="Unpack asset" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:30:26.491" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Test asset quality and functionality_40595994-5397-4f70-9256-277ce9e12a1f" />
-			<date key="time:timestamp" value="2024-03-25T09:30:26.491000+00:00" />
-			<string key="concept:name" value="Test asset quality and functionality" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:30:40.459" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Install and configure asset_9aff5ef6-932b-4b14-8f3a-a6f834d20d59" />
-			<date key="time:timestamp" value="2024-03-25T09:30:52.778000+00:00" />
-			<string key="concept:name" value="Install and configure asset" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:31:00.084" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Install and configure asset_a31b0e77-8ad2-40c3-be91-8e8f7aae9c39" />
-			<date key="time:timestamp" value="2024-03-25T09:31:57.081000+00:00" />
-			<string key="concept:name" value="Install and configure asset" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:32:16.057" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Label asset_59d91257-3abf-4f2c-af82-d484912c1331" />
-			<date key="time:timestamp" value="2024-03-25T09:32:19.153000+00:00" />
-			<string key="concept:name" value="Label asset" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:32:50.008" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Create system entry for asset_3077636c-2db7-4596-b890-c0ed91c1bf53" />
-			<date key="time:timestamp" value="2024-03-25T09:33:21.003000+00:00" />
-			<string key="concept:name" value="Create system entry for asset" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:34:11.037" />
-		</event>
 		<event>
 			<string key="ocel:eid" value="44405" />
 			<date key="time:timestamp" value="2024-03-25T09:34:11+00:00" />
@@ -1243,18 +1134,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
-		</event>
-		<event>
-			<string key="ocel:eid" value="Move asset to storage_e2b2c0b3-1ab8-492e-9940-6c899d94a2aa" />
-			<date key="time:timestamp" value="2024-03-25T09:34:43.043000+00:00" />
-			<string key="concept:name" value="Move asset to storage" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:34:48.870" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44438" />
@@ -1267,6 +1147,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44441" />
@@ -1279,6 +1160,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44460" />
@@ -1291,6 +1173,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44495" />
@@ -1303,6 +1186,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44499" />
@@ -1315,6 +1199,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44538" />
@@ -1327,74 +1212,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="H11" />
-		<string key="ocel:type" value="item_asset" />
-		<float key="email" value="nan" />
-		<float key="first_name" value="nan" />
-		<float key="obj.type" value="nan" />
-		<float key="obj.relationType" value="nan" />
-		<float key="obj.id_full" value="nan" />
-		<float key="obj.link" value="nan" />
-		<float key="obj.id" value="nan" />
-		<float key="name" value="nan" />
-		<float key="asset_tag" value="nan" />
-		<float key="physical" value="nan" />
-		<float key="last_checkout" value="nan" />
-		<float key="last_checkin" value="nan" />
-		<float key="checkin_counter" value="nan" />
-		<float key="checkout_counter" value="nan" />
-		<float key="model.name" value="nan" />
-		<float key="model.manufacturer.name" value="nan" />
-		<float key="requestable" value="nan" />
-		<float key="type" value="nan" />
-		<event>
-			<string key="ocel:eid" value="Pick asset from self service desk_3bc2ba99-cea2-4669-80ee-9521097ce364" />
-			<date key="time:timestamp" value="2024-03-25T09:31:15.275000+00:00" />
-			<string key="concept:name" value="Pick asset from self service desk" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:31:50.275" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="K4" />
-		<string key="ocel:type" value="item_asset" />
-		<float key="email" value="nan" />
-		<float key="first_name" value="nan" />
-		<float key="obj.type" value="nan" />
-		<float key="obj.relationType" value="nan" />
-		<float key="obj.id_full" value="nan" />
-		<float key="obj.link" value="nan" />
-		<float key="obj.id" value="nan" />
-		<float key="name" value="nan" />
-		<float key="asset_tag" value="nan" />
-		<float key="physical" value="nan" />
-		<float key="last_checkout" value="nan" />
-		<float key="last_checkin" value="nan" />
-		<float key="checkin_counter" value="nan" />
-		<float key="checkout_counter" value="nan" />
-		<float key="model.name" value="nan" />
-		<float key="model.manufacturer.name" value="nan" />
-		<float key="requestable" value="nan" />
-		<float key="type" value="nan" />
-		<event>
-			<string key="ocel:eid" value="Pick asset from self service desk_887d93a8-d4b1-4535-8b51-1fa33074d807" />
-			<date key="time:timestamp" value="2024-03-25T09:36:40.712000+00:00" />
-			<string key="concept:name" value="Pick asset from self service desk" />
-			<float key="log_meta" value="nan" />
-			<float key="action_date" value="nan" />
-			<float key="action_source" value="nan" />
-			<float key="filename" value="nan" />
-			<float key="note" value="nan" />
-			<string key="scene" value="6" />
-			<string key="end_time" value="2024-03-25T09:36:43.712" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1429,6 +1247,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44417" />
@@ -1441,6 +1260,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44561" />
@@ -1453,6 +1273,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44575" />
@@ -1465,6 +1286,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44580" />
@@ -1477,6 +1299,233 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H5" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_9f738a1a-a724-4c3b-9a1b-d97375bf4846" />
+			<date key="time:timestamp" value="2024-03-25T10:58:14.370000+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T10:58:27.409" />
+			<date key="start_timestamp" value="2024-03-25T10:58:14.370000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_c5e62e22-2583-4770-ae91-8ea2cd13e6a0" />
+			<date key="time:timestamp" value="2024-03-25T10:58:30.297000+00:00" />
+			<string key="concept:name" value="Unpack asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T10:58:35.734" />
+			<date key="start_timestamp" value="2024-03-25T10:58:30.297000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Test asset quality and functionality_48531b7e-b1b6-4cc8-884b-cce46701afae" />
+			<date key="time:timestamp" value="2024-03-25T10:58:36.787000+00:00" />
+			<string key="concept:name" value="Test asset quality and functionality" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T10:58:48.015" />
+			<date key="start_timestamp" value="2024-03-25T10:58:36.787000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_eac01cae-49a4-43bf-ab64-72af60f499a7" />
+			<date key="time:timestamp" value="2024-03-25T10:58:49.757000+00:00" />
+			<string key="concept:name" value="Install and configure asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T10:59:03.575" />
+			<date key="start_timestamp" value="2024-03-25T10:58:49.757000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Label asset_eae7ad8f-c016-4b1d-a935-7fde7f18e3d7" />
+			<date key="time:timestamp" value="2024-03-25T10:59:04.400000+00:00" />
+			<string key="concept:name" value="Label asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T10:59:20.067" />
+			<date key="start_timestamp" value="2024-03-25T10:59:04.400000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset_332c1b9c-c19e-420e-8e17-eae6d87f8d53" />
+			<date key="time:timestamp" value="2024-03-25T10:59:25.761000+00:00" />
+			<string key="concept:name" value="Create system entry for asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T10:59:59.568" />
+			<date key="start_timestamp" value="2024-03-25T10:59:25.761000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_cff0a6f7-9746-4abc-bd23-b0d4915c4195" />
+			<date key="time:timestamp" value="2024-03-25T11:00:00.334000+00:00" />
+			<string key="concept:name" value="Move asset to storage" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:00:08.588" />
+			<date key="start_timestamp" value="2024-03-25T11:00:00.334000+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H7" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_09090fd4-84c9-4cec-b1f8-7aacb5c30f18" />
+			<date key="time:timestamp" value="2024-03-25T11:00:10.733000+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:00:17.246" />
+			<date key="start_timestamp" value="2024-03-25T11:00:10.733000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_357eb9f1-8480-46c8-bdb4-9025dab77cd1" />
+			<date key="time:timestamp" value="2024-03-25T11:00:23.234000+00:00" />
+			<string key="concept:name" value="Unpack asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:00:28.778" />
+			<date key="start_timestamp" value="2024-03-25T11:00:23.234000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset_b8bdcd93-cfbc-4616-8051-39093b96affe" />
+			<date key="time:timestamp" value="2024-03-25T11:00:31.772000+00:00" />
+			<string key="concept:name" value="Create system entry for asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:00:56.255" />
+			<date key="start_timestamp" value="2024-03-25T11:00:31.772000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Test asset quality and functionality_ebddfa6c-8336-42e8-acfa-8aaa595e9211" />
+			<date key="time:timestamp" value="2024-03-25T11:01:00.438000+00:00" />
+			<string key="concept:name" value="Test asset quality and functionality" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:01:05.456" />
+			<date key="start_timestamp" value="2024-03-25T11:01:00.438000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_22754878-00d9-4d59-99c4-d8374c0e5857" />
+			<date key="time:timestamp" value="2024-03-25T11:01:06.321000+00:00" />
+			<string key="concept:name" value="Install and configure asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:01:23.983" />
+			<date key="start_timestamp" value="2024-03-25T11:01:06.321000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Label asset_3c16a8cd-d2ca-4a96-b4bf-3e75462818da" />
+			<date key="time:timestamp" value="2024-03-25T11:01:24.342000+00:00" />
+			<string key="concept:name" value="Label asset" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:01:28.334" />
+			<date key="start_timestamp" value="2024-03-25T11:01:24.342000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_c07fd813-81b6-4d99-8713-a7abf9731ad3" />
+			<date key="time:timestamp" value="2024-03-25T11:01:32.232000+00:00" />
+			<string key="concept:name" value="Move asset to storage" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+			<string key="scene" value="10" />
+			<string key="end_time" value="2024-03-25T11:01:35.817" />
+			<date key="start_timestamp" value="2024-03-25T11:01:32.232000+00:00" />
 		</event>
 	</trace>
 	<trace>
@@ -1511,6 +1560,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44428" />
@@ -1523,6 +1573,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1557,6 +1608,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44437" />
@@ -1569,6 +1621,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1603,6 +1656,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44443" />
@@ -1615,6 +1669,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44522" />
@@ -1627,6 +1682,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44547" />
@@ -1639,6 +1695,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44553" />
@@ -1651,6 +1708,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1685,6 +1743,7 @@
 			<string key="note" value="Slightly dirty" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44449" />
@@ -1697,6 +1756,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1731,6 +1791,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44452" />
@@ -1743,6 +1804,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44517" />
@@ -1755,6 +1817,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1789,6 +1852,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44457" />
@@ -1801,6 +1865,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1835,6 +1900,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44458" />
@@ -1847,6 +1913,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1881,6 +1948,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44470" />
@@ -1893,6 +1961,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44471" />
@@ -1905,6 +1974,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44541" />
@@ -1917,6 +1987,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1951,6 +2022,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -1985,6 +2057,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44480" />
@@ -1997,6 +2070,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2031,6 +2105,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44486" />
@@ -2043,6 +2118,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44489" />
@@ -2055,6 +2131,7 @@
 			<string key="note" value="defect" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44492" />
@@ -2067,6 +2144,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44548" />
@@ -2079,6 +2157,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44554" />
@@ -2091,6 +2170,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2125,6 +2205,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44491" />
@@ -2137,6 +2218,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2171,6 +2253,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2205,6 +2288,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44500" />
@@ -2217,6 +2301,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2251,6 +2336,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44505" />
@@ -2263,6 +2349,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2297,6 +2384,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44510" />
@@ -2309,6 +2397,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2343,6 +2432,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44512" />
@@ -2355,6 +2445,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44514" />
@@ -2367,6 +2458,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44528" />
@@ -2379,6 +2471,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2413,6 +2506,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44527" />
@@ -2425,6 +2519,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44529" />
@@ -2437,6 +2532,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2471,6 +2567,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44516" />
@@ -2483,6 +2580,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2517,6 +2615,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2551,6 +2650,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44533" />
@@ -2563,6 +2663,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44576" />
@@ -2575,6 +2676,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2609,6 +2711,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44543" />
@@ -2621,6 +2724,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2655,6 +2759,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44555" />
@@ -2667,6 +2772,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44582" />
@@ -2679,6 +2785,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2713,6 +2820,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44556" />
@@ -2725,6 +2833,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2759,6 +2868,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44566" />
@@ -2771,6 +2881,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2805,6 +2916,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 		<event>
 			<string key="ocel:eid" value="44573" />
@@ -2817,6 +2929,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 	<trace>
@@ -2851,6 +2964,7 @@
 			<float key="note" value="nan" />
 			<float key="scene" value="nan" />
 			<float key="end_time" value="nan" />
+			<string key="start_timestamp" value="NaT" />
 		</event>
 	</trace>
 </log>
