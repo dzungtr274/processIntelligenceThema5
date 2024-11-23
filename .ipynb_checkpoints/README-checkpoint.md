@@ -12,14 +12,11 @@ Installieren geforderte Packages wie Jupyter, Pandas, Numpy oder PM4PY zu instal
     pip install pandas
     pip install Numpy
     pip install PM4py
-    pip install graphviz
 ```
-Install graphviz
-- install OS specific version https://graphviz.org/download/
-- add installation path/bin to system variable path
-
 
 Der objekt_type in der Datei "convert_data_type" ist noch fragwürdig, noch nicht festgelegt ob er als "admin_user" oder "item_asset" gesetzt werden soll. Hab an Andy gemeldet. Kannst freiwillig lokal ausprobieren bei den beiden Fällen
+
+
 
 # Notizen:
 - Ich habe verstanden dass du die Prozesses von 36 zu 15 reduziert hast. Aber falls es dir nicht absichtig wars, da kannst du anpassen.
