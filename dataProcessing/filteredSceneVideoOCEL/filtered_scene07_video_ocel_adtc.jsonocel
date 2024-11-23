@@ -1,0 +1,98 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "door",
+      "item_asset",
+      "laptop_shelf"
+    ],
+    "ocel:attribute-names": [
+      "end_time",
+      "scene",
+      "type"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Enter room_1f272c04-6bdb-46a2-9c62-691d3fe574e4": {
+      "ocel:timestamp": "2024-03-25T09:42:16Z",
+      "ocel:activity": "Enter room",
+      "ocel:vmap": {
+        "scene": "7",
+        "end_time": "2024-03-25T09:42:24.382"
+      },
+      "ocel:omap": [
+        "door"
+      ]
+    },
+    "Pick asset from warehouse_4186bdd4-2cab-4c20-8640-6dae5c31de3d": {
+      "ocel:timestamp": "2024-03-25T09:43:13Z",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:vmap": {
+        "scene": "7",
+        "end_time": "2024-03-25T09:43:36.382"
+      },
+      "ocel:omap": [
+        "L5",
+        "laptop_shelf"
+      ]
+    },
+    "Check asset quality_e212467d-bb91-4f27-8933-d00388391b17": {
+      "ocel:timestamp": "2024-03-25T09:43:52Z",
+      "ocel:activity": "Check asset quality",
+      "ocel:vmap": {
+        "scene": "7",
+        "end_time": "2024-03-25T09:44:41.382"
+      },
+      "ocel:omap": [
+        "L5"
+      ]
+    },
+    "Handover asset to user_c4a57bf2-b8ec-447f-8bd6-38c94984480d": {
+      "ocel:timestamp": "2024-03-25T09:45:09Z",
+      "ocel:activity": "Handover asset to user",
+      "ocel:vmap": {
+        "scene": "7",
+        "end_time": "2024-03-25T09:45:12.382"
+      },
+      "ocel:omap": [
+        "L5"
+      ]
+    },
+    "Leave room_722f3ea7-25d5-4af3-bc50-adb2d3c87906": {
+      "ocel:timestamp": "2024-03-25T09:45:19Z",
+      "ocel:activity": "Leave room",
+      "ocel:vmap": {
+        "scene": "7",
+        "end_time": "2024-03-25T09:45:28.382"
+      },
+      "ocel:omap": [
+        "door"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "door": {
+      "ocel:type": "door",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "L5": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "laptop_shelf": {
+      "ocel:type": "laptop_shelf",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    }
+  }
+}
