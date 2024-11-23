@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="K1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_ecd7548d-5305-4603-bbd6-a79fd0a1a4fa" />
+			<date key="time:timestamp" value="2024-03-25T09:14:18.746000+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:14:27.032" />
+			<date key="start_timestamp" value="2024-03-25T09:14:18.746000+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H4" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_dae615b3-038a-482f-b9ea-f4fd2e170d73" />
+			<date key="time:timestamp" value="2024-03-25T09:16:07.162000+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:16:24.495" />
+			<date key="start_timestamp" value="2024-03-25T09:16:07.162000+00:00" />
+		</event>
+	</trace>
+</log>

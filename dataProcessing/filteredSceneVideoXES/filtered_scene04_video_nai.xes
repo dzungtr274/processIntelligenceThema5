@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="H1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_7443045e-fe56-427a-9914-e6efa3ebaabb" />
+			<date key="time:timestamp" value="2024-03-25T09:20:11.041000+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:17.942" />
+			<date key="start_timestamp" value="2024-03-25T09:20:11.041000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_cf430193-cdde-41c9-b5d6-24e8823e9800" />
+			<date key="time:timestamp" value="2024-03-25T09:20:17.302000+00:00" />
+			<string key="concept:name" value="Unpack asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:21.468" />
+			<date key="start_timestamp" value="2024-03-25T09:20:17.302000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Test asset quality and functionality_b84af0ed-f018-48e3-a734-73cdc494436d" />
+			<date key="time:timestamp" value="2024-03-25T09:20:21.802000+00:00" />
+			<string key="concept:name" value="Test asset quality and functionality" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:30.036" />
+			<date key="start_timestamp" value="2024-03-25T09:20:21.802000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_1c20ce92-bb0a-4a34-a9bb-0723d199587c" />
+			<date key="time:timestamp" value="2024-03-25T09:20:31.519000+00:00" />
+			<string key="concept:name" value="Install and configure asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:38.088" />
+			<date key="start_timestamp" value="2024-03-25T09:20:31.519000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Label asset_9151312a-3562-449f-9921-aa41259efc21" />
+			<date key="time:timestamp" value="2024-03-25T09:20:44.043000+00:00" />
+			<string key="concept:name" value="Label asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:50.574" />
+			<date key="start_timestamp" value="2024-03-25T09:20:44.043000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_a67df862-9e9a-4f90-8626-05aea51912c8" />
+			<date key="time:timestamp" value="2024-03-25T09:20:51.436000+00:00" />
+			<string key="concept:name" value="Move asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:55.051" />
+			<date key="start_timestamp" value="2024-03-25T09:20:51.436000+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H2" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_2d2bd9a9-8735-4d5a-ae16-5cbcccd12fd4" />
+			<date key="time:timestamp" value="2024-03-25T09:20:17.942000+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:56.621" />
+			<date key="start_timestamp" value="2024-03-25T09:20:17.942000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_d8ea3c83-c04f-4fb8-ba78-1edb0ede3f3e" />
+			<date key="time:timestamp" value="2024-03-25T09:20:57.713000+00:00" />
+			<string key="concept:name" value="Unpack asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:21:01.263" />
+			<date key="start_timestamp" value="2024-03-25T09:20:57.713000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Test asset quality and functionality_03a81ff6-f8f4-41c3-8f93-69624800f400" />
+			<date key="time:timestamp" value="2024-03-25T09:21:01.530000+00:00" />
+			<string key="concept:name" value="Test asset quality and functionality" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:21:08.928" />
+			<date key="start_timestamp" value="2024-03-25T09:21:01.530000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_4b781ec4-9e4a-4db5-9404-62352217b158" />
+			<date key="time:timestamp" value="2024-03-25T09:21:09.416000+00:00" />
+			<string key="concept:name" value="Install and configure asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:21:23.639" />
+			<date key="start_timestamp" value="2024-03-25T09:21:09.416000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_07619511-d28d-4795-bf98-e7020dd1cdec" />
+			<date key="time:timestamp" value="2024-03-25T09:21:27.132000+00:00" />
+			<string key="concept:name" value="Move asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:21:32.892" />
+			<date key="start_timestamp" value="2024-03-25T09:21:27.132000+00:00" />
+		</event>
+	</trace>
+</log>

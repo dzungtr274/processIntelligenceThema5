@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="H5" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_4138517e-a3ee-4581-9328-904273235973" />
+			<date key="time:timestamp" value="2024-03-25T11:13:43.809000+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="scene" value="11" />
+			<string key="end_time" value="2024-03-25T11:13:45.097" />
+			<date key="start_timestamp" value="2024-03-25T11:13:43.809000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_00cbef26-45db-45e3-93ec-4f7eb302010b" />
+			<date key="time:timestamp" value="2024-03-25T11:13:51.193000+00:00" />
+			<string key="concept:name" value="Leave room" />
+			<string key="scene" value="11" />
+			<string key="end_time" value="2024-03-25T11:13:54.724" />
+			<date key="start_timestamp" value="2024-03-25T11:13:51.193000+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H7" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_b31e915a-dbd1-49e0-87dc-8c000ddaf48b" />
+			<date key="time:timestamp" value="2024-03-25T11:14:35.767000+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="scene" value="11" />
+			<string key="end_time" value="2024-03-25T11:14:45.793" />
+			<date key="start_timestamp" value="2024-03-25T11:14:35.767000+00:00" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_8f737774-5d67-4150-9635-9716609ac663" />
+			<date key="time:timestamp" value="2024-03-25T11:14:47.545000+00:00" />
+			<string key="concept:name" value="Leave room" />
+			<string key="scene" value="11" />
+			<string key="end_time" value="2024-03-25T11:14:51.710" />
+			<date key="start_timestamp" value="2024-03-25T11:14:47.545000+00:00" />
+		</event>
+	</trace>
+</log>
