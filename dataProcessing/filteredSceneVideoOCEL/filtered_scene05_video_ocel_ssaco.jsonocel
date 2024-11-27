@@ -7,7 +7,6 @@
   },
   "ocel:global-log": {
     "ocel:object-types": [
-      "window",
       "admin_user",
       "door",
       "item_asset",
@@ -22,17 +21,6 @@
     "ocel:ordering": "timestamp"
   },
   "ocel:events": {
-    "Open window_3c428351-b6ec-477b-b69c-b394194149ed": {
-      "ocel:timestamp": "2024-03-25T09:24:18Z",
-      "ocel:activity": "Open window",
-      "ocel:vmap": {
-        "scene": "5",
-        "end_time": "2024-03-25T09:24:25.216"
-      },
-      "ocel:omap": [
-        "window"
-      ]
-    },
     "Enter room_d953c051-bc69-40ee-98e0-4813611ea1d3": {
       "ocel:timestamp": "2024-03-25T09:26:10Z",
       "ocel:activity": "Enter room",
@@ -83,12 +71,6 @@
     }
   },
   "ocel:objects": {
-    "window": {
-      "ocel:type": "window",
-      "ocel:ovmap": {
-        "type": "location"
-      }
-    },
     "C4": {
       "ocel:type": "admin_user",
       "ocel:ovmap": {}
