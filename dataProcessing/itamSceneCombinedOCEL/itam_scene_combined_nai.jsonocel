@@ -1,0 +1,1406 @@
+{
+    "ocel:global-event": {},
+    "ocel:global-object": {},
+    "ocel:global-log": {
+        "ocel:attribute-names": [
+            "name",
+            "checkout_counter",
+            "obj.id_full",
+            "obj.link",
+            "obj.relationType",
+            "asset_tag",
+            "last_checkin",
+            "checkin_counter",
+            "model.manufacturer.name",
+            "type",
+            "filename",
+            "first_name",
+            "scene",
+            "action_source",
+            "obj.id",
+            "physical",
+            "requestable",
+            "last_checkout",
+            "end_time",
+            "email",
+            "obj.type",
+            "log_meta",
+            "model.name",
+            "note",
+            "action_date"
+        ],
+        "ocel:object-types": [
+            "target_user",
+            "mouse_cupboard",
+            "repair_desk",
+            "item_asset",
+            "admin_user",
+            "item_accessory",
+            "self_service_storage",
+            "it_working_desk"
+        ],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:events": {
+
+        "Pick asset from warehouse_de03afbf-00b7-42fc-85ae-d5a83321e8c3": {
+            "ocel:timestamp": "2024-03-25T08:57:06Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:57:17.430"
+            },
+            "ocel:omap": [
+                "P1",
+                "A1",
+                "mouse_cupboard"
+            ]
+        },
+        "Unpack asset_d2dea073-083e-4087-9a98-95d2bd2c48fd": {
+            "ocel:timestamp": "2024-03-25T08:57:17Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:57:20.422"
+            },
+            "ocel:omap": [
+                "P1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Test asset quality and functionality_71b4f77d-fa11-4a7f-b189-3fc0343a64b1": {
+            "ocel:timestamp": "2024-03-25T08:57:20Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:57:37.127"
+            },
+            "ocel:omap": [
+                "P1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Install and configure asset_cbfa79de-ab4f-4103-8788-0d1c44038921": {
+            "ocel:timestamp": "2024-03-25T08:57:20Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:57:37.127"
+            },
+            "ocel:omap": [
+                "P1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Create system entry for asset_bc15f705-77c0-4aa1-b95c-b74083434505": {
+            "ocel:timestamp": "2024-03-25T08:57:47Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:58:35.078"
+            },
+            "ocel:omap": [
+                "P1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "44388": {
+            "ocel:timestamp": "2024-03-25T08:58:28Z",
+            "ocel:activity": "create",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "P1"
+            ]
+        },
+        "Move asset to storage_b474f0c9-4d58-485d-b9e3-1634e214f0ce": {
+            "ocel:timestamp": "2024-03-25T08:58:36Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:58:42.325"
+            },
+            "ocel:omap": [
+                "P1",
+                "A1",
+                "mouse_cupboard"
+            ]
+        },
+        "Pick asset from self service desk_58128d1d-b291-47e8-a3e7-6729c33596b8": {
+            "ocel:timestamp": "2024-03-25T08:58:50Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:58:53.830"
+            },
+            "ocel:omap": [
+                "K1",
+                "A1",
+                "self_service_storage"
+            ]
+        },
+        "Unpack asset_a7c08037-4de0-455e-8f2f-53ca35def1d7": {
+            "ocel:timestamp": "2024-03-25T08:58:53Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:59:10.237"
+            },
+            "ocel:omap": [
+                "K1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Test asset quality and functionality_d4c5ee9f-edc6-4177-8634-930a5c1022d1": {
+            "ocel:timestamp": "2024-03-25T08:59:10Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:59:22.404"
+            },
+            "ocel:omap": [
+                "K1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Install and configure asset_26c853ef-336f-4381-be02-b580d0f8e71f": {
+            "ocel:timestamp": "2024-03-25T08:59:22Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T08:59:53.100"
+            },
+            "ocel:omap": [
+                "K1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Create system entry for asset_2f41712c-bc83-452e-b5c3-b7095cfec7d2": {
+            "ocel:timestamp": "2024-03-25T09:00:13Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T09:00:32.247"
+            },
+            "ocel:omap": [
+                "K1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "44389": {
+            "ocel:timestamp": "2024-03-25T09:00:32Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "Webcam USB"
+            ]
+        },
+        "Move asset to storage_2437e641-a933-4c02-92c6-d9a97f4e2d8c": {
+            "ocel:timestamp": "2024-03-25T09:00:33Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "2",
+                "end_time": "2024-03-25T09:00:39.047"
+            },
+            "ocel:omap": [
+                "K1",
+                "A1",
+                "self_service_storage"
+            ]
+        },
+
+        "Pick asset from warehouse_46851491-f479-4c8d-bdb1-7c99b5d0dc35": {
+            "ocel:timestamp": "2024-03-25T09:06:13Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:06:27.738"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+        "Unpack asset_b4dd413e-35fd-4d69-bbd7-85465768dde8": {
+            "ocel:timestamp": "2024-03-25T09:06:46Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:06:52.058"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+        "Test asset quality and functionality_2052c93f-d4cc-4204-a2d1-82dbc452cf08": {
+            "ocel:timestamp": "2024-03-25T09:06:52Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:07:28.434"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+        "Create system entry for asset_10335247-1a12-46d8-999f-a33ed53776ab": {
+            "ocel:timestamp": "2024-03-25T09:07:35Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:09:17.005"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+        "44390": {
+            "ocel:timestamp": "2024-03-25T09:08:59Z",
+            "ocel:activity": "create",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "L5"
+            ]
+        },
+        "44391": {
+            "ocel:timestamp": "2024-03-25T09:09:14Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"}}",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "L5"
+            ]
+        },
+        "Install and configure asset_992de79e-77b6-4683-b6a5-c82b920158fa": {
+            "ocel:timestamp": "2024-03-25T09:09:21Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:09:45.179"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+
+        "Install and configure asset_54bbfdd6-52cb-46e4-83fe-e78606f03336": {
+            "ocel:timestamp": "2024-03-25T09:13:02Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:14:19.447"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+
+        "Install and configure asset_4841d80a-b3bb-46dd-b457-9bd202596780": {
+            "ocel:timestamp": "2024-03-25T09:14:49Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:16:01.112"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+
+        "Label asset_9d3f8d8b-9976-4dd6-a0ce-d19b1874552f": {
+            "ocel:timestamp": "2024-03-25T09:17:05Z",
+            "ocel:activity": "Label asset",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:18:09.487"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+
+        "Move asset to storage_f6e04c8c-5f25-4b10-b5df-288bc1425baa": {
+            "ocel:timestamp": "2024-03-25T09:18:17Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:18:44.646"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+        "44399": {
+            "ocel:timestamp": "2024-03-25T09:18:36Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "log_meta": "{\"status_id\":{\"old\":13,\"new\":\"11\"}}",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "L5"
+            ]
+        },
+
+        "Pick asset from self service desk_7443045e-fe56-427a-9914-e6efa3ebaabb": {
+            "ocel:timestamp": "2024-03-25T09:20:11Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:20:17.942"
+            },
+            "ocel:omap": [
+                "H1",
+                "self_service_storage"
+            ]
+        },
+        "Unpack asset_cf430193-cdde-41c9-b5d6-24e8823e9800": {
+            "ocel:timestamp": "2024-03-25T09:20:17Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:20:21.468"
+            },
+            "ocel:omap": [
+                "H1",
+                "repair_desk"
+            ]
+        },
+        "Pick asset from warehouse_2d2bd9a9-8735-4d5a-ae16-5cbcccd12fd4": {
+            "ocel:timestamp": "2024-03-25T09:20:17Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:20:56.621"
+            },
+            "ocel:omap": [
+                "H2",
+                "self_service_storage"
+            ]
+        },
+        "Test asset quality and functionality_b84af0ed-f018-48e3-a734-73cdc494436d": {
+            "ocel:timestamp": "2024-03-25T09:20:21Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:20:30.036"
+            },
+            "ocel:omap": [
+                "H1",
+                "repair_desk"
+            ]
+        },
+        "Install and configure asset_1c20ce92-bb0a-4a34-a9bb-0723d199587c": {
+            "ocel:timestamp": "2024-03-25T09:20:31Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:20:38.088"
+            },
+            "ocel:omap": [
+                "H1",
+                "repair_desk"
+            ]
+        },
+        "Label asset_9151312a-3562-449f-9921-aa41259efc21": {
+            "ocel:timestamp": "2024-03-25T09:20:44Z",
+            "ocel:activity": "Label asset",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:20:50.574"
+            },
+            "ocel:omap": [
+                "H1",
+                "repair_desk"
+            ]
+        },
+        "Move asset to storage_a67df862-9e9a-4f90-8626-05aea51912c8": {
+            "ocel:timestamp": "2024-03-25T09:20:51Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:20:55.051"
+            },
+            "ocel:omap": [
+                "H1",
+                "self_service_storage"
+            ]
+        },
+        "Unpack asset_d8ea3c83-c04f-4fb8-ba78-1edb0ede3f3e": {
+            "ocel:timestamp": "2024-03-25T09:20:57Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:21:01.263"
+            },
+            "ocel:omap": [
+                "H2",
+                "repair_desk"
+            ]
+        },
+        "Test asset quality and functionality_03a81ff6-f8f4-41c3-8f93-69624800f400": {
+            "ocel:timestamp": "2024-03-25T09:21:01Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:21:08.928"
+            },
+            "ocel:omap": [
+                "H2",
+                "repair_desk"
+            ]
+        },
+        "Install and configure asset_4b781ec4-9e4a-4db5-9404-62352217b158": {
+            "ocel:timestamp": "2024-03-25T09:21:09Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:21:23.639"
+            },
+            "ocel:omap": [
+                "H2"
+            ]
+        },
+        "Move asset to storage_07619511-d28d-4795-bf98-e7020dd1cdec": {
+            "ocel:timestamp": "2024-03-25T09:21:27Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "4",
+                "end_time": "2024-03-25T09:21:32.892"
+            },
+            "ocel:omap": [
+                "H2",
+                "self_service_storage"
+            ]
+        },
+
+        "Pick asset from warehouse_8270401c-5b47-46b4-bc8e-f0c039b7a47b": {
+            "ocel:timestamp": "2024-03-25T09:30:02Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:30:08.469"
+            },
+            "ocel:omap": [
+                "L6"
+            ]
+        },
+        "Unpack asset_80107d91-39cf-4324-89f0-8c19633a22fd": {
+            "ocel:timestamp": "2024-03-25T09:30:15Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:30:26.491"
+            },
+            "ocel:omap": [
+                "L6",
+                "repair_desk"
+            ]
+        },
+        "Test asset quality and functionality_40595994-5397-4f70-9256-277ce9e12a1f": {
+            "ocel:timestamp": "2024-03-25T09:30:26Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:30:40.459"
+            },
+            "ocel:omap": [
+                "L6",
+                "repair_desk"
+            ]
+        },
+        "Install and configure asset_9aff5ef6-932b-4b14-8f3a-a6f834d20d59": {
+            "ocel:timestamp": "2024-03-25T09:30:52Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:31:00.084"
+            },
+            "ocel:omap": [
+                "L6",
+                "repair_desk"
+            ]
+        },
+        "Install and configure asset_a31b0e77-8ad2-40c3-be91-8e8f7aae9c39": {
+            "ocel:timestamp": "2024-03-25T09:31:57Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:32:16.057"
+            },
+            "ocel:omap": [
+                "L6",
+                "repair_desk"
+            ]
+        },
+        "Label asset_59d91257-3abf-4f2c-af82-d484912c1331": {
+            "ocel:timestamp": "2024-03-25T09:32:19Z",
+            "ocel:activity": "Label asset",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:32:50.008"
+            },
+            "ocel:omap": [
+                "L6",
+                "repair_desk"
+            ]
+        },
+        "Create system entry for asset_3077636c-2db7-4596-b890-c0ed91c1bf53": {
+            "ocel:timestamp": "2024-03-25T09:33:21Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:34:11.037"
+            },
+            "ocel:omap": [
+                "L6"
+            ]
+        },
+        "44405": {
+            "ocel:timestamp": "2024-03-25T09:34:11Z",
+            "ocel:activity": "create",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "L6"
+            ]
+        },
+        "Move asset to storage_e2b2c0b3-1ab8-492e-9940-6c899d94a2aa": {
+            "ocel:timestamp": "2024-03-25T09:34:43Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:34:48.870"
+            },
+            "ocel:omap": [
+                "L6"
+            ]
+        },
+
+        "Pick asset from self service desk_38acd27d-7689-43ca-a8d6-af0a252e577b": {
+            "ocel:timestamp": "2024-03-25T09:39:49Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:39:57.581"
+            },
+            "ocel:omap": [
+                "H3",
+                "self_service_storage"
+            ]
+        },
+        "Pick asset from self service desk_8c3568f6-913d-4012-95d6-ef07d50649dc": {
+            "ocel:timestamp": "2024-03-25T09:39:50Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:39:57.000"
+            },
+            "ocel:omap": [
+                "K2",
+                "self_service_storage"
+            ]
+        },
+        "Unpack asset_da7420e4-580a-41e2-9321-400190798473": {
+            "ocel:timestamp": "2024-03-25T09:39:59Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:40:15.000"
+            },
+            "ocel:omap": [
+                "K2",
+                "repair_desk"
+            ]
+        },
+        "Test asset quality and functionality_f816f490-4db4-4dc5-88de-fb21a6db9555": {
+            "ocel:timestamp": "2024-03-25T09:40:15Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:40:53.000"
+            },
+            "ocel:omap": [
+                "K2"
+            ]
+        },
+        "Install and configure asset_635c6c50-f65d-4d4d-8a49-e638ca895a7c": {
+            "ocel:timestamp": "2024-03-25T09:40:38Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:40:53.000"
+            },
+            "ocel:omap": [
+                "K2",
+                "repair_desk"
+            ]
+        },
+        "Create system entry for asset_ac384097-aec6-4e84-b3d5-f8f33cbe0873": {
+            "ocel:timestamp": "2024-03-25T09:40:54Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:41:20.000"
+            },
+            "ocel:omap": [
+                "K2"
+            ]
+        },
+        "44408": {
+            "ocel:timestamp": "2024-03-25T09:41:14Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "Webcam USB"
+            ]
+        },
+        "Move asset to storage_dfb26873-3490-440e-9476-e411765ce46c": {
+            "ocel:timestamp": "2024-03-25T09:41:22Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:41:28.000"
+            },
+            "ocel:omap": [
+                "K2",
+                "self_service_storage"
+            ]
+        },
+        "Unpack asset_5b4dd4da-e4b5-4ef7-b1c5-74ac1efb7ec3": {
+            "ocel:timestamp": "2024-03-25T09:41:42Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:41:50.546"
+            },
+            "ocel:omap": [
+                "H3",
+                "repair_desk"
+            ]
+        },
+        "Test asset quality and functionality_e539ae21-a9d0-4b9e-a49e-6c4226615907": {
+            "ocel:timestamp": "2024-03-25T09:41:54Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:42:19.546"
+            },
+            "ocel:omap": [
+                "H3"
+            ]
+        },
+        "Create system entry for asset_9bee011f-f231-4e47-b872-e6999d73aba6": {
+            "ocel:timestamp": "2024-03-25T09:42:24Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:43:00.546"
+            },
+            "ocel:omap": [
+                "H3"
+            ]
+        },
+        "Move asset to storage_12f22c18-71b5-4d0a-a186-b70bcfdecd8c": {
+            "ocel:timestamp": "2024-03-25T09:42:32Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:42:47.546"
+            },
+            "ocel:omap": [
+                "H3",
+                "self_service_storage"
+            ]
+        },
+        "44409": {
+            "ocel:timestamp": "2024-03-25T09:42:49Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "Headset USB"
+            ]
+        },
+
+        "Pick asset from self service desk_9f738a1a-a724-4c3b-9a1b-d97375bf4846": {
+            "ocel:timestamp": "2024-03-25T10:58:14Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T10:58:27.409"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "Unpack asset_c5e62e22-2583-4770-ae91-8ea2cd13e6a0": {
+            "ocel:timestamp": "2024-03-25T10:58:30Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T10:58:35.734"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "Test asset quality and functionality_48531b7e-b1b6-4cc8-884b-cce46701afae": {
+            "ocel:timestamp": "2024-03-25T10:58:36Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T10:58:48.015"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "Install and configure asset_eac01cae-49a4-43bf-ab64-72af60f499a7": {
+            "ocel:timestamp": "2024-03-25T10:58:49Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T10:59:03.575"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "Label asset_eae7ad8f-c016-4b1d-a935-7fde7f18e3d7": {
+            "ocel:timestamp": "2024-03-25T10:59:04Z",
+            "ocel:activity": "Label asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T10:59:20.067"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "Create system entry for asset_332c1b9c-c19e-420e-8e17-eae6d87f8d53": {
+            "ocel:timestamp": "2024-03-25T10:59:25Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T10:59:59.568"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "44422": {
+            "ocel:timestamp": "2024-03-25T10:59:54Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "Headset USB"
+            ]
+        },
+        "Move asset to storage_cff0a6f7-9746-4abc-bd23-b0d4915c4195": {
+            "ocel:timestamp": "2024-03-25T11:00:00Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:00:08.588"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "Pick asset from warehouse_09090fd4-84c9-4cec-b1f8-7aacb5c30f18": {
+            "ocel:timestamp": "2024-03-25T11:00:10Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:00:17.246"
+            },
+            "ocel:omap": [
+                "H7"
+            ]
+        },
+        "Unpack asset_357eb9f1-8480-46c8-bdb4-9025dab77cd1": {
+            "ocel:timestamp": "2024-03-25T11:00:23Z",
+            "ocel:activity": "Unpack asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:00:28.778"
+            },
+            "ocel:omap": [
+                "H7"
+            ]
+        },
+        "Create system entry for asset_b8bdcd93-cfbc-4616-8051-39093b96affe": {
+            "ocel:timestamp": "2024-03-25T11:00:31Z",
+            "ocel:activity": "Create system entry for asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:00:56.255"
+            },
+            "ocel:omap": [
+                "H7"
+            ]
+        },
+        "44423": {
+            "ocel:timestamp": "2024-03-25T11:00:50Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "Headset USB"
+            ]
+        },
+        "Test asset quality and functionality_ebddfa6c-8336-42e8-acfa-8aaa595e9211": {
+            "ocel:timestamp": "2024-03-25T11:01:00Z",
+            "ocel:activity": "Test asset quality and functionality",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:01:05.456"
+            },
+            "ocel:omap": [
+                "H7"
+            ]
+        },
+        "Install and configure asset_22754878-00d9-4d59-99c4-d8374c0e5857": {
+            "ocel:timestamp": "2024-03-25T11:01:06Z",
+            "ocel:activity": "Install and configure asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:01:23.983"
+            },
+            "ocel:omap": [
+                "H7"
+            ]
+        },
+        "Label asset_3c16a8cd-d2ca-4a96-b4bf-3e75462818da": {
+            "ocel:timestamp": "2024-03-25T11:01:24Z",
+            "ocel:activity": "Label asset",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:01:28.334"
+            },
+            "ocel:omap": [
+                "H7"
+            ]
+        },
+        "Move asset to storage_c07fd813-81b6-4d99-8713-a7abf9731ad3": {
+            "ocel:timestamp": "2024-03-25T11:01:32Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "10",
+                "end_time": "2024-03-25T11:01:35.817"
+            },
+            "ocel:omap": [
+                "H7"
+            ]
+        }
+    },
+    "ocel:objects": {
+        "A1": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "L1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6030",
+                "obj.link": "hardware/6030",
+                "obj.id": "L1",
+                "name": "tintenklecks",
+                "asset_tag": "L1",
+                "physical": "1",
+                "last_checkout": "2024-03-25T17:19:16Z",
+                "last_checkin": "2024-03-25T17:11:18Z",
+                "checkin_counter": "5",
+                "checkout_counter": "6",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "C1": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client1@fim-rc.de",
+                "first_name": "Client 1",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1094",
+                "obj.link": "users/1094",
+                "obj.id": "C1"
+            }
+        },
+        "P2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10201",
+                "obj.link": "hardware/10201",
+                "obj.id": "P2",
+                "asset_tag": "P2",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:36:26Z",
+                "last_checkin": "2024-03-25T09:36:08Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "M1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6278",
+                "obj.link": "hardware/6278",
+                "obj.id": "M1",
+                "asset_tag": "M1",
+                "physical": "1",
+                "last_checkin": "2024-03-25T17:29:05Z",
+                "checkin_counter": "4",
+                "checkout_counter": "4",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "C2": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client2@fim-rc.de",
+                "first_name": "Client 2",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1052",
+                "obj.link": "users/1052",
+                "obj.id": "C2"
+            }
+        },
+        "P3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10204",
+                "obj.link": "hardware/10204",
+                "obj.id": "P3",
+                "asset_tag": "P3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T13:26:59Z",
+                "last_checkin": "2024-03-25T09:55:50Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "C6": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client6@fim-rc.de",
+                "first_name": "Client 6",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1014",
+                "obj.link": "users/1014",
+                "obj.id": "C6"
+            }
+        },
+        "L2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6061",
+                "obj.link": "hardware/6061",
+                "obj.id": "L2",
+                "name": "paschik",
+                "asset_tag": "L2",
+                "physical": "1",
+                "last_checkin": "2024-03-25T16:51:22Z",
+                "checkin_counter": "3",
+                "checkout_counter": "3",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "P1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "Webcam USB": {
+            "ocel:type": "item_accessory",
+            "ocel:ovmap": {
+                "obj.type": "item_accessory",
+                "obj.relationType": "item",
+                "obj.id_full": "item_accessory_68",
+                "obj.link": "accessories/68",
+                "obj.id": "Webcam USB"
+            }
+        },
+        "L5": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "L3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6060",
+                "obj.link": "hardware/6060",
+                "obj.id": "L3",
+                "name": "mikesch",
+                "asset_tag": "L3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T15:27:58Z",
+                "last_checkin": "2024-03-25T11:41:50Z",
+                "checkin_counter": "3",
+                "checkout_counter": "5",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell",
+                "requestable": "1"
+            }
+        },
+        "C5": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "client5@fim-rc.de",
+                "first_name": "Client 5",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_1053",
+                "obj.link": "users/1053",
+                "obj.id": "C5"
+            }
+        },
+        "Headset USB": {
+            "ocel:type": "item_accessory",
+            "ocel:ovmap": {
+                "obj.type": "item_accessory",
+                "obj.relationType": "item",
+                "obj.id_full": "item_accessory_67",
+                "obj.link": "accessories/67",
+                "obj.id": "Headset USB"
+            }
+        },
+        "C4": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "client4@fim-rc.de",
+                "first_name": "Client 4",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_1095",
+                "obj.link": "users/1095",
+                "obj.id": "C4"
+            }
+        },
+        "C10": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "client10@fim-rc.de",
+                "first_name": "Client 10",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_1015",
+                "obj.link": "users/1015",
+                "obj.id": "C10"
+            }
+        },
+        "L6": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "A2": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "admin2@fim-rc.de",
+                "first_name": "Admin 2",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_5",
+                "obj.link": "users/5",
+                "obj.id": "A2"
+            }
+        },
+        "C3": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client3@fim-rc.de",
+                "first_name": "Client 3",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1002",
+                "obj.link": "users/1002",
+                "obj.id": "C3"
+            }
+        },
+        "T1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10216",
+                "obj.link": "hardware/10216",
+                "obj.id": "T1",
+                "asset_tag": "T1",
+                "physical": "1",
+                "last_checkout": "2024-03-25T17:31:35Z",
+                "last_checkin": "2024-03-25T17:10:22Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "STREAM KEYBOARD",
+                "model.manufacturer.name": "Cherry"
+            }
+        },
+        "C9": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "client9@fim-rc.de",
+                "first_name": "Client 9",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_1054",
+                "obj.link": "users/1054",
+                "obj.id": "C9"
+            }
+        },
+        "L4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6058",
+                "obj.link": "hardware/6058",
+                "obj.id": "L4",
+                "name": "molly",
+                "asset_tag": "L4",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:11:45Z",
+                "last_checkin": "2024-03-24T09:58:57Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "M2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6277",
+                "obj.link": "hardware/6277",
+                "obj.id": "M2",
+                "asset_tag": "M2",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:23:18Z",
+                "last_checkin": "2024-03-24T10:07:03Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "C7": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client7@fim-rc.de",
+                "first_name": "Client 7",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1003",
+                "obj.link": "users/1003",
+                "obj.id": "C7"
+            }
+        },
+        "T3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10218",
+                "obj.link": "hardware/10218",
+                "obj.id": "T3",
+                "asset_tag": "T3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T17:01:07Z",
+                "last_checkin": "2024-03-25T15:29:24Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "STREAM KEYBOARD",
+                "model.manufacturer.name": "Cherry"
+            }
+        },
+        "M3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6327",
+                "obj.link": "hardware/6327",
+                "obj.id": "M3",
+                "asset_tag": "M3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:40:05Z",
+                "last_checkin": "2024-03-24T10:07:24Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "C8": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client8@fim-rc.de",
+                "first_name": "Client 8",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1096",
+                "obj.link": "users/1096",
+                "obj.id": "C8"
+            }
+        },
+        "P9": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10202",
+                "obj.link": "hardware/10202",
+                "obj.id": "P9",
+                "asset_tag": "P9",
+                "physical": "1",
+                "last_checkin": "2024-03-25T15:15:26Z",
+                "checkin_counter": "1",
+                "checkout_counter": "1",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "M4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6326",
+                "obj.link": "hardware/6326",
+                "obj.id": "M4",
+                "asset_tag": "M4",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:57:27Z",
+                "last_checkin": "2024-03-24T10:07:48Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "M6": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6322",
+                "obj.link": "hardware/6322",
+                "obj.id": "M6",
+                "asset_tag": "M6",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:57:43Z",
+                "last_checkin": "2024-03-24T10:08:31Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "mouse_cupboard": {
+            "ocel:type": "mouse_cupboard",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "it_working_desk": {
+            "ocel:type": "it_working_desk",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "K1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "self_service_storage": {
+            "ocel:type": "self_service_storage",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "H1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "repair_desk": {
+            "ocel:type": "repair_desk",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "H2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "K2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "H3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "H5": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "H7": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        }
+    }
+}

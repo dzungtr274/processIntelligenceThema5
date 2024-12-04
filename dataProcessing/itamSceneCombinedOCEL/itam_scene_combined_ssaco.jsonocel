@@ -1,0 +1,912 @@
+{
+    "ocel:global-event": {},
+    "ocel:global-object": {},
+    "ocel:global-log": {
+        "ocel:attribute-names": [
+            "name",
+            "checkout_counter",
+            "obj.id_full",
+            "obj.link",
+            "obj.relationType",
+            "asset_tag",
+            "last_checkin",
+            "checkin_counter",
+            "model.manufacturer.name",
+            "type",
+            "filename",
+            "first_name",
+            "scene",
+            "action_source",
+            "obj.id",
+            "physical",
+            "requestable",
+            "last_checkout",
+            "end_time",
+            "email",
+            "obj.type",
+            "log_meta",
+            "model.name",
+            "note",
+            "action_date"
+        ],
+        "ocel:object-types": [
+            "target_user",
+            "door",
+            "item_asset",
+            "admin_user",
+            "item_accessory",
+            "self_service_storage"
+        ],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:events": {
+        "Enter room_74c7b38d-f626-447c-adab-332d781e2a07": {
+            "ocel:timestamp": "2024-03-25T09:14:13Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:14:16.964"
+            },
+            "ocel:omap": [
+                "C5"
+            ]
+        },
+        "Pick asset from self service desk_ecd7548d-5305-4603-bbd6-a79fd0a1a4fa": {
+            "ocel:timestamp": "2024-03-25T09:14:18Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:14:27.032"
+            },
+            "ocel:omap": [
+                "K1",
+                "C5",
+                "self_service_storage"
+            ]
+        },
+
+        "Leave room_d09195e0-60cf-484d-872a-0d2c4e2ed8d8": {
+            "ocel:timestamp": "2024-03-25T09:14:47Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:14:53.222"
+            },
+            "ocel:omap": [
+                "C5"
+            ]
+        },
+        "44396": {
+            "ocel:timestamp": "2024-03-25T09:15:48Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-08-15-48.pdf"
+            },
+            "ocel:omap": [
+                "Webcam USB",
+                "C5"
+            ]
+        },
+        "Enter room_f94afece-b017-41c4-af63-716180fb64ec": {
+            "ocel:timestamp": "2024-03-25T09:15:57Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:16:03.365"
+            },
+            "ocel:omap": [
+                "C6"
+            ]
+        },
+        "Pick asset from self service desk_dae615b3-038a-482f-b9ea-f4fd2e170d73": {
+            "ocel:timestamp": "2024-03-25T09:16:07Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:16:24.495"
+            },
+            "ocel:omap": [
+                "H4",
+                "C6",
+                "self_service_storage"
+            ]
+        },
+
+        "Leave room_1f292cb0-a3a2-4506-84a6-e617ad313eca": {
+            "ocel:timestamp": "2024-03-25T09:17:03Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "3",
+                "end_time": "2024-03-25T09:17:09.673"
+            },
+            "ocel:omap": [
+                "C6"
+            ]
+        },
+        "44398": {
+            "ocel:timestamp": "2024-03-25T09:18:06Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-08-18-06.pdf"
+            },
+            "ocel:omap": [
+                "Headset USB",
+                "C6"
+            ]
+        },
+
+        "Enter room_d953c051-bc69-40ee-98e0-4813611ea1d3": {
+            "ocel:timestamp": "2024-03-25T09:26:10Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "5",
+                "end_time": "2024-03-25T09:26:16.496"
+            },
+            "ocel:omap": [
+                "C4",
+                "door"
+            ]
+        },
+        "Chat_cb09fd36-3a3a-4dbd-b3fe-58ef601dfef2": {
+            "ocel:timestamp": "2024-03-25T09:26:16Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "5",
+                "end_time": "2024-03-25T09:26:19.155"
+            },
+            "ocel:omap": [
+                "C4"
+            ]
+        },
+        "Pick asset from self service desk_1e5f3504-d367-4a8b-b81d-970c4139be7d": {
+            "ocel:timestamp": "2024-03-25T09:26:17Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "5",
+                "end_time": "2024-03-25T09:26:17.417"
+            },
+            "ocel:omap": [
+                "K3",
+                "C4",
+                "self_service_storage"
+            ]
+        },
+        "Leave room_cc8d5904-c2b4-4106-8e65-d38d3dd5d1ff": {
+            "ocel:timestamp": "2024-03-25T09:26:23Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "5",
+                "end_time": "2024-03-25T09:26:29.508"
+            },
+            "ocel:omap": [
+                "C4",
+                "door"
+            ]
+        },
+        "44402": {
+            "ocel:timestamp": "2024-03-25T09:26:58Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-08-26-58.pdf"
+            },
+            "ocel:omap": [
+                "Webcam USB",
+                "C4"
+            ]
+        },
+
+
+        "Enter room_4ae81da9-bbc2-46c4-8be1-bfbfa50fdad2": {
+            "ocel:timestamp": "2024-03-25T09:30:55Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:30:59.847"
+            },
+            "ocel:omap": [
+                "C10"
+            ]
+        },
+        "Pick asset from self service desk_3bc2ba99-cea2-4669-80ee-9521097ce364": {
+            "ocel:timestamp": "2024-03-25T09:31:15Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:31:50.275"
+            },
+            "ocel:omap": [
+                "H11",
+                "C10",
+                "self_service_storage"
+            ]
+        },
+        "Leave room_12ee961a-2d92-459d-bdd6-71d44c5c5974": {
+            "ocel:timestamp": "2024-03-25T09:31:51Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:31:57.974"
+            },
+            "ocel:omap": [
+                "C10"
+            ]
+        },
+
+        "Enter room_5d6fa383-6e3c-4043-adac-bf6be912a345": {
+            "ocel:timestamp": "2024-03-25T09:36:37Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:36:40.712"
+            },
+            "ocel:omap": [
+                "C9"
+            ]
+        },
+        "Pick asset from self service desk_887d93a8-d4b1-4535-8b51-1fa33074d807": {
+            "ocel:timestamp": "2024-03-25T09:36:40Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:36:43.712"
+            },
+            "ocel:omap": [
+                "K4",
+                "C9",
+                "self_service_storage"
+            ]
+        },
+        "Leave room_4c35a6e9-58d8-47f1-96eb-9dfb3b2bca1a": {
+            "ocel:timestamp": "2024-03-25T09:36:43Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "6",
+                "end_time": "2024-03-25T09:36:48.712"
+            },
+            "ocel:omap": [
+                "C9"
+            ]
+        },
+
+        "Enter room_d66c0244-90bd-4f13-b481-a5b9d5c505b1": {
+          "ocel:timestamp": "2024-03-25T11:13:37.438",
+          "ocel:activity": "Enter room",
+          "ocel:omap": [
+            "C3",
+            "door"
+          ],
+          "ocel:vmap": {
+            "scene": "11",
+            "end_time": "2024-03-25T11:13:41.400"
+          }
+        },
+        "Pick asset from self service desk_4138517e-a3ee-4581-9328-904273235973": {
+            "ocel:timestamp": "2024-03-25T11:13:43Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:13:45.097"
+            },
+            "ocel:omap": [
+                "H5",
+                "self_service_storage"
+            ]
+        },
+        "Chat_4138dd7b-194a-4c5e-95b9-e54a923caa62": {
+          "ocel:timestamp": "2024-03-25T11:13:45.307",
+          "ocel:activity": "Chat",
+          "ocel:omap": [
+            "A2",
+            "C3"
+          ],
+          "ocel:vmap": {
+            "scene": "11",
+            "end_time": "2024-03-25T11:13:50.457"
+          }
+        },
+        "Leave room_00cbef26-45db-45e3-93ec-4f7eb302010b": {
+            "ocel:timestamp": "2024-03-25T11:13:51Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:13:54.724"
+            },
+            "ocel:omap": [
+                "H5"
+            ]
+        },
+        "Enter room_89bb7db7-1b5d-4401-b34c-8afe3dbd2b9f": {
+            "ocel:timestamp": "2024-03-25T11:14:27Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:14:32.276"
+            },
+            "ocel:omap": [
+                "C9"
+            ]
+        },
+        "Chat_ead19520-4600-478f-9a17-e31a76cc22ed": {
+            "ocel:timestamp": "2024-03-25T11:14:32Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:14:35.767"
+            },
+            "ocel:omap": [
+                "C9"
+            ]
+        },
+        "Pick asset from self service desk_b31e915a-dbd1-49e0-87dc-8c000ddaf48b": {
+            "ocel:timestamp": "2024-03-25T11:14:35Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:14:45.793"
+            },
+            "ocel:omap": [
+                "H7",
+                "C9",
+                "self_service_storage"
+            ]
+        },
+        "Leave room_8f737774-5d67-4150-9635-9716609ac663": {
+            "ocel:timestamp": "2024-03-25T11:14:47Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:14:51.710"
+            },
+            "ocel:omap": [
+                "H7",
+                "C9"
+            ]
+        },
+
+        "44429": {
+            "ocel:timestamp": "2024-03-25T11:14:52Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-14-52.pdf"
+            },
+            "ocel:omap": [
+                "Headset USB",
+                "C3"
+            ]
+        },
+        "44430": {
+            "ocel:timestamp": "2024-03-25T11:15:16Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-15-16.pdf"
+            },
+            "ocel:omap": [
+                "Headset USB",
+                "C9"
+            ]
+        },
+
+        "Enter room_05f03ca4-04bc-4f57-92ee-9ea3b5e7f4fd": {
+            "ocel:timestamp": "2024-03-25T11:50:46Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "14",
+                "end_time": "2024-03-25T11:50:51.300"
+            },
+            "ocel:omap": [
+                "C3"
+            ]
+        },
+
+        "Pick asset from self service desk_c39a8806-4a2d-4f8d-9a14-bdf2eb6141be": {
+            "ocel:timestamp": "2024-03-25T11:50:53Z",
+            "ocel:activity": "Pick asset from self service desk",
+            "ocel:vmap": {
+                "scene": "14",
+                "end_time": "2024-03-25T11:50:55.276"
+            },
+            "ocel:omap": [
+                "K1",
+                "C3",
+                "self_service_storage"
+            ]
+        },
+        "Chat_ae82baea-bd1b-4591-9c49-3fdc809f63e6": {
+            "ocel:timestamp": "2024-03-25T11:50:55Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "14",
+                "end_time": "2024-03-25T11:51:29.217"
+            },
+            "ocel:omap": [
+                "C3"
+            ]
+        },
+        "Leave room_bc6356ba-4dd5-4c9a-bbbe-a9dc478bb8f9": {
+            "ocel:timestamp": "2024-03-25T11:51:31Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "14",
+                "end_time": "2024-03-25T11:51:36.196"
+            },
+            "ocel:omap": [
+                "K1",
+                "C3"
+            ]
+        },
+        "44453": {
+            "ocel:timestamp": "2024-03-25T11:51:57Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-51-57.pdf"
+            },
+            "ocel:omap": [
+                "Webcam USB",
+                "C3"
+            ]
+        }
+    },
+    "ocel:objects": {
+        "A1": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "admin1@fim-rc.de",
+                "first_name": "Admin 1",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_4",
+                "obj.link": "users/4",
+                "obj.id": "A1"
+            }
+        },
+        "L1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6030",
+                "obj.link": "hardware/6030",
+                "obj.id": "L1",
+                "name": "tintenklecks",
+                "asset_tag": "L1",
+                "physical": "1",
+                "last_checkout": "2024-03-25T17:19:16Z",
+                "last_checkin": "2024-03-25T17:11:18Z",
+                "checkin_counter": "5",
+                "checkout_counter": "6",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "C1": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client1@fim-rc.de",
+                "first_name": "Client 1",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1094",
+                "obj.link": "users/1094",
+                "obj.id": "C1"
+            }
+        },
+        "P2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10201",
+                "obj.link": "hardware/10201",
+                "obj.id": "P2",
+                "asset_tag": "P2",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:36:26Z",
+                "last_checkin": "2024-03-25T09:36:08Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "M1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6278",
+                "obj.link": "hardware/6278",
+                "obj.id": "M1",
+                "asset_tag": "M1",
+                "physical": "1",
+                "last_checkin": "2024-03-25T17:29:05Z",
+                "checkin_counter": "4",
+                "checkout_counter": "4",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "C2": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client2@fim-rc.de",
+                "first_name": "Client 2",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1052",
+                "obj.link": "users/1052",
+                "obj.id": "C2"
+            }
+        },
+        "P3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10204",
+                "obj.link": "hardware/10204",
+                "obj.id": "P3",
+                "asset_tag": "P3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T13:26:59Z",
+                "last_checkin": "2024-03-25T09:55:50Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "C6": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "L2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6061",
+                "obj.link": "hardware/6061",
+                "obj.id": "L2",
+                "name": "paschik",
+                "asset_tag": "L2",
+                "physical": "1",
+                "last_checkin": "2024-03-25T16:51:22Z",
+                "checkin_counter": "3",
+                "checkout_counter": "3",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "P1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10228",
+                "obj.link": "hardware/10228",
+                "obj.id": "P1",
+                "asset_tag": "P1",
+                "physical": "1",
+                "last_checkin": "2024-03-25T13:26:16Z",
+                "checkin_counter": "2",
+                "checkout_counter": "2",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "Webcam USB": {
+            "ocel:type": "item_accessory",
+            "ocel:ovmap": {
+                "obj.type": "item_accessory",
+                "obj.relationType": "item",
+                "obj.id_full": "item_accessory_68",
+                "obj.link": "accessories/68",
+                "obj.id": "Webcam USB"
+            }
+        },
+        "L5": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10229",
+                "obj.link": "hardware/10229",
+                "obj.id": "L5",
+                "name": "tintenklecks",
+                "asset_tag": "L5",
+                "physical": "1",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "L3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6060",
+                "obj.link": "hardware/6060",
+                "obj.id": "L3",
+                "name": "mikesch",
+                "asset_tag": "L3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T15:27:58Z",
+                "last_checkin": "2024-03-25T11:41:50Z",
+                "checkin_counter": "3",
+                "checkout_counter": "5",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell",
+                "requestable": "1"
+            }
+        },
+        "C5": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "Headset USB": {
+            "ocel:type": "item_accessory",
+            "ocel:ovmap": {
+                "obj.type": "item_accessory",
+                "obj.relationType": "item",
+                "obj.id_full": "item_accessory_67",
+                "obj.link": "accessories/67",
+                "obj.id": "Headset USB"
+            }
+        },
+        "C4": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "C10": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "L6": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10230",
+                "obj.link": "hardware/10230",
+                "obj.id": "L6",
+                "name": "tintenklecks",
+                "asset_tag": "L6",
+                "physical": "1",
+                "last_checkin": "2024-03-25T16:48:10Z",
+                "checkin_counter": "2",
+                "checkout_counter": "2",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "A2": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "admin2@fim-rc.de",
+                "first_name": "Admin 2",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_5",
+                "obj.link": "users/5",
+                "obj.id": "A2"
+            }
+        },
+        "C3": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "T1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10216",
+                "obj.link": "hardware/10216",
+                "obj.id": "T1",
+                "asset_tag": "T1",
+                "physical": "1",
+                "last_checkout": "2024-03-25T17:31:35Z",
+                "last_checkin": "2024-03-25T17:10:22Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "STREAM KEYBOARD",
+                "model.manufacturer.name": "Cherry"
+            }
+        },
+        "C9": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "L4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6058",
+                "obj.link": "hardware/6058",
+                "obj.id": "L4",
+                "name": "molly",
+                "asset_tag": "L4",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:11:45Z",
+                "last_checkin": "2024-03-24T09:58:57Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "M2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6277",
+                "obj.link": "hardware/6277",
+                "obj.id": "M2",
+                "asset_tag": "M2",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:23:18Z",
+                "last_checkin": "2024-03-24T10:07:03Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "C7": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client7@fim-rc.de",
+                "first_name": "Client 7",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1003",
+                "obj.link": "users/1003",
+                "obj.id": "C7"
+            }
+        },
+        "T3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10218",
+                "obj.link": "hardware/10218",
+                "obj.id": "T3",
+                "asset_tag": "T3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T17:01:07Z",
+                "last_checkin": "2024-03-25T15:29:24Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "STREAM KEYBOARD",
+                "model.manufacturer.name": "Cherry"
+            }
+        },
+        "M3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6327",
+                "obj.link": "hardware/6327",
+                "obj.id": "M3",
+                "asset_tag": "M3",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:40:05Z",
+                "last_checkin": "2024-03-24T10:07:24Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "C8": {
+            "ocel:type": "target_user",
+            "ocel:ovmap": {
+                "email": "client8@fim-rc.de",
+                "first_name": "Client 8",
+                "obj.type": "target_user",
+                "obj.relationType": "target",
+                "obj.id_full": "target_user_1096",
+                "obj.link": "users/1096",
+                "obj.id": "C8"
+            }
+        },
+        "P9": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10202",
+                "obj.link": "hardware/10202",
+                "obj.id": "P9",
+                "asset_tag": "P9",
+                "physical": "1",
+                "last_checkin": "2024-03-25T15:15:26Z",
+                "checkin_counter": "1",
+                "checkout_counter": "1",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "M4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6326",
+                "obj.link": "hardware/6326",
+                "obj.id": "M4",
+                "asset_tag": "M4",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:57:27Z",
+                "last_checkin": "2024-03-24T10:07:48Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "M6": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6322",
+                "obj.link": "hardware/6322",
+                "obj.id": "M6",
+                "asset_tag": "M6",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:57:43Z",
+                "last_checkin": "2024-03-24T10:08:31Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Fujitsu 24\"",
+                "model.manufacturer.name": "Fujitsu"
+            }
+        },
+        "K1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "self_service_storage": {
+            "ocel:type": "self_service_storage",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "H4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "door": {
+            "ocel:type": "door",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "K3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "H11": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "K4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "H5": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "H7": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        }
+    }
+}

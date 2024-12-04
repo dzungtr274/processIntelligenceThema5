@@ -1,0 +1,1908 @@
+{
+    "ocel:global-event": {},
+    "ocel:global-object": {},
+    "ocel:global-log": {
+        "ocel:attribute-names": [
+            "name",
+            "checkout_counter",
+            "obj.id_full",
+            "obj.link",
+            "obj.relationType",
+            "asset_tag",
+            "last_checkin",
+            "checkin_counter",
+            "model.manufacturer.name",
+            "type",
+            "filename",
+            "first_name",
+            "scene",
+            "action_source",
+            "obj.id",
+            "physical",
+            "requestable",
+            "last_checkout",
+            "end_time",
+            "email",
+            "obj.type",
+            "log_meta",
+            "model.name",
+            "note",
+            "action_date"
+        ],
+        "ocel:object-types": [
+            "target_user",
+            "mouse_cupboard",
+            "monitor_storage",
+            "door",
+            "laptop_shelf",
+            "item_asset",
+            "admin_user",
+            "item_accessory",
+            "it_working_desk",
+            "keyboard_cupboard"
+        ],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:events": {
+        "Enter room_15630715-bc75-4c7a-8463-a6dd5b44e4c3": {
+            "ocel:timestamp": "2024-03-25T08:48:32Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:48:37.040"
+            },
+            "ocel:omap": [
+                "C1",
+                "door"
+            ]
+        },
+        "Chat_df7578de-0fb6-48dc-b4f8-ec7d4fab8814": {
+            "ocel:timestamp": "2024-03-25T08:48:39Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:48:48.719"
+            },
+            "ocel:omap": [
+                "A1",
+                "C1",
+                "it_working_desk"
+            ]
+        },
+        "Pick asset from warehouse_c1f2df5b-0865-4077-a42b-9d47979ede93": {
+            "ocel:timestamp": "2024-03-25T08:48:49Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:49:05.479"
+            },
+            "ocel:omap": [
+                "L1",
+                "A1",
+                "laptop_shelf"
+            ]
+        },
+        "Pick asset from warehouse_bd8c2a07-745c-4838-80cd-eaa70e6b2bc8": {
+            "ocel:timestamp": "2024-03-25T08:49:05Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:49:19.530"
+            },
+            "ocel:omap": [
+                "P2",
+                "A1",
+                "mouse_cupboard"
+            ]
+        },
+        "Check asset quality_e06ee875-2f91-4353-a502-3e0a3ad09a7b": {
+            "ocel:timestamp": "2024-03-25T08:49:22Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:49:45.972"
+            },
+            "ocel:omap": [
+                "L1",
+                "P2",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Check-Out asset to user_0289bc61-d6fd-490a-8a25-68725f25bb23": {
+            "ocel:timestamp": "2024-03-25T08:49:54Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:50:47.448"
+            },
+            "ocel:omap": [
+                "L1",
+                "P2",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "44378": {
+            "ocel:timestamp": "2024-03-25T08:50:29Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T08:50:29Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "L1",
+                "C1"
+            ]
+        },
+        "44379": {
+            "ocel:timestamp": "2024-03-25T08:50:47Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T08:50:47Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "P2",
+                "C1"
+            ]
+        },
+        "Handover asset to user_0e547b62-a699-46de-bcac-0bdb07754e2a": {
+            "ocel:timestamp": "2024-03-25T08:50:49Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:50:53.599"
+            },
+            "ocel:omap": [
+                "L1",
+                "P2",
+                "A1",
+                "C1",
+                "it_working_desk"
+            ]
+        },
+        "Leave room_18663be0-bde4-40b0-8a91-7b5d95ea1069": {
+            "ocel:timestamp": "2024-03-25T08:50:55Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:50:59.438"
+            },
+            "ocel:omap": [
+                "C1",
+                "door"
+            ]
+        },
+        "Enter room_116ffed3-4666-401a-b176-2e7009d65703": {
+            "ocel:timestamp": "2024-03-25T08:51:18Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:51:23.073"
+            },
+            "ocel:omap": [
+                "C2",
+                "door"
+            ]
+        },
+        "Chat_ff979290-8ae5-4718-a974-a638c2ab2f17": {
+            "ocel:timestamp": "2024-03-25T08:51:26Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:51:33.435"
+            },
+            "ocel:omap": [
+                "A1",
+                "C2",
+                "it_working_desk"
+            ]
+        },
+        "Pick asset from warehouse_e8f0c879-c0fb-43f3-a9b8-1b4285f16abd": {
+            "ocel:timestamp": "2024-03-25T08:51:33Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:51:42.352"
+            },
+            "ocel:omap": [
+                "M1",
+                "A1",
+                "monitor_storage"
+            ]
+        },
+        "44380": {
+            "ocel:timestamp": "2024-03-25T08:51:36Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-07-51-36.pdf"
+            },
+            "ocel:omap": [
+                "P2",
+                "C1"
+            ]
+        },
+        "Check asset quality_d295a7c3-cd3c-42c2-8c10-9a4627a651ed": {
+            "ocel:timestamp": "2024-03-25T08:51:42Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:52:02.216"
+            },
+            "ocel:omap": [
+                "M1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "44381": {
+            "ocel:timestamp": "2024-03-25T08:51:47Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-07-51-47.pdf"
+            },
+            "ocel:omap": [
+                "L1",
+                "C1"
+            ]
+        },
+        "Enter room_85d18e50-cadd-4f7c-aff9-349ba48944d1": {
+            "ocel:timestamp": "2024-03-25T08:52:01Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:52:06.422"
+            },
+            "ocel:omap": [
+                "C6",
+                "door"
+            ]
+        },
+        "Check-Out asset to user_8961d779-36fe-45ea-964a-fc85b860fbd1": {
+            "ocel:timestamp": "2024-03-25T08:52:10Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:52:30.895"
+            },
+            "ocel:omap": [
+                "M1",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "44382": {
+            "ocel:timestamp": "2024-03-25T08:52:29Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T08:52:29Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "M1",
+                "C2"
+            ]
+        },
+        "Handover asset to user_10f6d5e3-c85f-4c43-8dc7-baa32e662f31": {
+            "ocel:timestamp": "2024-03-25T08:52:33Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:52:37.552"
+            },
+            "ocel:omap": [
+                "M1",
+                "A1",
+                "C2",
+                "it_working_desk"
+            ]
+        },
+        "Chat_eb28bd2c-163a-4622-acbf-f1a4b1666355": {
+            "ocel:timestamp": "2024-03-25T08:52:38Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:52:52.020"
+            },
+            "ocel:omap": [
+                "A1",
+                "C6",
+                "it_working_desk"
+            ]
+        },
+        "Leave room_e1a0c039-4513-49e5-bffd-59106b8a0002": {
+            "ocel:timestamp": "2024-03-25T08:52:40Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:52:47.625"
+            },
+            "ocel:omap": [
+                "C2",
+                "door"
+            ]
+        },
+        "Pick asset from warehouse_351dad02-380d-4e54-91b0-c466d49ecf58": {
+            "ocel:timestamp": "2024-03-25T08:52:52Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:53:08.440"
+            },
+            "ocel:omap": [
+                "P3",
+                "A1",
+                "mouse_cupboard"
+            ]
+        },
+        "Pick asset from warehouse_e7d963d4-2ca0-4e75-b670-7d53049c5bc2": {
+            "ocel:timestamp": "2024-03-25T08:53:08Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:53:33.913"
+            },
+            "ocel:omap": [
+                "L2",
+                "A1",
+                "laptop_shelf"
+            ]
+        },
+        "44383": {
+            "ocel:timestamp": "2024-03-25T08:53:12Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-07-53-12.pdf"
+            },
+            "ocel:omap": [
+                "M1",
+                "C2"
+            ]
+        },
+        "Check asset quality_d6f53cab-69bc-4955-9f8c-2f2d1d74803f": {
+            "ocel:timestamp": "2024-03-25T08:53:35Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:53:46.520"
+            },
+            "ocel:omap": [
+                "L2",
+                "P3",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "Check-Out asset to user_8e694aa5-00fe-4c79-ba7e-327007903117": {
+            "ocel:timestamp": "2024-03-25T08:53:55Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:54:33.406"
+            },
+            "ocel:omap": [
+                "L2",
+                "P3",
+                "A1",
+                "it_working_desk"
+            ]
+        },
+        "44384": {
+            "ocel:timestamp": "2024-03-25T08:54:14Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T08:54:14Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "P3",
+                "C6"
+            ]
+        },
+        "44385": {
+            "ocel:timestamp": "2024-03-25T08:54:32Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T08:54:32Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "L2",
+                "C6"
+            ]
+        },
+        "Handover asset to user_3a5c4b7b-c31f-4dd2-92ad-cd692993a3a1": {
+            "ocel:timestamp": "2024-03-25T08:54:36Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:54:46.870"
+            },
+            "ocel:omap": [
+                "L2",
+                "P3",
+                "A1",
+                "C6",
+                "it_working_desk"
+            ]
+        },
+        "Leave room_242e6450-6354-4996-b195-57a59b1a10a0": {
+            "ocel:timestamp": "2024-03-25T08:54:52Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "1",
+                "end_time": "2024-03-25T08:54:55.833"
+            },
+            "ocel:omap": [
+                "C6",
+                "door"
+            ]
+        },
+        "44386": {
+            "ocel:timestamp": "2024-03-25T08:55:38Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-07-55-38.pdf"
+            },
+            "ocel:omap": [
+                "L2",
+                "C6"
+            ]
+        },
+        "44387": {
+            "ocel:timestamp": "2024-03-25T08:55:54Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-07-55-54.pdf"
+            },
+            "ocel:omap": [
+                "P3",
+                "C6"
+            ]
+        },
+
+
+        "Enter room_1f272c04-6bdb-46a2-9c62-691d3fe574e4": {
+            "ocel:timestamp": "2024-03-25T09:42:16Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:42:24.382"
+            },
+            "ocel:omap": [
+                "door"
+            ]
+        },
+        "44409": {
+            "ocel:timestamp": "2024-03-25T09:42:49Z",
+            "ocel:activity": "update",
+            "ocel:vmap": {
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A1",
+                "Headset USB"
+            ]
+        },
+        "Pick asset from warehouse_4186bdd4-2cab-4c20-8640-6dae5c31de3d": {
+            "ocel:timestamp": "2024-03-25T09:43:13Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:43:36.382"
+            },
+            "ocel:omap": [
+                "L5",
+                "laptop_shelf"
+            ]
+        },
+        "Check asset quality_e212467d-bb91-4f27-8933-d00388391b17": {
+            "ocel:timestamp": "2024-03-25T09:43:52Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:44:41.382"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+        "Handover asset to user_c4a57bf2-b8ec-447f-8bd6-38c94984480d": {
+            "ocel:timestamp": "2024-03-25T09:45:09Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:45:12.382"
+            },
+            "ocel:omap": [
+                "L5"
+            ]
+        },
+        "Leave room_722f3ea7-25d5-4af3-bc50-adb2d3c87906": {
+            "ocel:timestamp": "2024-03-25T09:45:19Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "7",
+                "end_time": "2024-03-25T09:45:28.382"
+            },
+            "ocel:omap": [
+                "door"
+            ]
+        },
+
+        "Enter room_73bd1366-e8e2-49a9-9b93-bb6be47fc729": {
+            "ocel:timestamp": "2024-03-25T10:45:08Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:45:14.157"
+            },
+            "ocel:omap": [
+                "C3",
+                "door"
+            ]
+        },
+        "Chat_40ecbfdf-272d-44bb-b26e-8b77443ac3cd": {
+            "ocel:timestamp": "2024-03-25T10:45:19Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:45:50.374"
+            },
+            "ocel:omap": [
+                "A2",
+                "C3",
+                "it_working_desk"
+            ]
+        },
+        "Pick asset from warehouse_918313ee-6cd2-4e88-b23a-5d6f467efac1": {
+            "ocel:timestamp": "2024-03-25T10:45:51Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:46:01.861"
+            },
+            "ocel:omap": [
+                "L1",
+                "A2",
+                "laptop_shelf"
+            ]
+        },
+        "Check asset quality_3cbc6716-80ed-4225-b6be-926a4d29c702": {
+            "ocel:timestamp": "2024-03-25T10:46:07Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:46:45.112"
+            },
+            "ocel:omap": [
+                "L1",
+                "A2",
+                "it_working_desk"
+            ]
+        },
+        "Check-Out asset to user_61164b7b-9d41-4a0c-85de-cf486a76f875": {
+            "ocel:timestamp": "2024-03-25T10:46:45Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:47:36.295"
+            },
+            "ocel:omap": [
+                "L1",
+                "A2",
+                "it_working_desk"
+            ]
+        },
+        "44412": {
+            "ocel:timestamp": "2024-03-25T10:47:22Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T10:47:22Z",
+                "action_source": "gui",
+                "note": "Mousepad slightly dirty"
+            },
+            "ocel:omap": [
+                "A2",
+                "L1",
+                "C3"
+            ]
+        },
+        "Handover asset to user_b7748654-68ce-443d-b07c-51f15092ea20": {
+            "ocel:timestamp": "2024-03-25T10:47:39Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:47:42.150"
+            },
+            "ocel:omap": [
+                "L1",
+                "A2",
+                "C3",
+                "it_working_desk"
+            ]
+        },
+        "Leave room_3c47ef23-fcf9-4ae1-ba50-2253a6f1c67d": {
+            "ocel:timestamp": "2024-03-25T10:47:44Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:47:47.315"
+            },
+            "ocel:omap": [
+                "A2",
+                "door"
+            ]
+        },
+        "Enter room_2f29d090-860d-4020-9dab-37004f93ce94": {
+            "ocel:timestamp": "2024-03-25T10:48:12Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:48:17.792"
+            },
+            "ocel:omap": [
+                "C1",
+                "door"
+            ]
+        },
+        "Enter room_383c58c8-1749-440a-b1b6-9d8281393ee0": {
+            "ocel:timestamp": "2024-03-25T10:48:16Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:48:21.458"
+            },
+            "ocel:omap": [
+                "C2",
+                "door"
+            ]
+        },
+        "Chat_10031351-189e-441b-b104-ab7ce023cca2": {
+            "ocel:timestamp": "2024-03-25T10:48:18Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:49:09.840"
+            },
+            "ocel:omap": [
+                "A2",
+                "C1",
+                "C2"
+            ]
+        },
+        "44413": {
+            "ocel:timestamp": "2024-03-25T10:48:36Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-09-48-36.pdf"
+            },
+            "ocel:omap": [
+                "L1",
+                "C3"
+            ]
+        },
+        "Pick asset from warehouse_b4f614ef-637a-44a4-bb36-eed350bd05b3": {
+            "ocel:timestamp": "2024-03-25T10:49:11Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:49:34.619"
+            },
+            "ocel:omap": [
+                "T1",
+                "P1",
+                "A2",
+                "mouse_cupboard",
+                "keyboard_cupboard"
+            ]
+        },
+        "Check asset quality_d6d908b8-219d-4787-8a90-60767f55962f": {
+            "ocel:timestamp": "2024-03-25T10:49:37Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:49:55.838"
+            },
+            "ocel:omap": [
+                "T1",
+                "P1",
+                "A2",
+                "it_working_desk"
+            ]
+        },
+        "Pick asset from warehouse_0f9beeb1-445d-4181-b455-4d55c5bdfcee": {
+            "ocel:timestamp": "2024-03-25T10:50:16Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:50:25.507"
+            },
+            "ocel:omap": [
+                "L2",
+                "A2",
+                "laptop_shelf"
+            ]
+        },
+        "Check asset quality_a632dfcf-d43f-4664-b6ff-98822833e4da": {
+            "ocel:timestamp": "2024-03-25T10:50:26Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:51:01.511"
+            },
+            "ocel:omap": [
+                "L2",
+                "A2",
+                "it_working_desk"
+            ]
+        },
+        "Check-Out asset to user_72da2a14-ae0d-489a-a610-f4106239a79e": {
+            "ocel:timestamp": "2024-03-25T10:51:05Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:52:17.597"
+            },
+            "ocel:omap": [
+                "L2",
+                "T1",
+                "P1",
+                "A2",
+                "it_working_desk"
+            ]
+        },
+        "44414": {
+            "ocel:timestamp": "2024-03-25T10:51:31Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T10:51:31Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "T1",
+                "C1"
+            ]
+        },
+        "44415": {
+            "ocel:timestamp": "2024-03-25T10:51:49Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T10:51:49Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "P1",
+                "C1"
+            ]
+        },
+        "44416": {
+            "ocel:timestamp": "2024-03-25T10:52:17Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T10:52:17Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "L2",
+                "C1"
+            ]
+        },
+        "Handover asset to user_c3f4997d-b341-4306-9875-15afc995e3f1": {
+            "ocel:timestamp": "2024-03-25T10:52:23Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:52:29.622"
+            },
+            "ocel:omap": [
+                "L2",
+                "A2",
+                "C1",
+                "it_working_desk"
+            ]
+        },
+        "Chat_f6093024-f72e-4763-8be1-0be0b7c6c13c": {
+            "ocel:timestamp": "2024-03-25T10:52:37Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:52:41.893"
+            },
+            "ocel:omap": [
+                "A2",
+                "C2",
+                "it_working_desk"
+            ]
+        },
+        "Leave room_f89d8435-0171-4fe2-9d57-368a47cb8e82": {
+            "ocel:timestamp": "2024-03-25T10:52:38Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:52:41.862"
+            },
+            "ocel:omap": [
+                "C1",
+                "door"
+            ]
+        },
+        "Pick asset from warehouse_638cfd53-6e18-447d-81f7-48ff6176636b": {
+            "ocel:timestamp": "2024-03-25T10:52:42Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:52:52.129"
+            },
+            "ocel:omap": [
+                "L3",
+                "A2",
+                "laptop_shelf"
+            ]
+        },
+        "Check asset quality_4b307cb0-bf6d-47da-b47b-4ef9745933a3": {
+            "ocel:timestamp": "2024-03-25T10:52:53Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:53:16.537"
+            },
+            "ocel:omap": [
+                "L3",
+                "A2",
+                "it_working_desk"
+            ]
+        },
+        "44417": {
+            "ocel:timestamp": "2024-03-25T10:53:17Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-09-53-17.pdf"
+            },
+            "ocel:omap": [
+                "T1",
+                "C1"
+            ]
+        },
+        "44418": {
+            "ocel:timestamp": "2024-03-25T10:53:21Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-09-53-21.pdf"
+            },
+            "ocel:omap": [
+                "P1",
+                "C1"
+            ]
+        },
+        "Check-Out asset to user_0e2fbab6-8c9d-415a-a715-d36718244174": {
+            "ocel:timestamp": "2024-03-25T10:53:22Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:53:41.160"
+            },
+            "ocel:omap": [
+                "L3",
+                "A2",
+                "it_working_desk"
+            ]
+        },
+        "44419": {
+            "ocel:timestamp": "2024-03-25T10:53:26Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-09-53-26.pdf"
+            },
+            "ocel:omap": [
+                "L2",
+                "C1"
+            ]
+        },
+        "44420": {
+            "ocel:timestamp": "2024-03-25T10:53:41Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T10:53:41Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "L3",
+                "C2"
+            ]
+        },
+        "Handover asset to user_1a96236e-2caf-4e31-b9b0-a8d30874cc3c": {
+            "ocel:timestamp": "2024-03-25T10:53:41Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:53:44.887"
+            },
+            "ocel:omap": [
+                "L3",
+                "A2",
+                "C2",
+                "it_working_desk"
+            ]
+        },
+        "Leave room_59cc6f87-d908-4ec0-8612-ed733c3bfeb0": {
+            "ocel:timestamp": "2024-03-25T10:53:47Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "9",
+                "end_time": "2024-03-25T10:53:51.193"
+            },
+            "ocel:omap": [
+                "C2",
+                "door"
+            ]
+        },
+        "44421": {
+            "ocel:timestamp": "2024-03-25T10:55:05Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-09-55-05.pdf"
+            },
+            "ocel:omap": [
+                "L3",
+                "C2"
+            ]
+        },
+
+        "Enter room_af79714a-95d3-456e-8239-c94973553af4": {
+            "ocel:timestamp": "2024-03-25T11:19:41Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:19:46.503"
+            },
+            "ocel:omap": [
+                "C4"
+            ]
+        },
+        "Pick asset from warehouse_1e8c2022-f967-46fc-8ce8-db5eb8cfef20": {
+            "ocel:timestamp": "2024-03-25T11:19:58Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:20:08.181"
+            },
+            "ocel:omap": [
+                "M1",
+                "monitor_storage"
+            ]
+        },
+        "Check asset quality_02c44489-ac40-4159-952d-b375c631ddd9": {
+            "ocel:timestamp": "2024-03-25T11:20:10Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:20:31.799"
+            },
+            "ocel:omap": [
+                "M1"
+            ]
+        },
+        "Check-Out asset to user_551aa80c-acb6-44e8-a0ae-c666bedfc7f3": {
+            "ocel:timestamp": "2024-03-25T11:20:33Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:21:17.472"
+            },
+            "ocel:omap": [
+                "M1"
+            ]
+        },
+        "44432": {
+            "ocel:timestamp": "2024-03-25T11:21:17Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:21:17Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "M1",
+                "C4"
+            ]
+        },
+        "Handover asset to user_42b92671-802d-44f7-b802-cef77db93cbc": {
+            "ocel:timestamp": "2024-03-25T11:21:24Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:21:34.350"
+            },
+            "ocel:omap": [
+                "M1",
+                "C4"
+            ]
+        },
+        "Leave room_d773668e-dd1e-4aea-821a-d5a2fe51d19e": {
+            "ocel:timestamp": "2024-03-25T11:21:49Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:21:56.733"
+            },
+            "ocel:omap": [
+                "M1",
+                "C4"
+            ]
+        },
+
+        "Enter room_ebc133ed-e083-4aa0-a2ac-70183920e2c3": {
+            "ocel:timestamp": "2024-03-25T11:22:05Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:22:09.236"
+            },
+            "ocel:omap": [
+                "C5"
+            ]
+        },
+        "Pick asset from warehouse_4eddf2dd-2361-47b4-b37f-c67e7d2794f2": {
+            "ocel:timestamp": "2024-03-25T11:22:19Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:22:26.174"
+            },
+            "ocel:omap": [
+                "M2",
+                "monitor_storage"
+            ]
+        },
+        "Check asset quality_1e2c91a4-ce3b-4817-a0c6-4cca6b9f9788": {
+            "ocel:timestamp": "2024-03-25T11:22:27Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:22:47.214"
+            },
+            "ocel:omap": [
+                "M2"
+            ]
+        },
+        "44433": {
+            "ocel:timestamp": "2024-03-25T11:22:33Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-22-32.pdf"
+            },
+            "ocel:omap": [
+                "M1",
+                "C4"
+            ]
+        },
+        "Check-Out asset to user_58a75340-6257-4dbf-ba73-d0a1b5c05ebd": {
+            "ocel:timestamp": "2024-03-25T11:22:51Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:23:19.042"
+            },
+            "ocel:omap": [
+                "M2"
+            ]
+        },
+        "44434": {
+            "ocel:timestamp": "2024-03-25T11:23:18Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:23:18Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "M2",
+                "C5"
+            ]
+        },
+        "Handover asset to user_ee0da235-09e8-4783-aa4f-65794a63df2d": {
+            "ocel:timestamp": "2024-03-25T11:23:21Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:23:26.433"
+            },
+            "ocel:omap": [
+                "M2",
+                "C5"
+            ]
+        },
+        "Leave room_23f68e86-675a-4fff-a92a-55823c7e693b": {
+            "ocel:timestamp": "2024-03-25T11:23:29Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "12",
+                "end_time": "2024-03-25T11:23:34.241"
+            },
+            "ocel:omap": [
+                "M2",
+                "C5"
+            ]
+        },
+
+
+        "Enter room_7becf455-b6b3-4e5e-b38b-e3ac29e8359e": {
+            "ocel:timestamp": "2024-03-25T11:31:40Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:31:45.010"
+            },
+            "ocel:omap": [
+                "C7"
+            ]
+        },
+        "Chat_9c1d21ce-6696-4308-b073-a9321ec97c73": {
+            "ocel:timestamp": "2024-03-25T11:31:45Z",
+            "ocel:activity": "Chat",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:32:58.398"
+            },
+            "ocel:omap": [
+                "C7"
+            ]
+        },
+        "Pick asset from warehouse_1abcf727-a0c0-4f33-9946-dbcf59ed2dba": {
+            "ocel:timestamp": "2024-03-25T11:33:06Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:33:22.149"
+            },
+            "ocel:omap": [
+                "L16"
+            ]
+        },
+        "Check asset quality_a342483d-26dc-4f82-9a58-d1d53a3609af": {
+            "ocel:timestamp": "2024-03-25T11:33:22Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:33:49.136"
+            },
+            "ocel:omap": [
+                "L16"
+            ]
+        },
+        "Pick asset from warehouse_596ec9ac-7d2e-49e0-bf02-d1782d879075": {
+            "ocel:timestamp": "2024-03-25T11:33:55Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:34:12.246"
+            },
+            "ocel:omap": [
+                "T3",
+                "keyboard_cupboard"
+            ]
+        },
+        "Pick asset from warehouse_b666b1aa-dced-440a-8e97-adbe3b48ad83": {
+            "ocel:timestamp": "2024-03-25T11:34:14Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:34:25.926"
+            },
+            "ocel:omap": [
+                "P2",
+                "mouse_cupboard"
+            ]
+        },
+        "Check asset quality_c7eda897-3d36-42f4-ad13-0af1a5466214": {
+            "ocel:timestamp": "2024-03-25T11:34:27Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:34:31.077"
+            },
+            "ocel:omap": [
+                "T3"
+            ]
+        },
+        "Check asset quality_83b36061-7922-4d4e-adf2-5618fa469e63": {
+            "ocel:timestamp": "2024-03-25T11:34:31Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:34:42.324"
+            },
+            "ocel:omap": [
+                "P2"
+            ]
+        },
+        "Check-Out asset to user_e7340c03-e400-482f-a71b-4ff65f33d5e5": {
+            "ocel:timestamp": "2024-03-25T11:34:44Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:35:13.138"
+            },
+            "ocel:omap": [
+                "L16"
+            ]
+        },
+        "Move asset to storage_e0b6b721-b8bc-4a12-92e4-5c70171ec157": {
+            "ocel:timestamp": "2024-03-25T11:35:14Z",
+            "ocel:activity": "Move asset to storage",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:35:31.309"
+            },
+            "ocel:omap": [
+                "L16"
+            ]
+        },
+        "Pick asset from warehouse_e1ccdaac-a986-4d48-8315-167173af8047": {
+            "ocel:timestamp": "2024-03-25T11:35:32Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:35:45.725"
+            },
+            "ocel:omap": [
+                "L6"
+            ]
+        },
+        "Check-Out asset to user_1ffc71f9-ceaf-4163-ad47-6cf7e057b234": {
+            "ocel:timestamp": "2024-03-25T11:35:46Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:36:42.259"
+            },
+            "ocel:omap": [
+                "L6",
+                "T3",
+                "P2"
+            ]
+        },
+        "44438": {
+            "ocel:timestamp": "2024-03-25T11:36:07Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:36:07Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "L6",
+                "C7"
+            ]
+        },
+        "44439": {
+            "ocel:timestamp": "2024-03-25T11:36:26Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:36:26Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "P2",
+                "C7"
+            ]
+        },
+        "44440": {
+            "ocel:timestamp": "2024-03-25T11:36:43Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:36:43Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "T3",
+                "C7"
+            ]
+        },
+        "Handover asset to user_99ac615e-f7dd-4839-b5a5-04c4b03755b3": {
+            "ocel:timestamp": "2024-03-25T11:36:58Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:37:10.046"
+            },
+            "ocel:omap": [
+                "L6",
+                "T3",
+                "P2",
+                "C7"
+            ]
+        },
+        "Leave room_4201c653-056c-4f45-b50e-5bc12638974a": {
+            "ocel:timestamp": "2024-03-25T11:37:18Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:37:22.824"
+            },
+            "ocel:omap": [
+                "L6",
+                "T3",
+                "P2",
+                "C7"
+            ]
+        },
+        "Enter room_d233f0e3-56bc-4993-80cc-779d7cf3f0c3": {
+            "ocel:timestamp": "2024-03-25T11:38:47Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:38:56.387"
+            },
+            "ocel:omap": [
+                "C8"
+            ]
+        },
+        "Pick asset from warehouse_3b320478-0469-4c4b-b4c9-d135389bc214": {
+            "ocel:timestamp": "2024-03-25T11:39:05Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:39:14.860"
+            },
+            "ocel:omap": [
+                "M3",
+                "monitor_storage"
+            ]
+        },
+        "Check asset quality_48149a36-899a-4408-af9c-be7f9cedab76": {
+            "ocel:timestamp": "2024-03-25T11:39:15Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:39:29.127"
+            },
+            "ocel:omap": [
+                "M3"
+            ]
+        },
+        "44441": {
+            "ocel:timestamp": "2024-03-25T11:39:26Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-39-26.pdf"
+            },
+            "ocel:omap": [
+                "L6",
+                "C7"
+            ]
+        },
+        "44442": {
+            "ocel:timestamp": "2024-03-25T11:39:32Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-39-32.pdf"
+            },
+            "ocel:omap": [
+                "P2",
+                "C7"
+            ]
+        },
+        "Check-Out asset to user_54a00919-3e53-4477-8a4b-6d6f3f7edd3c": {
+            "ocel:timestamp": "2024-03-25T11:39:32Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:40:05.271"
+            },
+            "ocel:omap": [
+                "M3"
+            ]
+        },
+        "44443": {
+            "ocel:timestamp": "2024-03-25T11:39:38Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-39-38.pdf"
+            },
+            "ocel:omap": [
+                "T3",
+                "C7"
+            ]
+        },
+        "44444": {
+            "ocel:timestamp": "2024-03-25T11:40:05Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:40:05Z",
+                "action_source": "gui",
+                "note": "Slightly dirty"
+            },
+            "ocel:omap": [
+                "A2",
+                "M3",
+                "C8"
+            ]
+        },
+        "Handover asset to user_2f2a368e-5118-46af-b7af-a7de427bb32e": {
+            "ocel:timestamp": "2024-03-25T11:40:06Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:40:11.745"
+            },
+            "ocel:omap": [
+                "M3",
+                "C8"
+            ]
+        },
+        "Leave room_e88dbbb5-b38c-4a31-8427-dc2ea7673c7b": {
+            "ocel:timestamp": "2024-03-25T11:40:14Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "13",
+                "end_time": "2024-03-25T11:40:20.920"
+            },
+            "ocel:omap": [
+                "M3",
+                "C8"
+            ]
+        },
+
+
+        "Enter room_1235a930-47e4-4b6f-9442-f2f181d82add": {
+            "ocel:timestamp": "2024-03-25T11:55:47Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:55:51.258"
+            },
+            "ocel:omap": [
+                "C3"
+            ]
+        },
+        "Pick asset from warehouse_dcdfea70-bb94-4198-963c-889b2dae9fe5": {
+            "ocel:timestamp": "2024-03-25T11:56:02Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:56:09.340"
+            },
+            "ocel:omap": [
+                "M4",
+                "monitor_storage"
+            ]
+        },
+        "Check asset quality_7159b2c8-e24d-44b8-86dd-a0a9e4ef520f": {
+            "ocel:timestamp": "2024-03-25T11:56:10Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:56:44.479"
+            },
+            "ocel:omap": [
+                "M4"
+            ]
+        },
+        "Pick asset from warehouse_744b0641-966e-424e-8a2c-e01b24957543": {
+            "ocel:timestamp": "2024-03-25T11:56:49Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:56:54.718"
+            },
+            "ocel:omap": [
+                "M6",
+                "monitor_storage"
+            ]
+        },
+        "Check asset quality_d343f4c1-0388-42d6-b189-b64f74a7ac29": {
+            "ocel:timestamp": "2024-03-25T11:56:55Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:57:00.935"
+            },
+            "ocel:omap": [
+                "M6"
+            ]
+        },
+        "Check-Out asset to user_30f98baa-6e43-411b-b42f-b597ba2b9951": {
+            "ocel:timestamp": "2024-03-25T11:57:10Z",
+            "ocel:activity": "Check-Out asset to user",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:57:43.244"
+            },
+            "ocel:omap": [
+                "M4",
+                "M6"
+            ]
+        },
+        "44455": {
+            "ocel:timestamp": "2024-03-25T11:57:27Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:57:27Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "M4",
+                "C3"
+            ]
+        },
+        "44456": {
+            "ocel:timestamp": "2024-03-25T11:57:43Z",
+            "ocel:activity": "checkout",
+            "ocel:vmap": {
+                "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+                "action_date": "2024-03-25T11:57:43Z",
+                "action_source": "gui"
+            },
+            "ocel:omap": [
+                "A2",
+                "M6",
+                "C3"
+            ]
+        },
+        "Handover asset to user_aa0b1df0-1ba6-4e85-83c2-ee4f53273e11": {
+            "ocel:timestamp": "2024-03-25T11:57:45Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:57:57.785"
+            },
+            "ocel:omap": [
+                "M4",
+                "M6",
+                "C3"
+            ]
+        },
+        "Leave room_d058dd75-aef2-4c1f-bb54-2783c628a40e": {
+            "ocel:timestamp": "2024-03-25T11:58:00Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:58:07.526"
+            },
+            "ocel:omap": [
+                "M4",
+                "M6",
+                "C3"
+            ]
+        },
+        "44457": {
+            "ocel:timestamp": "2024-03-25T11:58:46Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-58-46.pdf"
+            },
+            "ocel:omap": [
+                "M4",
+                "C3"
+            ]
+        },
+        "44458": {
+            "ocel:timestamp": "2024-03-25T11:58:50Z",
+            "ocel:activity": "accepted",
+            "ocel:vmap": {
+                "filename": "accepted-eula-2024-03-25-10-58-50.pdf"
+            },
+            "ocel:omap": [
+                "M6",
+                "C3"
+            ]
+        },
+        "Enter room_0e3b8cbf-0f86-413d-847a-24c8e625a842": {
+            "ocel:timestamp": "2024-03-25T11:59:45Z",
+            "ocel:activity": "Enter room",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T11:59:50.018"
+            },
+            "ocel:omap": [
+                "C2"
+            ]
+        },
+
+        "Pick asset from warehouse_81291096-4b08-4b05-8245-00ebfb8cb549": {
+            "ocel:timestamp": "2024-03-25T12:00:26Z",
+            "ocel:activity": "Pick asset from warehouse",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T12:00:40.648"
+            },
+            "ocel:omap": [
+                "T2",
+                "keyboard_cupboard"
+            ]
+        },
+        "Check asset quality_5118e455-7101-4880-bf5b-fce5d91150d5": {
+            "ocel:timestamp": "2024-03-25T12:00:42Z",
+            "ocel:activity": "Check asset quality",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T12:00:51.406"
+            },
+            "ocel:omap": [
+                "T2"
+            ]
+        },
+        "Handover asset to user_fe228771-b38a-4178-a64a-e2bffcab3234": {
+            "ocel:timestamp": "2024-03-25T12:00:51Z",
+            "ocel:activity": "Handover asset to user",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T12:00:53.416"
+            },
+            "ocel:omap": [
+                "T2",
+                "C2"
+            ]
+        },
+        "Leave room_c0dbf2f8-ed90-44ce-940c-3b978f555c65": {
+            "ocel:timestamp": "2024-03-25T12:00:54Z",
+            "ocel:activity": "Leave room",
+            "ocel:vmap": {
+                "scene": "15",
+                "end_time": "2024-03-25T12:00:58.234"
+            },
+            "ocel:omap": [
+                "C2"
+            ]
+        }
+     },
+    "ocel:objects": {
+        "A1": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "L1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "C1": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "P2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "M1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "C2": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "P3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "C6": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "L2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "P1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "Webcam USB": {
+            "ocel:type": "item_accessory",
+            "ocel:ovmap": {
+                "obj.type": "item_accessory",
+                "obj.relationType": "item",
+                "obj.id_full": "item_accessory_68",
+                "obj.link": "accessories/68",
+                "obj.id": "Webcam USB"
+            }
+        },
+        "L5": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "L3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "C5": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "Headset USB": {
+            "ocel:type": "item_accessory",
+            "ocel:ovmap": {
+                "obj.type": "item_accessory",
+                "obj.relationType": "item",
+                "obj.id_full": "item_accessory_67",
+                "obj.link": "accessories/67",
+                "obj.id": "Headset USB"
+            }
+        },
+        "C4": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "C10": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "client10@fim-rc.de",
+                "first_name": "Client 10",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_1015",
+                "obj.link": "users/1015",
+                "obj.id": "C10"
+            }
+        },
+        "L6": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "A2": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "C3": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "T1": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "C9": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {
+                "email": "client9@fim-rc.de",
+                "first_name": "Client 9",
+                "obj.type": "admin_user",
+                "obj.relationType": "admin",
+                "obj.id_full": "admin_user_1054",
+                "obj.link": "users/1054",
+                "obj.id": "C9"
+            }
+        },
+        "L4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_6058",
+                "obj.link": "hardware/6058",
+                "obj.id": "L4",
+                "name": "molly",
+                "asset_tag": "L4",
+                "physical": "1",
+                "last_checkout": "2024-03-25T11:11:45Z",
+                "last_checkin": "2024-03-24T09:58:57Z",
+                "checkin_counter": "1",
+                "checkout_counter": "2",
+                "model.name": "Latitude E7450",
+                "model.manufacturer.name": "Dell"
+            }
+        },
+        "M2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "C7": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "T3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "M3": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "C8": {
+            "ocel:type": "admin_user",
+            "ocel:ovmap": {}
+        },
+        "P9": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {
+                "obj.type": "item_asset",
+                "obj.relationType": "item",
+                "obj.id_full": "item_asset_10202",
+                "obj.link": "hardware/10202",
+                "obj.id": "P9",
+                "asset_tag": "P9",
+                "physical": "1",
+                "last_checkin": "2024-03-25T15:15:26Z",
+                "checkin_counter": "1",
+                "checkout_counter": "1",
+                "model.name": "Logitech M500s",
+                "model.manufacturer.name": "Logitech"
+            }
+        },
+        "M4": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "M6": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "door": {
+            "ocel:type": "door",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "it_working_desk": {
+            "ocel:type": "it_working_desk",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "laptop_shelf": {
+            "ocel:type": "laptop_shelf",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "mouse_cupboard": {
+            "ocel:type": "mouse_cupboard",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "monitor_storage": {
+            "ocel:type": "monitor_storage",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "keyboard_cupboard": {
+            "ocel:type": "keyboard_cupboard",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
+        "L16": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        },
+        "T2": {
+            "ocel:type": "item_asset",
+            "ocel:ovmap": {}
+        }
+    }
+}
