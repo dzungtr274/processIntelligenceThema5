@@ -1,0 +1,2484 @@
+{
+  "ocel:global-log": {
+    "ocel:version": "1.0",
+    "ocel:object-types": [
+      "target_user",
+      "item_accessory",
+      "item_asset",
+      "admin_user"
+    ],
+    "ocel:attribute-names": [
+      "asset_tag",
+      "note",
+      "action_source",
+      "log_meta",
+      "model.manufacturer.name",
+      "action_date",
+      "last_checkin",
+      "obj.id_full",
+      "obj.id",
+      "obj.link",
+      "filename",
+      "model.name",
+      "obj.type",
+      "last_checkout",
+      "checkin_counter",
+      "checkout_counter",
+      "name",
+      "obj.relationType",
+      "requestable",
+      "physical",
+      "first_name",
+      "email"
+    ],
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44543": {
+      "ocel:timestamp": "2024-03-25T16:57:45Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L9",
+        "L9",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-03-57-45.pdf"}
+    },
+    "44425": {
+      "ocel:timestamp": "2024-03-25T11:05:17Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:05:17Z"
+      }
+    },
+    "44546": {
+      "ocel:timestamp": "2024-03-25T16:59:28Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:59:28Z"
+      }
+    },
+    "44424": {
+      "ocel:timestamp": "2024-03-25T11:04:59Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:04:59Z"
+      }
+    },
+    "44545": {
+      "ocel:timestamp": "2024-03-25T16:58:21Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "C5",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-03-58-21.pdf"}
+    },
+    "44540": {
+      "ocel:timestamp": "2024-03-25T16:51:36Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L9",
+        "L9",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T16:51:36Z"
+      }
+    },
+    "44386": {
+      "ocel:timestamp": "2024-03-25T08:55:38Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C6",
+        "L2",
+        "L2",
+        "C6"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-07-55-38.pdf"}
+    },
+    "44385": {
+      "ocel:timestamp": "2024-03-25T08:54:32Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L2",
+        "A1",
+        "A1",
+        "L2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:54:32Z"
+      }
+    },
+    "44421": {
+      "ocel:timestamp": "2024-03-25T10:55:05Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L3",
+        "L3",
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-09-55-05.pdf"}
+    },
+    "44542": {
+      "ocel:timestamp": "2024-03-25T16:55:29Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:55:29Z"
+      }
+    },
+    "44420": {
+      "ocel:timestamp": "2024-03-25T10:53:41Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L3",
+        "L3",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:53:41Z"
+      }
+    },
+    "44541": {
+      "ocel:timestamp": "2024-03-25T16:54:02Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:54:02Z"
+      }
+    },
+    "44387": {
+      "ocel:timestamp": "2024-03-25T08:55:54Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C6",
+        "P3",
+        "P3",
+        "C6"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-07-55-54.pdf"}
+    },
+    "44427": {
+      "ocel:timestamp": "2024-03-25T11:11:45Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L4",
+        "A2",
+        "L4",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:11:45Z"
+      }
+    },
+    "44548": {
+      "ocel:timestamp": "2024-03-25T17:01:18Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "T4",
+        "A1",
+        "A1",
+        "C5",
+        "T4"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:01:18Z"
+      }
+    },
+    "44426": {
+      "ocel:timestamp": "2024-03-25T11:10:33Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Returned because of bluescreen",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:10:33Z"
+      }
+    },
+    "44547": {
+      "ocel:timestamp": "2024-03-25T17:01:07Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "T3",
+        "A1",
+        "A1",
+        "C5",
+        "T3"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:01:07Z"
+      }
+    },
+    "44429": {
+      "ocel:timestamp": "2024-03-25T11:14:52Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C3",
+        "C3",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-14-52.pdf"}
+    },
+    "44428": {
+      "ocel:timestamp": "2024-03-25T11:14:48Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C3",
+        "L4",
+        "C3",
+        "L4"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-14-48.pdf"}
+    },
+    "44549": {
+      "ocel:timestamp": "2024-03-25T17:01:40Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P13",
+        "C5",
+        "A1",
+        "A1",
+        "P13",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:01:40Z"
+      }
+    },
+    "44382": {
+      "ocel:timestamp": "2024-03-25T08:52:29Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "M1",
+        "A1",
+        "A1",
+        "M1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:52:29Z"
+      }
+    },
+    "44381": {
+      "ocel:timestamp": "2024-03-25T08:51:47Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L1",
+        "C1",
+        "C1",
+        "L1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-07-51-47.pdf"}
+    },
+    "44384": {
+      "ocel:timestamp": "2024-03-25T08:54:14Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P3",
+        "P3",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:54:14Z"
+      }
+    },
+    "44383": {
+      "ocel:timestamp": "2024-03-25T08:53:12Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "M1",
+        "C2",
+        "C2",
+        "M1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-07-53-12.pdf"}
+    },
+    "44380": {
+      "ocel:timestamp": "2024-03-25T08:51:36Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "P2",
+        "C1",
+        "C1",
+        "P2"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-07-51-36.pdf"}
+    },
+    "44412": {
+      "ocel:timestamp": "2024-03-25T10:47:22Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L1",
+        "A2",
+        "L1",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Mousepad slightly dirty",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:47:22Z"
+      }
+    },
+    "44533": {
+      "ocel:timestamp": "2024-03-25T16:43:17Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L8",
+        "C5",
+        "C5",
+        "L8"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-03-43-16.pdf"}
+    },
+    "44379": {
+      "ocel:timestamp": "2024-03-25T08:50:47Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P2",
+        "A1",
+        "A1",
+        "P2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:50:47Z"
+      }
+    },
+    "44411": {
+      "ocel:timestamp": "2024-03-25T09:55:50Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:55:50Z"
+      }
+    },
+    "44532": {
+      "ocel:timestamp": "2024-03-25T16:42:58Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:42:58Z"
+      }
+    },
+    "44378": {
+      "ocel:timestamp": "2024-03-25T08:50:29Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L1",
+        "A1",
+        "A1",
+        "L1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:50:29Z"
+      }
+    },
+    "44499": {
+      "ocel:timestamp": "2024-03-25T14:01:25Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C4",
+        "L6",
+        "C4",
+        "L6"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-01-01-25.pdf"}
+    },
+    "44414": {
+      "ocel:timestamp": "2024-03-25T10:51:31Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "T1",
+        "T1",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:51:31Z"
+      }
+    },
+    "44535": {
+      "ocel:timestamp": "2024-03-25T16:43:53Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-03-43-53.pdf"}
+    },
+    "44413": {
+      "ocel:timestamp": "2024-03-25T10:48:36Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C3",
+        "L1",
+        "C3",
+        "L1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-09-48-36.pdf"}
+    },
+    "44534": {
+      "ocel:timestamp": "2024-03-25T16:43:24Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "C5",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-03-43-24.pdf"}
+    },
+    "44496": {
+      "ocel:timestamp": "2024-03-25T14:00:00Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P5",
+        "A1",
+        "A1",
+        "P5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T14:00:00Z"
+      }
+    },
+    "44495": {
+      "ocel:timestamp": "2024-03-25T13:58:46Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C4",
+        "L6",
+        "C4",
+        "L6",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:58:46Z"
+      }
+    },
+    "44410": {
+      "ocel:timestamp": "2024-03-25T09:55:27Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:55:27Z"
+      }
+    },
+    "44531": {
+      "ocel:timestamp": "2024-03-25T16:42:29Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:42:29Z"
+      }
+    },
+    "44498": {
+      "ocel:timestamp": "2024-03-25T14:01:08Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L1",
+        "C10",
+        "C10",
+        "L1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-01-01-08.pdf"}
+    },
+    "44530": {
+      "ocel:timestamp": "2024-03-25T16:41:44Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L8",
+        "C5",
+        "A1",
+        "A1",
+        "C5",
+        "L8"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T16:41:44Z"
+      }
+    },
+    "44497": {
+      "ocel:timestamp": "2024-03-25T14:00:38Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T14:00:38Z"
+      }
+    },
+    "44419": {
+      "ocel:timestamp": "2024-03-25T10:53:26Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L2",
+        "C1",
+        "C1",
+        "L2"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-09-53-26.pdf"}
+    },
+    "44416": {
+      "ocel:timestamp": "2024-03-25T10:52:17Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L2",
+        "A2",
+        "L2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:52:17Z"
+      }
+    },
+    "44537": {
+      "ocel:timestamp": "2024-03-25T16:47:35Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:47:35Z"
+      }
+    },
+    "44415": {
+      "ocel:timestamp": "2024-03-25T10:51:49Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P1",
+        "P1",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:51:49Z"
+      }
+    },
+    "44536": {
+      "ocel:timestamp": "2024-03-25T16:46:53Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "C10",
+        "A1",
+        "C10"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:46:53Z"
+      }
+    },
+    "44418": {
+      "ocel:timestamp": "2024-03-25T10:53:21Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "P1",
+        "P1",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-09-53-21.pdf"}
+    },
+    "44539": {
+      "ocel:timestamp": "2024-03-25T16:51:22Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "keyboard broken \"e\" key",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:51:22Z"
+      }
+    },
+    "44417": {
+      "ocel:timestamp": "2024-03-25T10:53:17Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "T1",
+        "T1",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-09-53-17.pdf"}
+    },
+    "44538": {
+      "ocel:timestamp": "2024-03-25T16:48:10Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:48:10Z"
+      }
+    },
+    "44491": {
+      "ocel:timestamp": "2024-03-25T13:48:56Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "T7",
+        "C5",
+        "T7"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-48-56.pdf"}
+    },
+    "44494": {
+      "ocel:timestamp": "2024-03-25T13:56:43Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L1",
+        "A1",
+        "C10",
+        "A1",
+        "C10",
+        "L1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:56:42Z"
+      }
+    },
+    "44493": {
+      "ocel:timestamp": "2024-03-25T13:51:02Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "BT1206",
+        "C5",
+        "BT1206",
+        "C5"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-51-02.pdf"}
+    },
+    "44490": {
+      "ocel:timestamp": "2024-03-25T13:48:14Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "T7",
+        "A1",
+        "C5",
+        "T7"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:48:14Z"
+      }
+    },
+    "44401": {
+      "ocel:timestamp": "2024-03-25T09:25:02Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C4",
+        "Webcam USB",
+        "Webcam USB",
+        "C4"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:25:02Z"
+      }
+    },
+    "44522": {
+      "ocel:timestamp": "2024-03-25T15:29:24Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T15:29:24Z"
+      }
+    },
+    "44489": {
+      "ocel:timestamp": "2024-03-25T13:47:27Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "note": "defect",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:47:27Z"
+      }
+    },
+    "44400": {
+      "ocel:timestamp": "2024-03-25T09:23:00Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:23:00Z"
+      }
+    },
+    "44521": {
+      "ocel:timestamp": "2024-03-25T15:28:19Z",
+      "ocel:activity": "declined",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "L3",
+        "L3"
+      ],
+      "ocel:vmap": {}
+    },
+    "44524": {
+      "ocel:timestamp": "2024-03-25T15:32:23Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "C5",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T15:32:23Z"
+      }
+    },
+    "44402": {
+      "ocel:timestamp": "2024-03-25T09:26:58Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C4",
+        "Webcam USB",
+        "Webcam USB",
+        "C4"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-08-26-58.pdf"}
+    },
+    "44523": {
+      "ocel:timestamp": "2024-03-25T15:30:51Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C9",
+        "Webcam USB",
+        "Webcam USB",
+        "C9",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T15:30:51Z"
+      }
+    },
+    "44485": {
+      "ocel:timestamp": "2024-03-25T13:41:58Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "T4",
+        "A1",
+        "A1",
+        "C5",
+        "T4"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:41:58Z"
+      }
+    },
+    "44484": {
+      "ocel:timestamp": "2024-03-25T13:39:00Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:39:00Z"
+      }
+    },
+    "44520": {
+      "ocel:timestamp": "2024-03-25T15:27:58Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "L3",
+        "L3",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:27:58Z"
+      }
+    },
+    "44487": {
+      "ocel:timestamp": "2024-03-25T13:45:34Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C10",
+        "C10",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T13:45:34Z"
+      }
+    },
+    "44486": {
+      "ocel:timestamp": "2024-03-25T13:42:42Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "T4",
+        "C5",
+        "T4"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-42-41.pdf"}
+    },
+    "44529": {
+      "ocel:timestamp": "2024-03-25T15:42:01Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "L18",
+        "L18"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-02-42-00.pdf"}
+    },
+    "44404": {
+      "ocel:timestamp": "2024-03-25T09:28:45Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C10",
+        "C10",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:28:45Z"
+      }
+    },
+    "44525": {
+      "ocel:timestamp": "2024-03-25T15:32:46Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C9",
+        "Webcam USB",
+        "Webcam USB",
+        "C9"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-02-32-46.pdf"}
+    },
+    "44407": {
+      "ocel:timestamp": "2024-03-25T09:36:28Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "was returned quite dirty. ",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:28Z"
+      }
+    },
+    "44406": {
+      "ocel:timestamp": "2024-03-25T09:36:08Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:08Z"
+      }
+    },
+    "44527": {
+      "ocel:timestamp": "2024-03-25T15:35:34Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "L18",
+        "A2",
+        "L18",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:35:34Z"
+      }
+    },
+    "44480": {
+      "ocel:timestamp": "2024-03-25T13:35:07Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C9",
+        "P4",
+        "C9",
+        "P4"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-35-07.pdf"}
+    },
+    "44483": {
+      "ocel:timestamp": "2024-03-25T13:38:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "defect after client had it. ",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:38:18Z"
+      }
+    },
+    "44511": {
+      "ocel:timestamp": "2024-03-25T15:02:34Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-02-02-34.pdf"}
+    },
+    "44478": {
+      "ocel:timestamp": "2024-03-25T13:33:02Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C9",
+        "P4",
+        "C9",
+        "A1",
+        "A1",
+        "P4"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:33:02Z"
+      }
+    },
+    "44510": {
+      "ocel:timestamp": "2024-03-25T15:02:16Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "T5",
+        "C8",
+        "C8",
+        "T5"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-02-02-16.pdf"}
+    },
+    "44512": {
+      "ocel:timestamp": "2024-03-25T15:03:04Z",
+      "ocel:activity": "declined",
+      "ocel:omap": [
+        "C7",
+        "M5",
+        "M5",
+        "C7"
+      ],
+      "ocel:vmap": {}
+    },
+    "44474": {
+      "ocel:timestamp": "2024-03-25T13:26:16Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "client notices the mous does not work",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:26:16Z"
+      }
+    },
+    "44476": {
+      "ocel:timestamp": "2024-03-25T13:27:35Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "P3",
+        "P3",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-27-35.pdf"}
+    },
+    "44475": {
+      "ocel:timestamp": "2024-03-25T13:26:59Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P3",
+        "P3",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:26:59Z"
+      }
+    },
+    "44515": {
+      "ocel:timestamp": "2024-03-25T15:14:08Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "A2",
+        "M7",
+        "M7",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:14:08Z"
+      }
+    },
+    "44517": {
+      "ocel:timestamp": "2024-03-25T15:15:26Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T15:15:26Z"
+      }
+    },
+    "44516": {
+      "ocel:timestamp": "2024-03-25T15:14:54Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C7",
+        "M7",
+        "M7",
+        "C7"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-02-14-54.pdf"}
+    },
+    "44470": {
+      "ocel:timestamp": "2024-03-25T13:20:57Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L17",
+        "L17",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:20:57Z"
+      }
+    },
+    "44471": {
+      "ocel:timestamp": "2024-03-25T13:21:43Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L17",
+        "C6",
+        "L17",
+        "C6"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-21-43.pdf"}
+    },
+    "44500": {
+      "ocel:timestamp": "2024-03-25T14:01:48Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C2",
+        "C2",
+        "P5",
+        "P5"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-01-01-47.pdf"}
+    },
+    "44467": {
+      "ocel:timestamp": "2024-03-25T13:18:08Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P1",
+        "P1",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "client dropped the mouse in sight",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:18:08Z"
+      }
+    },
+    "44466": {
+      "ocel:timestamp": "2024-03-25T13:17:42Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C2",
+        "C2",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-17-42.pdf"}
+    },
+    "44502": {
+      "ocel:timestamp": "2024-03-25T14:06:26Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T14:06:26Z"
+      }
+    },
+    "44501": {
+      "ocel:timestamp": "2024-03-25T14:02:18Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-01-02-18.pdf"}
+    },
+    "44468": {
+      "ocel:timestamp": "2024-03-25T13:18:53Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "P1",
+        "P1",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-12-18-52.pdf"}
+    },
+    "44463": {
+      "ocel:timestamp": "2024-03-25T13:15:59Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L3",
+        "L3",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:15:59Z"
+      }
+    },
+    "44465": {
+      "ocel:timestamp": "2024-03-25T13:16:48Z",
+      "ocel:activity": "declined",
+      "ocel:omap": [
+        "C6",
+        "L3",
+        "L3",
+        "C6"
+      ],
+      "ocel:vmap": {}
+    },
+    "44464": {
+      "ocel:timestamp": "2024-03-25T13:16:11Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T13:16:11Z"
+      }
+    },
+    "44508": {
+      "ocel:timestamp": "2024-03-25T15:00:22Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T15:00:22Z"
+      }
+    },
+    "44507": {
+      "ocel:timestamp": "2024-03-25T15:00:13Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "T5",
+        "T5",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:00:13Z"
+      }
+    },
+    "44509": {
+      "ocel:timestamp": "2024-03-25T15:02:09Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "M5",
+        "A2",
+        "M5",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:02:09Z"
+      }
+    },
+    "44503": {
+      "ocel:timestamp": "2024-03-25T14:09:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "returned in good condition",
+        "action_source": "gui",
+        "action_date": "2024-03-25T14:09:18Z"
+      }
+    },
+    "44506": {
+      "ocel:timestamp": "2024-03-25T14:17:23Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "C5",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-01-17-23.pdf"}
+    },
+    "44580": {
+      "ocel:timestamp": "2024-03-25T17:40:19Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "T1",
+        "T1",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-40-18.pdf"}
+    },
+    "44582": {
+      "ocel:timestamp": "2024-03-25T17:42:23Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:42:23Z"
+      }
+    },
+    "44460": {
+      "ocel:timestamp": "2024-03-25T12:01:56Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T12:01:56Z"
+      }
+    },
+    "44581": {
+      "ocel:timestamp": "2024-03-25T17:41:19Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:41:19Z"
+      }
+    },
+    "44456": {
+      "ocel:timestamp": "2024-03-25T11:57:43Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "M6",
+        "M6",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:57:43Z"
+      }
+    },
+    "44577": {
+      "ocel:timestamp": "2024-03-25T17:39:06Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:39:06Z"
+      }
+    },
+    "44455": {
+      "ocel:timestamp": "2024-03-25T11:57:27Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "M4",
+        "A2",
+        "M4",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:57:27Z"
+      }
+    },
+    "44576": {
+      "ocel:timestamp": "2024-03-25T17:37:49Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:37:49Z"
+      }
+    },
+    "44458": {
+      "ocel:timestamp": "2024-03-25T11:58:50Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C3",
+        "M6",
+        "M6",
+        "C3"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-58-50.pdf"}
+    },
+    "44579": {
+      "ocel:timestamp": "2024-03-25T17:40:15Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C1",
+        "C1",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-40-14.pdf"}
+    },
+    "44457": {
+      "ocel:timestamp": "2024-03-25T11:58:46Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C3",
+        "M4",
+        "C3",
+        "M4"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-58-46.pdf"}
+    },
+    "44578": {
+      "ocel:timestamp": "2024-03-25T17:39:54Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-39-54.pdf"}
+    },
+    "44452": {
+      "ocel:timestamp": "2024-03-25T11:50:42Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "P9",
+        "P9",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-50-42.pdf"}
+    },
+    "44573": {
+      "ocel:timestamp": "2024-03-25T17:30:42Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "M9",
+        "M9",
+        "C10",
+        "C10"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-30-42.pdf"}
+    },
+    "44451": {
+      "ocel:timestamp": "2024-03-25T11:49:33Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P9",
+        "A2",
+        "P9",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:49:33Z"
+      }
+    },
+    "44572": {
+      "ocel:timestamp": "2024-03-25T17:29:58Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "M9",
+        "M9",
+        "A1",
+        "C10",
+        "A1",
+        "C10"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:29:58Z"
+      }
+    },
+    "44575": {
+      "ocel:timestamp": "2024-03-25T17:31:35Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "T1",
+        "T1",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:31:35Z"
+      }
+    },
+    "44453": {
+      "ocel:timestamp": "2024-03-25T11:51:57Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "Webcam USB",
+        "C3",
+        "Webcam USB",
+        "C3"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-51-57.pdf"}
+    },
+    "44574": {
+      "ocel:timestamp": "2024-03-25T17:31:02Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "00712",
+        "C5",
+        "00712"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-31-02.pdf"}
+    },
+    "44450": {
+      "ocel:timestamp": "2024-03-25T11:48:25Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Mouse not working",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:48:25Z"
+      }
+    },
+    "44571": {
+      "ocel:timestamp": "2024-03-25T17:29:05Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "C10",
+        "A1",
+        "C10"
+      ],
+      "ocel:vmap": {
+        "note": "does not work",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:29:05Z"
+      }
+    },
+    "44570": {
+      "ocel:timestamp": "2024-03-25T17:28:30Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:28:30Z"
+      }
+    },
+    "44445": {
+      "ocel:timestamp": "2024-03-25T11:41:50Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Screen not working",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:41:50Z"
+      }
+    },
+    "44566": {
+      "ocel:timestamp": "2024-03-25T17:18:15Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C2",
+        "C2",
+        "M8",
+        "M8"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-18-14.pdf"}
+    },
+    "44444": {
+      "ocel:timestamp": "2024-03-25T11:40:05Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "M3",
+        "A2",
+        "M3",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Slightly dirty",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:40:05Z"
+      }
+    },
+    "44565": {
+      "ocel:timestamp": "2024-03-25T17:17:21Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "A1",
+        "M8",
+        "A1",
+        "M8"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:17:21Z"
+      }
+    },
+    "44447": {
+      "ocel:timestamp": "2024-03-25T11:43:02Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L1",
+        "A2",
+        "L1",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:43:02Z"
+      }
+    },
+    "44568": {
+      "ocel:timestamp": "2024-03-25T17:21:17Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "L1",
+        "L1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-21-17.pdf"}
+    },
+    "44446": {
+      "ocel:timestamp": "2024-03-25T11:42:39Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:42:39Z"
+      }
+    },
+    "44567": {
+      "ocel:timestamp": "2024-03-25T17:19:16Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "L1",
+        "A1",
+        "A1",
+        "L1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:19:16Z"
+      }
+    },
+    "44441": {
+      "ocel:timestamp": "2024-03-25T11:39:26Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C7",
+        "L6",
+        "L6",
+        "C7"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-39-26.pdf"}
+    },
+    "44562": {
+      "ocel:timestamp": "2024-03-25T17:11:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "C10",
+        "A1",
+        "C10"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:11:18Z"
+      }
+    },
+    "44440": {
+      "ocel:timestamp": "2024-03-25T11:36:43Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "T3",
+        "A2",
+        "A2",
+        "T3"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:36:43Z"
+      }
+    },
+    "44561": {
+      "ocel:timestamp": "2024-03-25T17:10:22Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:10:22Z"
+      }
+    },
+    "44443": {
+      "ocel:timestamp": "2024-03-25T11:39:38Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C7",
+        "T3",
+        "C7",
+        "T3"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-39-38.pdf"}
+    },
+    "44564": {
+      "ocel:timestamp": "2024-03-25T17:16:56Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "M1",
+        "C10",
+        "C10",
+        "M1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-16-56.pdf"}
+    },
+    "44442": {
+      "ocel:timestamp": "2024-03-25T11:39:32Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C7",
+        "P2",
+        "P2",
+        "C7"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-39-32.pdf"}
+    },
+    "44563": {
+      "ocel:timestamp": "2024-03-25T17:15:51Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "M1",
+        "A1",
+        "C10",
+        "A1",
+        "C10",
+        "M1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:15:51Z"
+      }
+    },
+    "44449": {
+      "ocel:timestamp": "2024-03-25T11:44:16Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C8",
+        "C8",
+        "M3",
+        "M3"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-44-16.pdf"}
+    },
+    "44448": {
+      "ocel:timestamp": "2024-03-25T11:43:59Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L1",
+        "C2",
+        "C2",
+        "L1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-43-58.pdf"}
+    },
+    "44569": {
+      "ocel:timestamp": "2024-03-25T17:27:57Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:27:57Z"
+      }
+    },
+    "44560": {
+      "ocel:timestamp": "2024-03-25T17:08:45Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:45Z"
+      }
+    },
+    "44434": {
+      "ocel:timestamp": "2024-03-25T11:23:18Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "M2",
+        "M2",
+        "A2",
+        "C5",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:23:18Z"
+      }
+    },
+    "44555": {
+      "ocel:timestamp": "2024-03-25T17:04:00Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "P13",
+        "C5",
+        "P13",
+        "C5"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-04-00.pdf"}
+    },
+    "44433": {
+      "ocel:timestamp": "2024-03-25T11:22:33Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C4",
+        "M1",
+        "C4",
+        "M1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-22-32.pdf"}
+    },
+    "44554": {
+      "ocel:timestamp": "2024-03-25T17:03:56Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "T4",
+        "C5",
+        "T4"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-03-56.pdf"}
+    },
+    "44436": {
+      "ocel:timestamp": "2024-03-25T11:27:43Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:27:43Z"
+      }
+    },
+    "44557": {
+      "ocel:timestamp": "2024-03-25T17:04:26Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-04-25.pdf"}
+    },
+    "44435": {
+      "ocel:timestamp": "2024-03-25T11:26:20Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:26:20Z"
+      }
+    },
+    "44556": {
+      "ocel:timestamp": "2024-03-25T17:04:05Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "C5",
+        "P14",
+        "P14"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-04-04.pdf"}
+    },
+    "44397": {
+      "ocel:timestamp": "2024-03-25T09:17:00Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:17:00Z"
+      }
+    },
+    "44430": {
+      "ocel:timestamp": "2024-03-25T11:15:16Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-15-16.pdf"}
+    },
+    "44551": {
+      "ocel:timestamp": "2024-03-25T17:03:08Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:03:08Z"
+      }
+    },
+    "44396": {
+      "ocel:timestamp": "2024-03-25T09:15:48Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-08-15-48.pdf"}
+    },
+    "44550": {
+      "ocel:timestamp": "2024-03-25T17:01:53Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5",
+        "P14",
+        "P14"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:01:53Z"
+      }
+    },
+    "44432": {
+      "ocel:timestamp": "2024-03-25T11:21:17Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C4",
+        "M1",
+        "C4",
+        "A2",
+        "M1",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:21:17Z"
+      }
+    },
+    "44553": {
+      "ocel:timestamp": "2024-03-25T17:03:52Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "T3",
+        "C5",
+        "T3"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-03-52.pdf"}
+    },
+    "44398": {
+      "ocel:timestamp": "2024-03-25T09:18:06Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C6",
+        "Headset USB",
+        "Headset USB",
+        "C6"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-08-18-06.pdf"}
+    },
+    "44552": {
+      "ocel:timestamp": "2024-03-25T17:03:34Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C8",
+        "C8",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-04-03-34.pdf"}
+    },
+    "44438": {
+      "ocel:timestamp": "2024-03-25T11:36:07Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L6",
+        "A2",
+        "L6",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:36:07Z"
+      }
+    },
+    "44559": {
+      "ocel:timestamp": "2024-03-25T17:08:37Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:37Z"
+      }
+    },
+    "44437": {
+      "ocel:timestamp": "2024-03-25T11:27:44Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "C5",
+        "M2",
+        "M2",
+        "C5"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-10-27-44.pdf"}
+    },
+    "44558": {
+      "ocel:timestamp": "2024-03-25T17:08:21Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C5",
+        "A1",
+        "A1",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:21Z"
+      }
+    },
+    "44439": {
+      "ocel:timestamp": "2024-03-25T11:36:26Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "P2",
+        "A2",
+        "P2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:36:26Z"
+      }
+    },
+    "44393": {
+      "ocel:timestamp": "2024-03-25T09:12:21Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "L3",
+        "L3",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T09:12:21Z"
+      }
+    },
+    "44392": {
+      "ocel:timestamp": "2024-03-25T09:11:10Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "checked in for repair by client 1",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:11:10Z"
+      }
+    },
+    "44395": {
+      "ocel:timestamp": "2024-03-25T09:14:37Z",
+      "ocel:activity": "accepted",
+      "ocel:omap": [
+        "L3",
+        "L3",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {"filename": "accepted-eula-2024-03-25-08-14-37.pdf"}
+    },
+    "44394": {
+      "ocel:timestamp": "2024-03-25T09:13:56Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:13:56Z"
+      }
+    }
+  },
+  "ocel:global-event": {"ocel:activity": "__INVALID__"},
+  "ocel:objects": {
+    "M1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M2": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M4": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M5": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M6": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M7": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M8": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "M9": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "C1": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "Headset USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {}
+    },
+    "C2": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C3": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "A2": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C4": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C5": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C6": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C7": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C8": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C9": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "Webcam USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {}
+    },
+    "T1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "T3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "T4": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "P1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "T5": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "P2": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "C10": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "P3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "T7": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "00712": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "P4": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "P5": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L2": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L4": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "P9": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L6": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L8": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L9": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "BT1206": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L18": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "P14": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "P13": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L17": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    }
+  },
+  "ocel:global-object": {"ocel:type": "__INVALID__"}
+}

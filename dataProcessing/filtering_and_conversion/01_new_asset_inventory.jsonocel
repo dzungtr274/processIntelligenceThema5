@@ -1,0 +1,669 @@
+{
+  "ocel:global-log": {
+    "ocel:version": "1.0",
+    "ocel:object-types": [
+      "target_user",
+      "item_accessory",
+      "item_asset",
+      "admin_user"
+    ],
+    "ocel:attribute-names": [
+      "asset_tag",
+      "note",
+      "action_source",
+      "log_meta",
+      "model.manufacturer.name",
+      "action_date",
+      "last_checkin",
+      "obj.id_full",
+      "obj.id",
+      "obj.link",
+      "filename",
+      "model.name",
+      "obj.type",
+      "last_checkout",
+      "checkin_counter",
+      "checkout_counter",
+      "name",
+      "obj.relationType",
+      "requestable",
+      "physical",
+      "first_name",
+      "email"
+    ],
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44522": {
+      "ocel:timestamp": "2024-03-25T15:29:24Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T15:29:24Z"
+      }
+    },
+    "44489": {
+      "ocel:timestamp": "2024-03-25T13:47:27Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "note": "defect",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:47:27Z"
+      }
+    },
+    "44445": {
+      "ocel:timestamp": "2024-03-25T11:41:50Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Screen not working",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:41:50Z"
+      }
+    },
+    "44400": {
+      "ocel:timestamp": "2024-03-25T09:23:00Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:23:00Z"
+      }
+    },
+    "44562": {
+      "ocel:timestamp": "2024-03-25T17:11:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C10",
+        "C10"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:11:18Z"
+      }
+    },
+    "44484": {
+      "ocel:timestamp": "2024-03-25T13:39:00Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:39:00Z"
+      }
+    },
+    "44462": {
+      "ocel:timestamp": "2024-03-25T13:10:41Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "L16",
+        "A2",
+        "L16",
+        "A2"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    },
+    "44561": {
+      "ocel:timestamp": "2024-03-25T17:10:22Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:10:22Z"
+      }
+    },
+    "44542": {
+      "ocel:timestamp": "2024-03-25T16:55:29Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:55:29Z"
+      }
+    },
+    "44388": {
+      "ocel:timestamp": "2024-03-25T08:58:28Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "P1",
+        "A1",
+        "A1",
+        "P1"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    },
+    "44541": {
+      "ocel:timestamp": "2024-03-25T16:54:02Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:54:02Z"
+      }
+    },
+    "44405": {
+      "ocel:timestamp": "2024-03-25T09:34:11Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "L6",
+        "L6",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    },
+    "44504": {
+      "ocel:timestamp": "2024-03-25T14:10:26Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "L7",
+        "A1",
+        "A1",
+        "L7"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    },
+    "44426": {
+      "ocel:timestamp": "2024-03-25T11:10:33Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Returned because of bluescreen",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:10:33Z"
+      }
+    },
+    "44503": {
+      "ocel:timestamp": "2024-03-25T14:09:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "returned in good condition",
+        "action_source": "gui",
+        "action_date": "2024-03-25T14:09:18Z"
+      }
+    },
+    "44407": {
+      "ocel:timestamp": "2024-03-25T09:36:28Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "was returned quite dirty. ",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:28Z"
+      }
+    },
+    "44406": {
+      "ocel:timestamp": "2024-03-25T09:36:08Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:08Z"
+      }
+    },
+    "44483": {
+      "ocel:timestamp": "2024-03-25T13:38:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "defect after client had it. ",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:38:18Z"
+      }
+    },
+    "44461": {
+      "ocel:timestamp": "2024-03-25T13:10:24Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "L17",
+        "L17",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    },
+    "44582": {
+      "ocel:timestamp": "2024-03-25T17:42:23Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:42:23Z"
+      }
+    },
+    "44560": {
+      "ocel:timestamp": "2024-03-25T17:08:45Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:45Z"
+      }
+    },
+    "44460": {
+      "ocel:timestamp": "2024-03-25T12:01:56Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T12:01:56Z"
+      }
+    },
+    "44581": {
+      "ocel:timestamp": "2024-03-25T17:41:19Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:41:19Z"
+      }
+    },
+    "44577": {
+      "ocel:timestamp": "2024-03-25T17:39:06Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:39:06Z"
+      }
+    },
+    "44411": {
+      "ocel:timestamp": "2024-03-25T09:55:50Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:55:50Z"
+      }
+    },
+    "44576": {
+      "ocel:timestamp": "2024-03-25T17:37:49Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:37:49Z"
+      }
+    },
+    "44513": {
+      "ocel:timestamp": "2024-03-25T15:08:07Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "L18",
+        "L18",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    },
+    "44436": {
+      "ocel:timestamp": "2024-03-25T11:27:43Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:27:43Z"
+      }
+    },
+    "44435": {
+      "ocel:timestamp": "2024-03-25T11:26:20Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:26:20Z"
+      }
+    },
+    "44474": {
+      "ocel:timestamp": "2024-03-25T13:26:16Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "client notices the mous does not work",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:26:16Z"
+      }
+    },
+    "44410": {
+      "ocel:timestamp": "2024-03-25T09:55:27Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:55:27Z"
+      }
+    },
+    "44518": {
+      "ocel:timestamp": "2024-03-25T15:20:56Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "A2",
+        "L20",
+        "A2",
+        "L20"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    },
+    "44537": {
+      "ocel:timestamp": "2024-03-25T16:47:35Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:47:35Z"
+      }
+    },
+    "44559": {
+      "ocel:timestamp": "2024-03-25T17:08:37Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:37Z"
+      }
+    },
+    "44536": {
+      "ocel:timestamp": "2024-03-25T16:46:53Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C10",
+        "C10"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:46:53Z"
+      }
+    },
+    "44558": {
+      "ocel:timestamp": "2024-03-25T17:08:21Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:21Z"
+      }
+    },
+    "44539": {
+      "ocel:timestamp": "2024-03-25T16:51:22Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "keyboard broken \"e\" key",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:51:22Z"
+      }
+    },
+    "44517": {
+      "ocel:timestamp": "2024-03-25T15:15:26Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T15:15:26Z"
+      }
+    },
+    "44538": {
+      "ocel:timestamp": "2024-03-25T16:48:10Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "C4",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:48:10Z"
+      }
+    },
+    "44392": {
+      "ocel:timestamp": "2024-03-25T09:11:10Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "checked in for repair by client 1",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:11:10Z"
+      }
+    },
+    "44450": {
+      "ocel:timestamp": "2024-03-25T11:48:25Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Mouse not working",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:48:25Z"
+      }
+    },
+    "44571": {
+      "ocel:timestamp": "2024-03-25T17:29:05Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C10",
+        "C10"
+      ],
+      "ocel:vmap": {
+        "note": "does not work",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:29:05Z"
+      }
+    },
+    "44390": {
+      "ocel:timestamp": "2024-03-25T09:08:59Z",
+      "ocel:activity": "create",
+      "ocel:omap": [
+        "L5",
+        "A1",
+        "A1",
+        "L5"
+      ],
+      "ocel:vmap": {"action_source": "gui"}
+    }
+  },
+  "ocel:global-event": {"ocel:activity": "__INVALID__"},
+  "ocel:objects": {
+    "P1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "C10": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "L5": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L6": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L7": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L20": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "L16": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "A2": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C4": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C5": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "L18": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "L17": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "C9": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    }
+  },
+  "ocel:global-object": {"ocel:type": "__INVALID__"}
+}

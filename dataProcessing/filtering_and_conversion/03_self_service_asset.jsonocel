@@ -1,0 +1,1249 @@
+{
+  "ocel:global-log": {
+    "ocel:version": "1.0",
+    "ocel:object-types": [
+      "target_user",
+      "item_accessory",
+      "item_asset",
+      "admin_user"
+    ],
+    "ocel:attribute-names": [
+      "asset_tag",
+      "note",
+      "action_source",
+      "log_meta",
+      "model.manufacturer.name",
+      "action_date",
+      "last_checkin",
+      "obj.id_full",
+      "obj.id",
+      "obj.link",
+      "filename",
+      "model.name",
+      "obj.type",
+      "last_checkout",
+      "checkin_counter",
+      "checkout_counter",
+      "name",
+      "obj.relationType",
+      "requestable",
+      "physical",
+      "first_name",
+      "email"
+    ],
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44467": {
+      "ocel:timestamp": "2024-03-25T13:18:08Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "note": "client dropped the mouse in sight",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:18:08Z"
+      }
+    },
+    "44425": {
+      "ocel:timestamp": "2024-03-25T11:05:17Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C3",
+        "C3",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:05:17Z"
+      }
+    },
+    "44546": {
+      "ocel:timestamp": "2024-03-25T16:59:28Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C8",
+        "C8",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:59:28Z"
+      }
+    },
+    "44502": {
+      "ocel:timestamp": "2024-03-25T14:06:26Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T14:06:26Z"
+      }
+    },
+    "44424": {
+      "ocel:timestamp": "2024-03-25T11:04:59Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:04:59Z"
+      }
+    },
+    "44540": {
+      "ocel:timestamp": "2024-03-25T16:51:36Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T16:51:36Z"
+      }
+    },
+    "44463": {
+      "ocel:timestamp": "2024-03-25T13:15:59Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:15:59Z"
+      }
+    },
+    "44385": {
+      "ocel:timestamp": "2024-03-25T08:54:32Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:54:32Z"
+      }
+    },
+    "44542": {
+      "ocel:timestamp": "2024-03-25T16:55:29Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:55:29Z"
+      }
+    },
+    "44420": {
+      "ocel:timestamp": "2024-03-25T10:53:41Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:53:41Z"
+      }
+    },
+    "44541": {
+      "ocel:timestamp": "2024-03-25T16:54:02Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:54:02Z"
+      }
+    },
+    "44464": {
+      "ocel:timestamp": "2024-03-25T13:16:11Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C2",
+        "C2",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T13:16:11Z"
+      }
+    },
+    "44508": {
+      "ocel:timestamp": "2024-03-25T15:00:22Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "C2",
+        "Webcam USB",
+        "C2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T15:00:22Z"
+      }
+    },
+    "44507": {
+      "ocel:timestamp": "2024-03-25T15:00:13Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C8",
+        "C8"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:00:13Z"
+      }
+    },
+    "44509": {
+      "ocel:timestamp": "2024-03-25T15:02:09Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C7",
+        "C7"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:02:09Z"
+      }
+    },
+    "44427": {
+      "ocel:timestamp": "2024-03-25T11:11:45Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C3",
+        "C3"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:11:45Z"
+      }
+    },
+    "44426": {
+      "ocel:timestamp": "2024-03-25T11:10:33Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Returned because of bluescreen",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:10:33Z"
+      }
+    },
+    "44503": {
+      "ocel:timestamp": "2024-03-25T14:09:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "returned in good condition",
+        "action_source": "gui",
+        "action_date": "2024-03-25T14:09:18Z"
+      }
+    },
+    "44382": {
+      "ocel:timestamp": "2024-03-25T08:52:29Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:52:29Z"
+      }
+    },
+    "44384": {
+      "ocel:timestamp": "2024-03-25T08:54:14Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:54:14Z"
+      }
+    },
+    "44582": {
+      "ocel:timestamp": "2024-03-25T17:42:23Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:42:23Z"
+      }
+    },
+    "44460": {
+      "ocel:timestamp": "2024-03-25T12:01:56Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T12:01:56Z"
+      }
+    },
+    "44581": {
+      "ocel:timestamp": "2024-03-25T17:41:19Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "A1",
+        "A1",
+        "C4"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:41:19Z"
+      }
+    },
+    "44412": {
+      "ocel:timestamp": "2024-03-25T10:47:22Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C3",
+        "C3"
+      ],
+      "ocel:vmap": {
+        "note": "Mousepad slightly dirty",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:47:22Z"
+      }
+    },
+    "44379": {
+      "ocel:timestamp": "2024-03-25T08:50:47Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:50:47Z"
+      }
+    },
+    "44456": {
+      "ocel:timestamp": "2024-03-25T11:57:43Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C3",
+        "C3"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:57:43Z"
+      }
+    },
+    "44577": {
+      "ocel:timestamp": "2024-03-25T17:39:06Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:39:06Z"
+      }
+    },
+    "44411": {
+      "ocel:timestamp": "2024-03-25T09:55:50Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:55:50Z"
+      }
+    },
+    "44532": {
+      "ocel:timestamp": "2024-03-25T16:42:58Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:42:58Z"
+      }
+    },
+    "44378": {
+      "ocel:timestamp": "2024-03-25T08:50:29Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T08:50:29Z"
+      }
+    },
+    "44455": {
+      "ocel:timestamp": "2024-03-25T11:57:27Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C3",
+        "C3"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:57:27Z"
+      }
+    },
+    "44576": {
+      "ocel:timestamp": "2024-03-25T17:37:49Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:37:49Z"
+      }
+    },
+    "44414": {
+      "ocel:timestamp": "2024-03-25T10:51:31Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:51:31Z"
+      }
+    },
+    "44496": {
+      "ocel:timestamp": "2024-03-25T14:00:00Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T14:00:00Z"
+      }
+    },
+    "44451": {
+      "ocel:timestamp": "2024-03-25T11:49:33Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:49:33Z"
+      }
+    },
+    "44410": {
+      "ocel:timestamp": "2024-03-25T09:55:27Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:55:27Z"
+      }
+    },
+    "44531": {
+      "ocel:timestamp": "2024-03-25T16:42:29Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:42:29Z"
+      }
+    },
+    "44575": {
+      "ocel:timestamp": "2024-03-25T17:31:35Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:31:35Z"
+      }
+    },
+    "44497": {
+      "ocel:timestamp": "2024-03-25T14:00:38Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T14:00:38Z"
+      }
+    },
+    "44416": {
+      "ocel:timestamp": "2024-03-25T10:52:17Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:52:17Z"
+      }
+    },
+    "44537": {
+      "ocel:timestamp": "2024-03-25T16:47:35Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:47:35Z"
+      }
+    },
+    "44415": {
+      "ocel:timestamp": "2024-03-25T10:51:49Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T10:51:49Z"
+      }
+    },
+    "44536": {
+      "ocel:timestamp": "2024-03-25T16:46:53Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "C10",
+        "C10",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T16:46:53Z"
+      }
+    },
+    "44539": {
+      "ocel:timestamp": "2024-03-25T16:51:22Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "keyboard broken \"e\" key",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:51:22Z"
+      }
+    },
+    "44538": {
+      "ocel:timestamp": "2024-03-25T16:48:10Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "A1",
+        "A1",
+        "C4"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T16:48:10Z"
+      }
+    },
+    "44450": {
+      "ocel:timestamp": "2024-03-25T11:48:25Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Mouse not working",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:48:25Z"
+      }
+    },
+    "44571": {
+      "ocel:timestamp": "2024-03-25T17:29:05Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "C10",
+        "C10",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "does not work",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:29:05Z"
+      }
+    },
+    "44570": {
+      "ocel:timestamp": "2024-03-25T17:28:30Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "C2",
+        "Webcam USB",
+        "C2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:28:30Z"
+      }
+    },
+    "44401": {
+      "ocel:timestamp": "2024-03-25T09:25:02Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:25:02Z"
+      }
+    },
+    "44522": {
+      "ocel:timestamp": "2024-03-25T15:29:24Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T15:29:24Z"
+      }
+    },
+    "44489": {
+      "ocel:timestamp": "2024-03-25T13:47:27Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "note": "defect",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:47:27Z"
+      }
+    },
+    "44445": {
+      "ocel:timestamp": "2024-03-25T11:41:50Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "note": "Screen not working",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T11:41:50Z"
+      }
+    },
+    "44400": {
+      "ocel:timestamp": "2024-03-25T09:23:00Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:23:00Z"
+      }
+    },
+    "44444": {
+      "ocel:timestamp": "2024-03-25T11:40:05Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C8",
+        "C8"
+      ],
+      "ocel:vmap": {
+        "note": "Slightly dirty",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:40:05Z"
+      }
+    },
+    "44565": {
+      "ocel:timestamp": "2024-03-25T17:17:21Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T17:17:21Z"
+      }
+    },
+    "44524": {
+      "ocel:timestamp": "2024-03-25T15:32:23Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T15:32:23Z"
+      }
+    },
+    "44447": {
+      "ocel:timestamp": "2024-03-25T11:43:02Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C2",
+        "C2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:43:02Z"
+      }
+    },
+    "44523": {
+      "ocel:timestamp": "2024-03-25T15:30:51Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T15:30:51Z"
+      }
+    },
+    "44446": {
+      "ocel:timestamp": "2024-03-25T11:42:39Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "C3",
+        "C3",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:42:39Z"
+      }
+    },
+    "44562": {
+      "ocel:timestamp": "2024-03-25T17:11:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "C10",
+        "C10",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:11:18Z"
+      }
+    },
+    "44484": {
+      "ocel:timestamp": "2024-03-25T13:39:00Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:39:00Z"
+      }
+    },
+    "44440": {
+      "ocel:timestamp": "2024-03-25T11:36:43Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C7",
+        "C7"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:36:43Z"
+      }
+    },
+    "44561": {
+      "ocel:timestamp": "2024-03-25T17:10:22Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T17:10:22Z"
+      }
+    },
+    "44487": {
+      "ocel:timestamp": "2024-03-25T13:45:34Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T13:45:34Z"
+      }
+    },
+    "44404": {
+      "ocel:timestamp": "2024-03-25T09:28:45Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:28:45Z"
+      }
+    },
+    "44569": {
+      "ocel:timestamp": "2024-03-25T17:27:57Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1",
+        "Headset USB",
+        "Headset USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:27:57Z"
+      }
+    },
+    "44407": {
+      "ocel:timestamp": "2024-03-25T09:36:28Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "was returned quite dirty. ",
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:28Z"
+      }
+    },
+    "44406": {
+      "ocel:timestamp": "2024-03-25T09:36:08Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:08Z"
+      }
+    },
+    "44483": {
+      "ocel:timestamp": "2024-03-25T13:38:18Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C4",
+        "A1",
+        "A1",
+        "C4"
+      ],
+      "ocel:vmap": {
+        "note": "defect after client had it. ",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:38:18Z"
+      }
+    },
+    "44560": {
+      "ocel:timestamp": "2024-03-25T17:08:45Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:45Z"
+      }
+    },
+    "44436": {
+      "ocel:timestamp": "2024-03-25T11:27:43Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "C9",
+        "C9",
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:27:43Z"
+      }
+    },
+    "44435": {
+      "ocel:timestamp": "2024-03-25T11:26:20Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T11:26:20Z"
+      }
+    },
+    "44397": {
+      "ocel:timestamp": "2024-03-25T09:17:00Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Headset USB",
+        "C6",
+        "Headset USB",
+        "C6"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:17:00Z"
+      }
+    },
+    "44474": {
+      "ocel:timestamp": "2024-03-25T13:26:16Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "client notices the mous does not work",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T13:26:16Z"
+      }
+    },
+    "44551": {
+      "ocel:timestamp": "2024-03-25T17:03:08Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB",
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:03:08Z"
+      }
+    },
+    "44475": {
+      "ocel:timestamp": "2024-03-25T13:26:59Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:26:59Z"
+      }
+    },
+    "44515": {
+      "ocel:timestamp": "2024-03-25T15:14:08Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C7",
+        "C7"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T15:14:08Z"
+      }
+    },
+    "44438": {
+      "ocel:timestamp": "2024-03-25T11:36:07Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C7",
+        "C7"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:36:07Z"
+      }
+    },
+    "44559": {
+      "ocel:timestamp": "2024-03-25T17:08:37Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:37Z"
+      }
+    },
+    "44558": {
+      "ocel:timestamp": "2024-03-25T17:08:21Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1",
+        "C5",
+        "C5"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T17:08:21Z"
+      }
+    },
+    "44517": {
+      "ocel:timestamp": "2024-03-25T15:15:26Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A2",
+        "A2"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T15:15:26Z"
+      }
+    },
+    "44439": {
+      "ocel:timestamp": "2024-03-25T11:36:26Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C7",
+        "C7"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T11:36:26Z"
+      }
+    },
+    "44393": {
+      "ocel:timestamp": "2024-03-25T09:12:21Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C1",
+        "C1"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T09:12:21Z"
+      }
+    },
+    "44470": {
+      "ocel:timestamp": "2024-03-25T13:20:57Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "C6",
+        "C6"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T13:20:57Z"
+      }
+    },
+    "44392": {
+      "ocel:timestamp": "2024-03-25T09:11:10Z",
+      "ocel:activity": "checkin from",
+      "ocel:omap": [
+        "A1",
+        "A1"
+      ],
+      "ocel:vmap": {
+        "note": "checked in for repair by client 1",
+        "action_source": "gui",
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:11:10Z"
+      }
+    },
+    "44394": {
+      "ocel:timestamp": "2024-03-25T09:13:56Z",
+      "ocel:activity": "checkout",
+      "ocel:omap": [
+        "Webcam USB",
+        "Webcam USB"
+      ],
+      "ocel:vmap": {
+        "action_source": "gui",
+        "action_date": "2024-03-25T09:13:56Z"
+      }
+    }
+  },
+  "ocel:global-event": {"ocel:activity": "__INVALID__"},
+  "ocel:objects": {
+    "C10": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "Headset USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {}
+    },
+    "C1": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C2": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C3": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "A2": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C4": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C5": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C6": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C7": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C8": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {}
+    },
+    "C9": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "Webcam USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {}
+    }
+  },
+  "ocel:global-object": {"ocel:type": "__INVALID__"}
+}
