@@ -1748,7 +1748,8 @@
                 "C2",
                 "door"
             ]
-        },
+        }
+    },
     "ocel:objects": {
         "A1": {
             "ocel:type": "admin_user",
