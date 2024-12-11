@@ -8,7 +8,10 @@
   "ocel:global-log": {
     "ocel:object-types": [
       "item_asset",
-      "repair_desk"
+      "repair_desk",
+      "admin_user",
+      "laptop_shelf",
+      "it_working_desk"
     ],
     "ocel:attribute-names": [
       "end_time",
@@ -27,7 +30,9 @@
         "end_time": "2024-03-25T09:30:08.469"
       },
       "ocel:omap": [
-        "L6"
+        "L6",
+        "A1",
+        "laptop_shelf"
       ]
     },
     "Unpack asset_80107d91-39cf-4324-89f0-8c19633a22fd": {
@@ -39,7 +44,8 @@
       },
       "ocel:omap": [
         "L6",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Test asset quality and functionality_40595994-5397-4f70-9256-277ce9e12a1f": {
@@ -51,7 +57,8 @@
       },
       "ocel:omap": [
         "L6",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Install and configure asset_9aff5ef6-932b-4b14-8f3a-a6f834d20d59": {
@@ -63,7 +70,8 @@
       },
       "ocel:omap": [
         "L6",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Install and configure asset_a31b0e77-8ad2-40c3-be91-8e8f7aae9c39": {
@@ -75,7 +83,8 @@
       },
       "ocel:omap": [
         "L6",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Label asset_59d91257-3abf-4f2c-af82-d484912c1331": {
@@ -87,7 +96,8 @@
       },
       "ocel:omap": [
         "L6",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Create system entry for asset_3077636c-2db7-4596-b890-c0ed91c1bf53": {
@@ -98,7 +108,9 @@
         "end_time": "2024-03-25T09:34:11.037"
       },
       "ocel:omap": [
-        "L6"
+        "L6",
+        "A1",
+        "it_working_desk"
       ]
     },
     "Move asset to storage_e2b2c0b3-1ab8-492e-9940-6c899d94a2aa": {
@@ -109,7 +121,9 @@
         "end_time": "2024-03-25T09:34:48.870"
       },
       "ocel:omap": [
-        "L6"
+        "L6",
+        "A1",
+        "laptop_shelf"
       ]
     }
   },
@@ -118,8 +132,24 @@
       "ocel:type": "item_asset",
       "ocel:ovmap": {}
     },
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
     "repair_desk": {
       "ocel:type": "repair_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "laptop_shelf": {
+      "ocel:type": "laptop_shelf",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "it_working_desk": {
+      "ocel:type": "it_working_desk",
       "ocel:ovmap": {
         "type": "location"
       }

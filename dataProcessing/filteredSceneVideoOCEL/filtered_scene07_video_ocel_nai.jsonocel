@@ -9,7 +9,9 @@
     "ocel:object-types": [
       "item_asset",
       "self_service_storage",
-      "repair_desk"
+      "repair_desk",
+      "admin_user",
+      "it_working_desk"
     ],
     "ocel:attribute-names": [
       "end_time",
@@ -29,7 +31,9 @@
       },
       "ocel:omap": [
         "H3",
-        "self_service_storage"
+        "self_service_storage",
+        "A1"
+
       ]
     },
     "Pick asset from self service desk_8c3568f6-913d-4012-95d6-ef07d50649dc": {
@@ -41,7 +45,8 @@
       },
       "ocel:omap": [
         "K2",
-        "self_service_storage"
+        "self_service_storage",
+        "A1"
       ]
     },
     "Unpack asset_da7420e4-580a-41e2-9321-400190798473": {
@@ -53,7 +58,8 @@
       },
       "ocel:omap": [
         "K2",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Test asset quality and functionality_f816f490-4db4-4dc5-88de-fb21a6db9555": {
@@ -64,7 +70,9 @@
         "end_time": "2024-03-25T09:40:53.000"
       },
       "ocel:omap": [
-        "K2"
+        "K2",
+        "A1",
+        "it_working_desk"
       ]
     },
     "Install and configure asset_635c6c50-f65d-4d4d-8a49-e638ca895a7c": {
@@ -76,7 +84,8 @@
       },
       "ocel:omap": [
         "K2",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Create system entry for asset_ac384097-aec6-4e84-b3d5-f8f33cbe0873": {
@@ -87,7 +96,9 @@
         "end_time": "2024-03-25T09:41:20.000"
       },
       "ocel:omap": [
-        "K2"
+        "K2",
+        "A1",
+        "it_working_desk"
       ]
     },
     "Move asset to storage_dfb26873-3490-440e-9476-e411765ce46c": {
@@ -99,7 +110,8 @@
       },
       "ocel:omap": [
         "K2",
-        "self_service_storage"
+        "self_service_storage",
+        "A1"
       ]
     },
     "Unpack asset_5b4dd4da-e4b5-4ef7-b1c5-74ac1efb7ec3": {
@@ -111,7 +123,8 @@
       },
       "ocel:omap": [
         "H3",
-        "repair_desk"
+        "repair_desk",
+        "A1"
       ]
     },
     "Test asset quality and functionality_e539ae21-a9d0-4b9e-a49e-6c4226615907": {
@@ -122,7 +135,9 @@
         "end_time": "2024-03-25T09:42:19.546"
       },
       "ocel:omap": [
-        "H3"
+        "H3",
+        "A1",
+        "it_working_desk"
       ]
     },
     "Create system entry for asset_9bee011f-f231-4e47-b872-e6999d73aba6": {
@@ -133,7 +148,9 @@
         "end_time": "2024-03-25T09:43:00.546"
       },
       "ocel:omap": [
-        "H3"
+        "H3",
+        "A1",
+        "it_working_desk"
       ]
     },
     "Move asset to storage_12f22c18-71b5-4d0a-a186-b70bcfdecd8c": {
@@ -145,7 +162,8 @@
       },
       "ocel:omap": [
         "H3",
-        "self_service_storage"
+        "self_service_storage",
+        "C8"
       ]
     }
   },
@@ -169,6 +187,20 @@
     "H3": {
       "ocel:type": "item_asset",
       "ocel:ovmap": {}
+    },
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "C8": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {}
+    },
+    "it_working_desk": {
+      "ocel:type": "it_working_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
     }
   }
 }

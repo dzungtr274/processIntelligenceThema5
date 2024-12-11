@@ -9,7 +9,9 @@
     "ocel:object-types": [
       "admin_user",
       "item_asset",
-      "monitor_storage"
+      "monitor_storage",
+      "door",
+      "it_working_desk"
     ],
     "ocel:attribute-names": [
       "end_time",
@@ -28,7 +30,8 @@
         "end_time": "2024-03-25T11:19:46.503"
       },
       "ocel:omap": [
-        "C4"
+        "C4",
+        "door"
       ]
     },
     "Pick asset from warehouse_1e8c2022-f967-46fc-8ce8-db5eb8cfef20": {
@@ -40,7 +43,8 @@
       },
       "ocel:omap": [
         "M1",
-        "monitor_storage"
+        "monitor_storage",
+        "A2"
       ]
     },
     "Check asset quality_02c44489-ac40-4159-952d-b375c631ddd9": {
@@ -51,7 +55,9 @@
         "end_time": "2024-03-25T11:20:31.799"
       },
       "ocel:omap": [
-        "M1"
+        "M1",
+        "A2",
+        "it_working_desk"
       ]
     },
     "Check-Out asset to user_551aa80c-acb6-44e8-a0ae-c666bedfc7f3": {
@@ -62,7 +68,9 @@
         "end_time": "2024-03-25T11:21:17.472"
       },
       "ocel:omap": [
-        "M1"
+        "M1",
+        "A2",
+        "it_working_desk"
       ]
     },
     "Handover asset to user_42b92671-802d-44f7-b802-cef77db93cbc": {
@@ -74,7 +82,9 @@
       },
       "ocel:omap": [
         "M1",
-        "C4"
+        "C4",
+        "A2",
+        "it_working_desk"
       ]
     },
     "Leave room_d773668e-dd1e-4aea-821a-d5a2fe51d19e": {
@@ -86,7 +96,8 @@
       },
       "ocel:omap": [
         "M1",
-        "C4"
+        "C4",
+        "door"
       ]
     },
     "Enter room_ebc133ed-e083-4aa0-a2ac-70183920e2c3": {
@@ -97,7 +108,8 @@
         "end_time": "2024-03-25T11:22:09.236"
       },
       "ocel:omap": [
-        "C5"
+        "C5",
+        "door"
       ]
     },
     "Pick asset from warehouse_4eddf2dd-2361-47b4-b37f-c67e7d2794f2": {
@@ -109,7 +121,8 @@
       },
       "ocel:omap": [
         "M2",
-        "monitor_storage"
+        "monitor_storage",
+        "A2"
       ]
     },
     "Check asset quality_1e2c91a4-ce3b-4817-a0c6-4cca6b9f9788": {
@@ -120,7 +133,9 @@
         "end_time": "2024-03-25T11:22:47.214"
       },
       "ocel:omap": [
-        "M2"
+        "M2",
+        "A2",
+        "it_working_desk"
       ]
     },
     "Check-Out asset to user_58a75340-6257-4dbf-ba73-d0a1b5c05ebd": {
@@ -131,7 +146,9 @@
         "end_time": "2024-03-25T11:23:19.042"
       },
       "ocel:omap": [
-        "M2"
+        "M2",
+        "A2",
+        "it_working_desk"
       ]
     },
     "Handover asset to user_ee0da235-09e8-4783-aa4f-65794a63df2d": {
@@ -143,7 +160,9 @@
       },
       "ocel:omap": [
         "M2",
-        "C5"
+        "C5",
+        "A2",
+        "it_working_desk"
       ]
     },
     "Leave room_23f68e86-675a-4fff-a92a-55823c7e693b": {
@@ -155,7 +174,8 @@
       },
       "ocel:omap": [
         "M2",
-        "C5"
+        "C5",
+        "door"
       ]
     }
   },
@@ -174,12 +194,28 @@
         "type": "location"
       }
     },
+    "it_working_desk": {
+      "ocel:type": "it_working_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "door": {
+      "ocel:type": "door",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
     "C5": {
       "ocel:type": "admin_user",
       "ocel:ovmap": {}
     },
     "M2": {
       "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "A2": {
+      "ocel:type": "admin_user",
       "ocel:ovmap": {}
     }
   }
