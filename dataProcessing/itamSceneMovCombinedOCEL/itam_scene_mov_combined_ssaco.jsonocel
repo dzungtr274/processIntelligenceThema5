@@ -3,40 +3,40 @@
     "ocel:global-object": {},
     "ocel:global-log": {
         "ocel:attribute-names": [
-            "log_meta",
-            "obj.link",
-            "type",
-            "physical",
+            "model.manufacturer.name",
             "action_source",
-            "action_date",
-            "obj.id",
-            "asset_tag",
-            "email",
-            "obj.id_full",
+            "obj.relationType",
+            "last_checkout",
             "first_name",
+            "obj.link",
+            "model.name",
+            "physical",
             "note",
-            "requestable",
+            "scene",
+            "asset_tag",
             "obj.type",
             "last_checkin",
-            "model.name",
-            "scene",
-            "model.manufacturer.name",
-            "last_checkout",
-            "filename",
-            "obj.relationType",
+            "obj.id",
+            "type",
+            "action_date",
             "checkin_counter",
+            "end_time",
             "checkout_counter",
-            "name",
-            "end_time"
+            "obj.id_full",
+            "log_meta",
+            "requestable",
+            "email",
+            "filename",
+            "name"
         ],
         "ocel:object-types": [
             "self_service_storage",
-            "case:concept:name",
-            "door",
             "item_accessory",
-            "target_user",
+            "door",
+            "item_asset",
             "admin_user",
-            "item_asset"
+            "case:concept:name",
+            "target_user"
         ],
         "ocel:version": "1.0",
         "ocel:ordering": "timestamp"
@@ -6121,7 +6121,8 @@
                 "end_time": "2024-03-25T09:30:59.847"
             },
             "ocel:omap": [
-                "C10"
+                "C10",
+                "door"
             ]
         },
         "Pick asset from self service desk_3bc2ba99-cea2-4669-80ee-9521097ce364": {
@@ -6145,7 +6146,8 @@
                 "end_time": "2024-03-25T09:31:57.974"
             },
             "ocel:omap": [
-                "C10"
+                "C10",
+                "door"
             ]
         },
         "1423": {
@@ -7100,7 +7102,8 @@
                 "end_time": "2024-03-25T09:36:40.712"
             },
             "ocel:omap": [
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "1658": {
@@ -7220,7 +7223,8 @@
                 "end_time": "2024-03-25T09:36:48.712"
             },
             "ocel:omap": [
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "1682": {
@@ -7452,7 +7456,8 @@
             },
             "ocel:omap": [
                 "H5",
-                "self_service_storage"
+                "self_service_storage",
+                "C3"
             ]
         },
         "Chat_4138dd7b-194a-4c5e-95b9-e54a923caa62": {
@@ -7475,7 +7480,9 @@
                 "end_time": "2024-03-25T11:13:54.724"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "C3",
+                "door"
             ]
         },
         "Enter room_89bb7db7-1b5d-4401-b34c-8afe3dbd2b9f": {
@@ -7486,7 +7493,8 @@
                 "end_time": "2024-03-25T11:14:32.276"
             },
             "ocel:omap": [
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "Chat_ead19520-4600-478f-9a17-e31a76cc22ed": {
@@ -7497,7 +7505,8 @@
                 "end_time": "2024-03-25T11:14:35.767"
             },
             "ocel:omap": [
-                "C9"
+                "C9",
+                "A2"
             ]
         },
         "Pick asset from self service desk_b31e915a-dbd1-49e0-87dc-8c000ddaf48b": {
@@ -7522,7 +7531,8 @@
             },
             "ocel:omap": [
                 "H7",
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "44429": {
@@ -14203,7 +14213,8 @@
                 "end_time": "2024-03-25T11:50:51.300"
             },
             "ocel:omap": [
-                "C3"
+                "C3",
+                "door"
             ]
         },
         "699": {
@@ -14443,7 +14454,8 @@
                 "end_time": "2024-03-25T11:51:29.217"
             },
             "ocel:omap": [
-                "C3"
+                "C3",
+                "A2"
             ]
         },
         "726": {
@@ -15319,7 +15331,8 @@
             },
             "ocel:omap": [
                 "K1",
-                "C3"
+                "C3",
+                "door"
             ]
         },
         "834": {
