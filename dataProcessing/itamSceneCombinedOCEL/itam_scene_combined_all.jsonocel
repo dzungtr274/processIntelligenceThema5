@@ -3,45 +3,46 @@
     "ocel:global-object": {},
     "ocel:global-log": {
         "ocel:attribute-names": [
-            "note",
-            "scene",
-            "checkout_counter",
-            "last_checkin",
-            "obj.id",
-            "email",
-            "first_name",
-            "obj.id_full",
-            "log_meta",
-            "obj.type",
-            "action_source",
-            "requestable",
-            "checkin_counter",
-            "model.manufacturer.name",
-            "end_time",
-            "obj.relationType",
-            "action_date",
             "model.name",
-            "physical",
-            "filename",
+            "name",
+            "end_time",
             "obj.link",
+            "obj.relationType",
+            "obj.id_full",
+            "action_source",
+            "note",
+            "last_checkin",
+            "action_date",
+            "checkout_counter",
+            "physical",
+            "model.manufacturer.name",
+            "scene",
+            "obj.type",
             "type",
-            "last_checkout",
+            "obj.id",
             "asset_tag",
-            "name"
+            "checkin_counter",
+            "filename",
+            "log_meta",
+            "email",
+            "last_checkout",
+            "requestable",
+            "first_name"
         ],
         "ocel:object-types": [
-            "item_accessory",
-            "mouse_cupboard",
-            "laptop_shelf",
-            "it_working_desk",
-            "admin_user",
-            "monitor_storage",
-            "repair_desk",
-            "keyboard_cupboard",
-            "door",
             "item_asset",
+            "keyboard_cupboard",
+            "repair_desk",
+            "target_user",
+            "mouse_cupboard",
+            "admin_user",
+            "user_admin",
             "self_service_storage",
-            "target_user"
+            "door",
+            "it_working_desk",
+            "laptop_shelf",
+            "item_accessory",
+            "monitor_storage"
         ],
         "ocel:version": "1.0",
         "ocel:ordering": "timestamp"
@@ -660,7 +661,9 @@
                 "end_time": "2024-03-25T09:06:27.738"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "laptop_shelf"
             ]
         },
         "Unpack asset_b4dd413e-35fd-4d69-bbd7-85465768dde8": {
@@ -671,7 +674,9 @@
                 "end_time": "2024-03-25T09:06:52.058"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "repair_desk"
             ]
         },
         "Test asset quality and functionality_2052c93f-d4cc-4204-a2d1-82dbc452cf08": {
@@ -682,7 +687,9 @@
                 "end_time": "2024-03-25T09:07:28.434"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "repair_desk"
             ]
         },
         "Create system entry for asset_10335247-1a12-46d8-999f-a33ed53776ab": {
@@ -693,7 +700,9 @@
                 "end_time": "2024-03-25T09:09:17.005"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "it_working_desk"
             ]
         },
         "44390": {
@@ -727,7 +736,9 @@
                 "end_time": "2024-03-25T09:09:45.179"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "repair_desk"
             ]
         },
         "44392": {
@@ -767,7 +778,9 @@
                 "end_time": "2024-03-25T09:14:19.447"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "repair_desk"
             ]
         },
         "44394": {
@@ -836,7 +849,9 @@
                 "end_time": "2024-03-25T09:16:01.112"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "repair_desk"
             ]
         },
         "44396": {
@@ -906,7 +921,9 @@
                 "end_time": "2024-03-25T09:18:09.487"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "repair_desk"
             ]
         },
         "44398": {
@@ -928,7 +945,9 @@
                 "end_time": "2024-03-25T09:18:44.646"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "laptop_shelf"
             ]
         },
         "44399": {
@@ -952,7 +971,8 @@
             },
             "ocel:omap": [
                 "H1",
-                "self_service_storage"
+                "self_service_storage",
+                "A1"
             ]
         },
         "Unpack asset_cf430193-cdde-41c9-b5d6-24e8823e9800": {
@@ -964,7 +984,8 @@
             },
             "ocel:omap": [
                 "H1",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Pick asset from warehouse_2d2bd9a9-8735-4d5a-ae16-5cbcccd12fd4": {
@@ -976,7 +997,8 @@
             },
             "ocel:omap": [
                 "H2",
-                "self_service_storage"
+                "self_service_storage",
+                "A1"
             ]
         },
         "Test asset quality and functionality_b84af0ed-f018-48e3-a734-73cdc494436d": {
@@ -988,7 +1010,8 @@
             },
             "ocel:omap": [
                 "H1",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Install and configure asset_1c20ce92-bb0a-4a34-a9bb-0723d199587c": {
@@ -1000,7 +1023,8 @@
             },
             "ocel:omap": [
                 "H1",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Label asset_9151312a-3562-449f-9921-aa41259efc21": {
@@ -1012,7 +1036,8 @@
             },
             "ocel:omap": [
                 "H1",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Move asset to storage_a67df862-9e9a-4f90-8626-05aea51912c8": {
@@ -1024,7 +1049,8 @@
             },
             "ocel:omap": [
                 "H1",
-                "self_service_storage"
+                "self_service_storage",
+                "A1"
             ]
         },
         "Unpack asset_d8ea3c83-c04f-4fb8-ba78-1edb0ede3f3e": {
@@ -1036,7 +1062,8 @@
             },
             "ocel:omap": [
                 "H2",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Test asset quality and functionality_03a81ff6-f8f4-41c3-8f93-69624800f400": {
@@ -1048,7 +1075,8 @@
             },
             "ocel:omap": [
                 "H2",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Install and configure asset_4b781ec4-9e4a-4db5-9404-62352217b158": {
@@ -1059,7 +1087,9 @@
                 "end_time": "2024-03-25T09:21:23.639"
             },
             "ocel:omap": [
-                "H2"
+                "H2",
+                "A1",
+                "it_working_desk"
             ]
         },
         "Move asset to storage_07619511-d28d-4795-bf98-e7020dd1cdec": {
@@ -1071,7 +1101,8 @@
             },
             "ocel:omap": [
                 "H2",
-                "self_service_storage"
+                "self_service_storage",
+                "A1"
             ]
         },
         "44400": {
@@ -1191,7 +1222,9 @@
                 "end_time": "2024-03-25T09:30:08.469"
             },
             "ocel:omap": [
-                "L6"
+                "L6",
+                "A1",
+                "laptop_shelf"
             ]
         },
         "Unpack asset_80107d91-39cf-4324-89f0-8c19633a22fd": {
@@ -1203,7 +1236,8 @@
             },
             "ocel:omap": [
                 "L6",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Test asset quality and functionality_40595994-5397-4f70-9256-277ce9e12a1f": {
@@ -1215,7 +1249,8 @@
             },
             "ocel:omap": [
                 "L6",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Install and configure asset_9aff5ef6-932b-4b14-8f3a-a6f834d20d59": {
@@ -1227,7 +1262,8 @@
             },
             "ocel:omap": [
                 "L6",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Enter room_4ae81da9-bbc2-46c4-8be1-bfbfa50fdad2": {
@@ -1238,7 +1274,8 @@
                 "end_time": "2024-03-25T09:30:59.847"
             },
             "ocel:omap": [
-                "C10"
+                "C10",
+                "door"
             ]
         },
         "Pick asset from self service desk_3bc2ba99-cea2-4669-80ee-9521097ce364": {
@@ -1262,7 +1299,8 @@
                 "end_time": "2024-03-25T09:31:57.974"
             },
             "ocel:omap": [
-                "C10"
+                "C10",
+                "door"
             ]
         },
         "Install and configure asset_a31b0e77-8ad2-40c3-be91-8e8f7aae9c39": {
@@ -1274,7 +1312,8 @@
             },
             "ocel:omap": [
                 "L6",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Label asset_59d91257-3abf-4f2c-af82-d484912c1331": {
@@ -1286,7 +1325,8 @@
             },
             "ocel:omap": [
                 "L6",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Create system entry for asset_3077636c-2db7-4596-b890-c0ed91c1bf53": {
@@ -1297,7 +1337,9 @@
                 "end_time": "2024-03-25T09:34:11.037"
             },
             "ocel:omap": [
-                "L6"
+                "L6",
+                "A1",
+                "it_working_desk"
             ]
         },
         "44405": {
@@ -1319,7 +1361,9 @@
                 "end_time": "2024-03-25T09:34:48.870"
             },
             "ocel:omap": [
-                "L6"
+                "L6",
+                "A1",
+                "laptop_shelf"
             ]
         },
         "44406": {
@@ -1359,7 +1403,8 @@
                 "end_time": "2024-03-25T09:36:40.712"
             },
             "ocel:omap": [
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "Pick asset from self service desk_887d93a8-d4b1-4535-8b51-1fa33074d807": {
@@ -1383,7 +1428,8 @@
                 "end_time": "2024-03-25T09:36:48.712"
             },
             "ocel:omap": [
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "Pick asset from self service desk_38acd27d-7689-43ca-a8d6-af0a252e577b": {
@@ -1395,7 +1441,8 @@
             },
             "ocel:omap": [
                 "H3",
-                "self_service_storage"
+                "self_service_storage",
+                "A1"
             ]
         },
         "Pick asset from self service desk_8c3568f6-913d-4012-95d6-ef07d50649dc": {
@@ -1407,7 +1454,8 @@
             },
             "ocel:omap": [
                 "K2",
-                "self_service_storage"
+                "self_service_storage",
+                "A1"
             ]
         },
         "Unpack asset_da7420e4-580a-41e2-9321-400190798473": {
@@ -1419,7 +1467,8 @@
             },
             "ocel:omap": [
                 "K2",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Test asset quality and functionality_f816f490-4db4-4dc5-88de-fb21a6db9555": {
@@ -1430,7 +1479,9 @@
                 "end_time": "2024-03-25T09:40:53.000"
             },
             "ocel:omap": [
-                "K2"
+                "K2",
+                "A1",
+                "it_working_desk"
             ]
         },
         "Install and configure asset_635c6c50-f65d-4d4d-8a49-e638ca895a7c": {
@@ -1442,7 +1493,8 @@
             },
             "ocel:omap": [
                 "K2",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Create system entry for asset_ac384097-aec6-4e84-b3d5-f8f33cbe0873": {
@@ -1453,7 +1505,9 @@
                 "end_time": "2024-03-25T09:41:20.000"
             },
             "ocel:omap": [
-                "K2"
+                "K2",
+                "A1",
+                "it_working_desk"
             ]
         },
         "44408": {
@@ -1476,7 +1530,8 @@
             },
             "ocel:omap": [
                 "K2",
-                "self_service_storage"
+                "self_service_storage",
+                "A1"
             ]
         },
         "Unpack asset_5b4dd4da-e4b5-4ef7-b1c5-74ac1efb7ec3": {
@@ -1488,7 +1543,8 @@
             },
             "ocel:omap": [
                 "H3",
-                "repair_desk"
+                "repair_desk",
+                "A1"
             ]
         },
         "Test asset quality and functionality_e539ae21-a9d0-4b9e-a49e-6c4226615907": {
@@ -1499,7 +1555,9 @@
                 "end_time": "2024-03-25T09:42:19.546"
             },
             "ocel:omap": [
-                "H3"
+                "H3",
+                "A1",
+                "it_working_desk"
             ]
         },
         "Enter room_1f272c04-6bdb-46a2-9c62-691d3fe574e4": {
@@ -1510,7 +1568,8 @@
                 "end_time": "2024-03-25T09:42:24.382"
             },
             "ocel:omap": [
-                "door"
+                "door",
+                "C8"
             ]
         },
         "Create system entry for asset_9bee011f-f231-4e47-b872-e6999d73aba6": {
@@ -1521,7 +1580,9 @@
                 "end_time": "2024-03-25T09:43:00.546"
             },
             "ocel:omap": [
-                "H3"
+                "H3",
+                "A1",
+                "it_working_desk"
             ]
         },
         "Move asset to storage_12f22c18-71b5-4d0a-a186-b70bcfdecd8c": {
@@ -1533,7 +1594,8 @@
             },
             "ocel:omap": [
                 "H3",
-                "self_service_storage"
+                "self_service_storage",
+                "C8"
             ]
         },
         "44409": {
@@ -1556,7 +1618,8 @@
             },
             "ocel:omap": [
                 "L5",
-                "laptop_shelf"
+                "laptop_shelf",
+                "A1"
             ]
         },
         "Check asset quality_e212467d-bb91-4f27-8933-d00388391b17": {
@@ -1567,7 +1630,9 @@
                 "end_time": "2024-03-25T09:44:41.382"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "it_working_desk"
             ]
         },
         "Handover asset to user_c4a57bf2-b8ec-447f-8bd6-38c94984480d": {
@@ -1578,7 +1643,10 @@
                 "end_time": "2024-03-25T09:45:12.382"
             },
             "ocel:omap": [
-                "L5"
+                "L5",
+                "A1",
+                "C8",
+                "it_working_desk"
             ]
         },
         "Leave room_722f3ea7-25d5-4af3-bc50-adb2d3c87906": {
@@ -1589,7 +1657,8 @@
                 "end_time": "2024-03-25T09:45:28.382"
             },
             "ocel:omap": [
-                "door"
+                "door",
+                "C8"
             ]
         },
         "44410": {
@@ -2055,7 +2124,9 @@
                 "end_time": "2024-03-25T10:58:27.409"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "A2",
+                "self_service_storage"
             ]
         },
         "Unpack asset_c5e62e22-2583-4770-ae91-8ea2cd13e6a0": {
@@ -2066,7 +2137,9 @@
                 "end_time": "2024-03-25T10:58:35.734"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "A2",
+                "repair_desk"
             ]
         },
         "Test asset quality and functionality_48531b7e-b1b6-4cc8-884b-cce46701afae": {
@@ -2077,7 +2150,9 @@
                 "end_time": "2024-03-25T10:58:48.015"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "A2",
+                "repair_desk"
             ]
         },
         "Install and configure asset_eac01cae-49a4-43bf-ab64-72af60f499a7": {
@@ -2088,7 +2163,9 @@
                 "end_time": "2024-03-25T10:59:03.575"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "A2",
+                "repair_desk"
             ]
         },
         "Label asset_eae7ad8f-c016-4b1d-a935-7fde7f18e3d7": {
@@ -2099,7 +2176,9 @@
                 "end_time": "2024-03-25T10:59:20.067"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "A2",
+                "repair_desk"
             ]
         },
         "Create system entry for asset_332c1b9c-c19e-420e-8e17-eae6d87f8d53": {
@@ -2110,7 +2189,9 @@
                 "end_time": "2024-03-25T10:59:59.568"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44422": {
@@ -2132,7 +2213,9 @@
                 "end_time": "2024-03-25T11:00:08.588"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "A2",
+                "self_service_storage"
             ]
         },
         "Pick asset from warehouse_09090fd4-84c9-4cec-b1f8-7aacb5c30f18": {
@@ -2143,7 +2226,9 @@
                 "end_time": "2024-03-25T11:00:17.246"
             },
             "ocel:omap": [
-                "H7"
+                "H7",
+                "A2",
+                "self_service_storage"
             ]
         },
         "Unpack asset_357eb9f1-8480-46c8-bdb4-9025dab77cd1": {
@@ -2154,7 +2239,9 @@
                 "end_time": "2024-03-25T11:00:28.778"
             },
             "ocel:omap": [
-                "H7"
+                "H7",
+                "A2",
+                "repair_desk"
             ]
         },
         "Create system entry for asset_b8bdcd93-cfbc-4616-8051-39093b96affe": {
@@ -2165,7 +2252,9 @@
                 "end_time": "2024-03-25T11:00:56.255"
             },
             "ocel:omap": [
-                "H7"
+                "H7",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44423": {
@@ -2187,7 +2276,9 @@
                 "end_time": "2024-03-25T11:01:05.456"
             },
             "ocel:omap": [
-                "H7"
+                "H7",
+                "A2",
+                "repair_desk"
             ]
         },
         "Install and configure asset_22754878-00d9-4d59-99c4-d8374c0e5857": {
@@ -2198,7 +2289,9 @@
                 "end_time": "2024-03-25T11:01:23.983"
             },
             "ocel:omap": [
-                "H7"
+                "H7",
+                "A2",
+                "repair_desk"
             ]
         },
         "Label asset_3c16a8cd-d2ca-4a96-b4bf-3e75462818da": {
@@ -2209,7 +2302,9 @@
                 "end_time": "2024-03-25T11:01:28.334"
             },
             "ocel:omap": [
-                "H7"
+                "H7",
+                "A2",
+                "repair_desk"
             ]
         },
         "Move asset to storage_c07fd813-81b6-4d99-8713-a7abf9731ad3": {
@@ -2220,7 +2315,9 @@
                 "end_time": "2024-03-25T11:01:35.817"
             },
             "ocel:omap": [
-                "H7"
+                "H7",
+                "A2",
+                "self_service_storage"
             ]
         },
         "44424": {
@@ -2276,6 +2373,18 @@
                 "C3"
             ]
         },
+        "Enter room_d66c0244-90bd-4f13-b481-a5b9d5c505b1": {
+            "ocel:timestamp": "2024-03-25T11:13:37.438",
+            "ocel:activity": "Enter room",
+            "ocel:omap": [
+                "C3",
+                "door"
+            ],
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:13:41.400"
+            }
+        },
         "Pick asset from self service desk_4138517e-a3ee-4581-9328-904273235973": {
             "ocel:timestamp": "2024-03-25T11:13:43Z",
             "ocel:activity": "Pick asset from self service desk",
@@ -2285,8 +2394,21 @@
             },
             "ocel:omap": [
                 "H5",
-                "self_service_storage"
+                "self_service_storage",
+                "C3"
             ]
+        },
+        "Chat_4138dd7b-194a-4c5e-95b9-e54a923caa62": {
+            "ocel:timestamp": "2024-03-25T11:13:45.307",
+            "ocel:activity": "Chat",
+            "ocel:omap": [
+                "A2",
+                "C3"
+            ],
+            "ocel:vmap": {
+                "scene": "11",
+                "end_time": "2024-03-25T11:13:50.457"
+            }
         },
         "Leave room_00cbef26-45db-45e3-93ec-4f7eb302010b": {
             "ocel:timestamp": "2024-03-25T11:13:51Z",
@@ -2296,7 +2418,9 @@
                 "end_time": "2024-03-25T11:13:54.724"
             },
             "ocel:omap": [
-                "H5"
+                "H5",
+                "C3",
+                "door"
             ]
         },
         "Enter room_89bb7db7-1b5d-4401-b34c-8afe3dbd2b9f": {
@@ -2307,18 +2431,8 @@
                 "end_time": "2024-03-25T11:14:32.276"
             },
             "ocel:omap": [
-                "C9"
-            ]
-        },
-        "Chat_5be1d0cf-2999-4e4d-8b07-17aa05543669": {
-            "ocel:timestamp": "2024-03-25T11:14:31Z",
-            "ocel:activity": "Chat",
-            "ocel:vmap": {
-                "scene": "11",
-                "end_time": "2024-03-25T11:14:48.748"
-            },
-            "ocel:omap": [
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "Chat_ead19520-4600-478f-9a17-e31a76cc22ed": {
@@ -2329,7 +2443,8 @@
                 "end_time": "2024-03-25T11:14:35.767"
             },
             "ocel:omap": [
-                "C9"
+                "C9",
+                "A2"
             ]
         },
         "Pick asset from self service desk_b31e915a-dbd1-49e0-87dc-8c000ddaf48b": {
@@ -2354,7 +2469,8 @@
             },
             "ocel:omap": [
                 "H7",
-                "C9"
+                "C9",
+                "door"
             ]
         },
         "44428": {
@@ -2410,7 +2526,8 @@
                 "end_time": "2024-03-25T11:19:46.503"
             },
             "ocel:omap": [
-                "C4"
+                "C4",
+                "door"
             ]
         },
         "Pick asset from warehouse_1e8c2022-f967-46fc-8ce8-db5eb8cfef20": {
@@ -2422,7 +2539,8 @@
             },
             "ocel:omap": [
                 "M1",
-                "monitor_storage"
+                "monitor_storage",
+                "A2"
             ]
         },
         "Check asset quality_02c44489-ac40-4159-952d-b375c631ddd9": {
@@ -2433,7 +2551,9 @@
                 "end_time": "2024-03-25T11:20:31.799"
             },
             "ocel:omap": [
-                "M1"
+                "M1",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Check-Out asset to user_551aa80c-acb6-44e8-a0ae-c666bedfc7f3": {
@@ -2444,7 +2564,9 @@
                 "end_time": "2024-03-25T11:21:17.472"
             },
             "ocel:omap": [
-                "M1"
+                "M1",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44432": {
@@ -2470,7 +2592,9 @@
             },
             "ocel:omap": [
                 "M1",
-                "C4"
+                "C4",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Leave room_d773668e-dd1e-4aea-821a-d5a2fe51d19e": {
@@ -2482,7 +2606,8 @@
             },
             "ocel:omap": [
                 "M1",
-                "C4"
+                "C4",
+                "door"
             ]
         },
         "Enter room_ebc133ed-e083-4aa0-a2ac-70183920e2c3": {
@@ -2493,7 +2618,8 @@
                 "end_time": "2024-03-25T11:22:09.236"
             },
             "ocel:omap": [
-                "C5"
+                "C5",
+                "door"
             ]
         },
         "Pick asset from warehouse_4eddf2dd-2361-47b4-b37f-c67e7d2794f2": {
@@ -2505,7 +2631,8 @@
             },
             "ocel:omap": [
                 "M2",
-                "monitor_storage"
+                "monitor_storage",
+                "A2"
             ]
         },
         "Check asset quality_1e2c91a4-ce3b-4817-a0c6-4cca6b9f9788": {
@@ -2516,7 +2643,9 @@
                 "end_time": "2024-03-25T11:22:47.214"
             },
             "ocel:omap": [
-                "M2"
+                "M2",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44433": {
@@ -2538,7 +2667,9 @@
                 "end_time": "2024-03-25T11:23:19.042"
             },
             "ocel:omap": [
-                "M2"
+                "M2",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44434": {
@@ -2564,7 +2695,9 @@
             },
             "ocel:omap": [
                 "M2",
-                "C5"
+                "C5",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Leave room_23f68e86-675a-4fff-a92a-55823c7e693b": {
@@ -2576,7 +2709,8 @@
             },
             "ocel:omap": [
                 "M2",
-                "C5"
+                "C5",
+                "door"
             ]
         },
         "44435": {
@@ -2635,7 +2769,8 @@
                 "end_time": "2024-03-25T11:32:58.398"
             },
             "ocel:omap": [
-                "C7"
+                "C7",
+                "A2"
             ]
         },
         "Pick asset from warehouse_1abcf727-a0c0-4f33-9946-dbcf59ed2dba": {
@@ -2646,7 +2781,9 @@
                 "end_time": "2024-03-25T11:33:22.149"
             },
             "ocel:omap": [
-                "L16"
+                "L16",
+                "A2",
+                "laptop_shelf"
             ]
         },
         "Check asset quality_a342483d-26dc-4f82-9a58-d1d53a3609af": {
@@ -2657,7 +2794,9 @@
                 "end_time": "2024-03-25T11:33:49.136"
             },
             "ocel:omap": [
-                "L16"
+                "L16",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Pick asset from warehouse_596ec9ac-7d2e-49e0-bf02-d1782d879075": {
@@ -2669,7 +2808,8 @@
             },
             "ocel:omap": [
                 "T3",
-                "keyboard_cupboard"
+                "keyboard_cupboard",
+                "A2"
             ]
         },
         "Pick asset from warehouse_b666b1aa-dced-440a-8e97-adbe3b48ad83": {
@@ -2681,7 +2821,8 @@
             },
             "ocel:omap": [
                 "P2",
-                "mouse_cupboard"
+                "mouse_cupboard",
+                "A2"
             ]
         },
         "Check asset quality_c7eda897-3d36-42f4-ad13-0af1a5466214": {
@@ -2692,7 +2833,9 @@
                 "end_time": "2024-03-25T11:34:31.077"
             },
             "ocel:omap": [
-                "T3"
+                "T3",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Check asset quality_83b36061-7922-4d4e-adf2-5618fa469e63": {
@@ -2703,7 +2846,9 @@
                 "end_time": "2024-03-25T11:34:42.324"
             },
             "ocel:omap": [
-                "P2"
+                "P2",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Check-Out asset to user_e7340c03-e400-482f-a71b-4ff65f33d5e5": {
@@ -2714,7 +2859,9 @@
                 "end_time": "2024-03-25T11:35:13.138"
             },
             "ocel:omap": [
-                "L16"
+                "L16",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Move asset to storage_e0b6b721-b8bc-4a12-92e4-5c70171ec157": {
@@ -2725,7 +2872,9 @@
                 "end_time": "2024-03-25T11:35:31.309"
             },
             "ocel:omap": [
-                "L16"
+                "L16",
+                "A2",
+                "laptop_shelf"
             ]
         },
         "Pick asset from warehouse_e1ccdaac-a986-4d48-8315-167173af8047": {
@@ -2736,7 +2885,9 @@
                 "end_time": "2024-03-25T11:35:45.725"
             },
             "ocel:omap": [
-                "L6"
+                "L6",
+                "A2",
+                "laptop_shelf"
             ]
         },
         "Check-Out asset to user_1ffc71f9-ceaf-4163-ad47-6cf7e057b234": {
@@ -2749,7 +2900,9 @@
             "ocel:omap": [
                 "L6",
                 "T3",
-                "P2"
+                "P2",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44438": {
@@ -2805,7 +2958,9 @@
                 "L6",
                 "T3",
                 "P2",
-                "C7"
+                "C7",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Leave room_4201c653-056c-4f45-b50e-5bc12638974a": {
@@ -2819,7 +2974,8 @@
                 "L6",
                 "T3",
                 "P2",
-                "C7"
+                "C7",
+                "door"
             ]
         },
         "Enter room_d233f0e3-56bc-4993-80cc-779d7cf3f0c3": {
@@ -2830,7 +2986,8 @@
                 "end_time": "2024-03-25T11:38:56.387"
             },
             "ocel:omap": [
-                "C8"
+                "C8",
+                "door"
             ]
         },
         "Pick asset from warehouse_3b320478-0469-4c4b-b4c9-d135389bc214": {
@@ -2842,7 +2999,8 @@
             },
             "ocel:omap": [
                 "M3",
-                "monitor_storage"
+                "monitor_storage",
+                "A2"
             ]
         },
         "Check asset quality_48149a36-899a-4408-af9c-be7f9cedab76": {
@@ -2853,7 +3011,9 @@
                 "end_time": "2024-03-25T11:39:29.127"
             },
             "ocel:omap": [
-                "M3"
+                "M3",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44441": {
@@ -2886,7 +3046,9 @@
                 "end_time": "2024-03-25T11:40:05.271"
             },
             "ocel:omap": [
-                "M3"
+                "M3",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44443": {
@@ -2924,7 +3086,9 @@
             },
             "ocel:omap": [
                 "M3",
-                "C8"
+                "C8",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Leave room_e88dbbb5-b38c-4a31-8427-dc2ea7673c7b": {
@@ -2936,7 +3100,8 @@
             },
             "ocel:omap": [
                 "M3",
-                "C8"
+                "C8",
+                "door"
             ]
         },
         "44445": {
@@ -3050,18 +3215,8 @@
                 "end_time": "2024-03-25T11:50:51.300"
             },
             "ocel:omap": [
-                "C3"
-            ]
-        },
-        "Chat_49872407-7731-44a2-96e4-0c841f5865e3": {
-            "ocel:timestamp": "2024-03-25T11:50:50Z",
-            "ocel:activity": "Chat",
-            "ocel:vmap": {
-                "scene": "14",
-                "end_time": "2024-03-25T11:51:29.087"
-            },
-            "ocel:omap": [
-                "C3"
+                "C3",
+                "door"
             ]
         },
         "Pick asset from self service desk_c39a8806-4a2d-4f8d-9a14-bdf2eb6141be": {
@@ -3085,7 +3240,8 @@
                 "end_time": "2024-03-25T11:51:29.217"
             },
             "ocel:omap": [
-                "C3"
+                "C3",
+                "A2"
             ]
         },
         "Leave room_bc6356ba-4dd5-4c9a-bbbe-a9dc478bb8f9": {
@@ -3097,7 +3253,8 @@
             },
             "ocel:omap": [
                 "K1",
-                "C3"
+                "C3",
+                "door"
             ]
         },
         "44453": {
@@ -3131,7 +3288,8 @@
                 "end_time": "2024-03-25T11:55:51.258"
             },
             "ocel:omap": [
-                "C3"
+                "C3",
+                "door"
             ]
         },
         "Pick asset from warehouse_dcdfea70-bb94-4198-963c-889b2dae9fe5": {
@@ -3143,7 +3301,8 @@
             },
             "ocel:omap": [
                 "M4",
-                "monitor_storage"
+                "monitor_storage",
+                "A2"
             ]
         },
         "Check asset quality_7159b2c8-e24d-44b8-86dd-a0a9e4ef520f": {
@@ -3154,7 +3313,9 @@
                 "end_time": "2024-03-25T11:56:44.479"
             },
             "ocel:omap": [
-                "M4"
+                "M4",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Pick asset from warehouse_744b0641-966e-424e-8a2c-e01b24957543": {
@@ -3166,7 +3327,8 @@
             },
             "ocel:omap": [
                 "M6",
-                "monitor_storage"
+                "monitor_storage",
+                "A2"
             ]
         },
         "Check asset quality_d343f4c1-0388-42d6-b189-b64f74a7ac29": {
@@ -3177,7 +3339,9 @@
                 "end_time": "2024-03-25T11:57:00.935"
             },
             "ocel:omap": [
-                "M6"
+                "M6",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Check-Out asset to user_30f98baa-6e43-411b-b42f-b597ba2b9951": {
@@ -3189,7 +3353,9 @@
             },
             "ocel:omap": [
                 "M4",
-                "M6"
+                "M6",
+                "A2",
+                "it_working_desk"
             ]
         },
         "44455": {
@@ -3230,7 +3396,9 @@
             "ocel:omap": [
                 "M4",
                 "M6",
-                "C3"
+                "C3",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Leave room_d058dd75-aef2-4c1f-bb54-2783c628a40e": {
@@ -3243,7 +3411,8 @@
             "ocel:omap": [
                 "M4",
                 "M6",
-                "C3"
+                "C3",
+                "door"
             ]
         },
         "44457": {
@@ -3276,7 +3445,8 @@
                 "end_time": "2024-03-25T11:59:50.018"
             },
             "ocel:omap": [
-                "C2"
+                "C2",
+                "door"
             ]
         },
         "44459": {
@@ -3300,7 +3470,8 @@
             },
             "ocel:omap": [
                 "T2",
-                "keyboard_cupboard"
+                "keyboard_cupboard",
+                "A2"
             ]
         },
         "Check asset quality_5118e455-7101-4880-bf5b-fce5d91150d5": {
@@ -3311,7 +3482,9 @@
                 "end_time": "2024-03-25T12:00:51.406"
             },
             "ocel:omap": [
-                "T2"
+                "T2",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Handover asset to user_fe228771-b38a-4178-a64a-e2bffcab3234": {
@@ -3323,7 +3496,9 @@
             },
             "ocel:omap": [
                 "T2",
-                "C2"
+                "C2",
+                "A2",
+                "it_working_desk"
             ]
         },
         "Leave room_c0dbf2f8-ed90-44ce-940c-3b978f555c65": {
@@ -3334,7 +3509,8 @@
                 "end_time": "2024-03-25T12:00:58.234"
             },
             "ocel:omap": [
-                "C2"
+                "C2",
+                "door"
             ]
         },
         "44460": {
@@ -3557,6 +3733,12 @@
                 "type": "location"
             }
         },
+        "repair_desk": {
+            "ocel:type": "repair_desk",
+            "ocel:ovmap": {
+                "type": "location"
+            }
+        },
         "H4": {
             "ocel:type": "item_asset",
             "ocel:ovmap": {}
@@ -3564,12 +3746,6 @@
         "H1": {
             "ocel:type": "item_asset",
             "ocel:ovmap": {}
-        },
-        "repair_desk": {
-            "ocel:type": "repair_desk",
-            "ocel:ovmap": {
-                "type": "location"
-            }
         },
         "H2": {
             "ocel:type": "item_asset",
