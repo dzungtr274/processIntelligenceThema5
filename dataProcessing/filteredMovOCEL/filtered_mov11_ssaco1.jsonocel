@@ -1,0 +1,365 @@
+{
+    "ocel:global-event": {
+        "ocel:activity": "__INVALID__"
+    },
+    "ocel:global-object": {
+        "ocel:type": "__INVALID__"
+    },
+    "ocel:global-log": {
+        "ocel:object-types": [
+            "case:concept:name",
+            "region"
+        ],
+        "ocel:attribute-names": [],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:events": {
+        "928": {
+            "ocel:timestamp": "2024-03-25T11:13:37Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "929": {
+            "ocel:timestamp": "2024-03-25T11:13:37Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "930": {
+            "ocel:timestamp": "2024-03-25T11:13:38Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "931": {
+            "ocel:timestamp": "2024-03-25T11:13:38Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "933": {
+            "ocel:timestamp": "2024-03-25T11:13:39Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "935": {
+            "ocel:timestamp": "2024-03-25T11:13:39Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "936": {
+            "ocel:timestamp": "2024-03-25T11:13:40Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "938": {
+            "ocel:timestamp": "2024-03-25T11:13:40Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "939": {
+            "ocel:timestamp": "2024-03-25T11:13:41Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "941": {
+            "ocel:timestamp": "2024-03-25T11:13:41Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "943": {
+            "ocel:timestamp": "2024-03-25T11:13:42Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "944": {
+            "ocel:timestamp": "2024-03-25T11:13:42Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "945": {
+            "ocel:timestamp": "2024-03-25T11:13:43Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "946": {
+            "ocel:timestamp": "2024-03-25T11:13:43Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "948": {
+            "ocel:timestamp": "2024-03-25T11:13:44Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "949": {
+            "ocel:timestamp": "2024-03-25T11:13:44Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "951": {
+            "ocel:timestamp": "2024-03-25T11:13:45Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "952": {
+            "ocel:timestamp": "2024-03-25T11:13:45Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "954": {
+            "ocel:timestamp": "2024-03-25T11:13:46Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "956": {
+            "ocel:timestamp": "2024-03-25T11:13:46Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "958": {
+            "ocel:timestamp": "2024-03-25T11:13:47Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "959": {
+            "ocel:timestamp": "2024-03-25T11:13:47Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "961": {
+            "ocel:timestamp": "2024-03-25T11:13:48Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "962": {
+            "ocel:timestamp": "2024-03-25T11:13:48Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "964": {
+            "ocel:timestamp": "2024-03-25T11:13:49Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "965": {
+            "ocel:timestamp": "2024-03-25T11:13:49Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "966": {
+            "ocel:timestamp": "2024-03-25T11:13:50Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "967": {
+            "ocel:timestamp": "2024-03-25T11:13:50Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "969": {
+            "ocel:timestamp": "2024-03-25T11:13:51Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "971": {
+            "ocel:timestamp": "2024-03-25T11:13:51Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Waiting Area"
+            ]
+        },
+        "972": {
+            "ocel:timestamp": "2024-03-25T11:13:52Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "974": {
+            "ocel:timestamp": "2024-03-25T11:13:52Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Warehouse Area"
+            ]
+        },
+        "975": {
+            "ocel:timestamp": "2024-03-25T11:13:53Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        },
+        "976": {
+            "ocel:timestamp": "2024-03-25T11:13:53Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Warehouse Area"
+            ]
+        },
+        "978": {
+            "ocel:timestamp": "2024-03-25T11:13:54Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "C3",
+                "Warehouse Area"
+            ]
+        },
+        "979": {
+            "ocel:timestamp": "2024-03-25T11:13:54Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A2",
+                "Working Area"
+            ]
+        }
+    },
+    "ocel:objects": {
+        "A2": {
+            "ocel:type": "case:concept:name",
+            "ocel:ovmap": {}
+        },
+        "Warehouse Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        },
+        "C3": {
+            "ocel:type": "case:concept:name",
+            "ocel:ovmap": {}
+        },
+        "Waiting Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        },
+        "Working Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        }
+    }
+}

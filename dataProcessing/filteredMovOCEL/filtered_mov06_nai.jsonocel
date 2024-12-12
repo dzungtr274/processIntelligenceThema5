@@ -1,3488 +1,2637 @@
 {
-  "ocel:global-event": {
-    "ocel:activity": "__INVALID__"
-  },
-  "ocel:global-object": {
-    "ocel:type": "__INVALID__"
-  },
-  "ocel:global-log": {
-    "ocel:object-types": [
-      "case:concept:name"
-    ],
-    "ocel:attribute-names": [],
-    "ocel:version": "1.0",
-    "ocel:ordering": "timestamp"
-  },
-  "ocel:events": {
-    "0": {
-      "ocel:timestamp": "2024-03-25T09:29:43Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "4": {
-      "ocel:timestamp": "2024-03-25T09:29:44Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "9": {
-      "ocel:timestamp": "2024-03-25T09:29:45Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "14": {
-      "ocel:timestamp": "2024-03-25T09:29:46Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "19": {
-      "ocel:timestamp": "2024-03-25T09:29:47Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "22": {
-      "ocel:timestamp": "2024-03-25T09:29:48Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "24": {
-      "ocel:timestamp": "2024-03-25T09:29:49Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "30": {
-      "ocel:timestamp": "2024-03-25T09:29:50Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "35": {
-      "ocel:timestamp": "2024-03-25T09:29:51Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "39": {
-      "ocel:timestamp": "2024-03-25T09:29:52Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "41": {
-      "ocel:timestamp": "2024-03-25T09:29:53Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "47": {
-      "ocel:timestamp": "2024-03-25T09:29:54Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "51": {
-      "ocel:timestamp": "2024-03-25T09:29:55Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "55": {
-      "ocel:timestamp": "2024-03-25T09:29:56Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "58": {
-      "ocel:timestamp": "2024-03-25T09:29:57Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "60": {
-      "ocel:timestamp": "2024-03-25T09:29:58Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "66": {
-      "ocel:timestamp": "2024-03-25T09:29:59Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "68": {
-      "ocel:timestamp": "2024-03-25T09:30:00Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "73": {
-      "ocel:timestamp": "2024-03-25T09:30:01Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "79": {
-      "ocel:timestamp": "2024-03-25T09:30:02Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "83": {
-      "ocel:timestamp": "2024-03-25T09:30:03Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "87": {
-      "ocel:timestamp": "2024-03-25T09:30:04Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "90": {
-      "ocel:timestamp": "2024-03-25T09:30:05Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "94": {
-      "ocel:timestamp": "2024-03-25T09:30:06Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "96": {
-      "ocel:timestamp": "2024-03-25T09:30:07Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "100": {
-      "ocel:timestamp": "2024-03-25T09:30:08Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "107": {
-      "ocel:timestamp": "2024-03-25T09:30:09Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "109": {
-      "ocel:timestamp": "2024-03-25T09:30:10Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "112": {
-      "ocel:timestamp": "2024-03-25T09:30:11Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "119": {
-      "ocel:timestamp": "2024-03-25T09:30:12Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "120": {
-      "ocel:timestamp": "2024-03-25T09:30:13Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "127": {
-      "ocel:timestamp": "2024-03-25T09:30:14Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "131": {
-      "ocel:timestamp": "2024-03-25T09:30:15Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "132": {
-      "ocel:timestamp": "2024-03-25T09:30:16Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "136": {
-      "ocel:timestamp": "2024-03-25T09:30:17Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "141": {
-      "ocel:timestamp": "2024-03-25T09:30:18Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "144": {
-      "ocel:timestamp": "2024-03-25T09:30:19Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "150": {
-      "ocel:timestamp": "2024-03-25T09:30:20Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "154": {
-      "ocel:timestamp": "2024-03-25T09:30:21Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "159": {
-      "ocel:timestamp": "2024-03-25T09:30:22Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "162": {
-      "ocel:timestamp": "2024-03-25T09:30:23Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "166": {
-      "ocel:timestamp": "2024-03-25T09:30:24Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "170": {
-      "ocel:timestamp": "2024-03-25T09:30:25Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "175": {
-      "ocel:timestamp": "2024-03-25T09:30:26Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "178": {
-      "ocel:timestamp": "2024-03-25T09:30:27Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "183": {
-      "ocel:timestamp": "2024-03-25T09:30:28Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "185": {
-      "ocel:timestamp": "2024-03-25T09:30:29Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "191": {
-      "ocel:timestamp": "2024-03-25T09:30:30Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "194": {
-      "ocel:timestamp": "2024-03-25T09:30:31Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "198": {
-      "ocel:timestamp": "2024-03-25T09:30:32Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "202": {
-      "ocel:timestamp": "2024-03-25T09:30:33Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "207": {
-      "ocel:timestamp": "2024-03-25T09:30:34Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "211": {
-      "ocel:timestamp": "2024-03-25T09:30:35Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "214": {
-      "ocel:timestamp": "2024-03-25T09:30:36Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "219": {
-      "ocel:timestamp": "2024-03-25T09:30:37Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "221": {
-      "ocel:timestamp": "2024-03-25T09:30:38Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "226": {
-      "ocel:timestamp": "2024-03-25T09:30:39Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "229": {
-      "ocel:timestamp": "2024-03-25T09:30:40Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "233": {
-      "ocel:timestamp": "2024-03-25T09:30:41Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "238": {
-      "ocel:timestamp": "2024-03-25T09:30:42Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "243": {
-      "ocel:timestamp": "2024-03-25T09:30:43Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "245": {
-      "ocel:timestamp": "2024-03-25T09:30:44Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "249": {
-      "ocel:timestamp": "2024-03-25T09:30:45Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "254": {
-      "ocel:timestamp": "2024-03-25T09:30:46Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "258": {
-      "ocel:timestamp": "2024-03-25T09:30:47Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "262": {
-      "ocel:timestamp": "2024-03-25T09:30:48Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "267": {
-      "ocel:timestamp": "2024-03-25T09:30:49Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "269": {
-      "ocel:timestamp": "2024-03-25T09:30:50Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "274": {
-      "ocel:timestamp": "2024-03-25T09:30:51Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "277": {
-      "ocel:timestamp": "2024-03-25T09:30:52Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "283": {
-      "ocel:timestamp": "2024-03-25T09:30:53Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "286": {
-      "ocel:timestamp": "2024-03-25T09:30:54Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "288": {
-      "ocel:timestamp": "2024-03-25T09:30:55Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "294": {
-      "ocel:timestamp": "2024-03-25T09:30:56Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "298": {
-      "ocel:timestamp": "2024-03-25T09:30:57Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "303": {
-      "ocel:timestamp": "2024-03-25T09:30:58Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "306": {
-      "ocel:timestamp": "2024-03-25T09:30:59Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "309": {
-      "ocel:timestamp": "2024-03-25T09:31:00Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "313": {
-      "ocel:timestamp": "2024-03-25T09:31:01Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "317": {
-      "ocel:timestamp": "2024-03-25T09:31:02Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "320": {
-      "ocel:timestamp": "2024-03-25T09:31:03Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "326": {
-      "ocel:timestamp": "2024-03-25T09:31:04Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "331": {
-      "ocel:timestamp": "2024-03-25T09:31:05Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "332": {
-      "ocel:timestamp": "2024-03-25T09:31:06Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "336": {
-      "ocel:timestamp": "2024-03-25T09:31:07Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "341": {
-      "ocel:timestamp": "2024-03-25T09:31:08Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "346": {
-      "ocel:timestamp": "2024-03-25T09:31:09Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "351": {
-      "ocel:timestamp": "2024-03-25T09:31:10Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "354": {
-      "ocel:timestamp": "2024-03-25T09:31:11Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "358": {
-      "ocel:timestamp": "2024-03-25T09:31:12Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "363": {
-      "ocel:timestamp": "2024-03-25T09:31:13Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "366": {
-      "ocel:timestamp": "2024-03-25T09:31:14Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "371": {
-      "ocel:timestamp": "2024-03-25T09:31:15Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "373": {
-      "ocel:timestamp": "2024-03-25T09:31:16Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "379": {
-      "ocel:timestamp": "2024-03-25T09:31:17Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "382": {
-      "ocel:timestamp": "2024-03-25T09:31:18Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "385": {
-      "ocel:timestamp": "2024-03-25T09:31:19Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "390": {
-      "ocel:timestamp": "2024-03-25T09:31:20Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "393": {
-      "ocel:timestamp": "2024-03-25T09:31:21Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "397": {
-      "ocel:timestamp": "2024-03-25T09:31:22Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "401": {
-      "ocel:timestamp": "2024-03-25T09:31:23Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "407": {
-      "ocel:timestamp": "2024-03-25T09:31:24Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "409": {
-      "ocel:timestamp": "2024-03-25T09:31:25Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "413": {
-      "ocel:timestamp": "2024-03-25T09:31:26Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "418": {
-      "ocel:timestamp": "2024-03-25T09:31:27Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "422": {
-      "ocel:timestamp": "2024-03-25T09:31:28Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "425": {
-      "ocel:timestamp": "2024-03-25T09:31:29Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "430": {
-      "ocel:timestamp": "2024-03-25T09:31:30Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "435": {
-      "ocel:timestamp": "2024-03-25T09:31:31Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "436": {
-      "ocel:timestamp": "2024-03-25T09:31:32Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "443": {
-      "ocel:timestamp": "2024-03-25T09:31:33Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "444": {
-      "ocel:timestamp": "2024-03-25T09:31:34Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "449": {
-      "ocel:timestamp": "2024-03-25T09:31:35Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "452": {
-      "ocel:timestamp": "2024-03-25T09:31:36Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "458": {
-      "ocel:timestamp": "2024-03-25T09:31:37Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "463": {
-      "ocel:timestamp": "2024-03-25T09:31:38Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "467": {
-      "ocel:timestamp": "2024-03-25T09:31:39Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "471": {
-      "ocel:timestamp": "2024-03-25T09:31:40Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "474": {
-      "ocel:timestamp": "2024-03-25T09:31:41Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "478": {
-      "ocel:timestamp": "2024-03-25T09:31:42Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "481": {
-      "ocel:timestamp": "2024-03-25T09:31:43Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "484": {
-      "ocel:timestamp": "2024-03-25T09:31:44Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "490": {
-      "ocel:timestamp": "2024-03-25T09:31:45Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "495": {
-      "ocel:timestamp": "2024-03-25T09:31:46Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "497": {
-      "ocel:timestamp": "2024-03-25T09:31:47Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "502": {
-      "ocel:timestamp": "2024-03-25T09:31:48Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "504": {
-      "ocel:timestamp": "2024-03-25T09:31:49Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "509": {
-      "ocel:timestamp": "2024-03-25T09:31:50Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "513": {
-      "ocel:timestamp": "2024-03-25T09:31:51Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "518": {
-      "ocel:timestamp": "2024-03-25T09:31:52Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "521": {
-      "ocel:timestamp": "2024-03-25T09:31:53Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "525": {
-      "ocel:timestamp": "2024-03-25T09:31:54Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "531": {
-      "ocel:timestamp": "2024-03-25T09:31:55Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "532": {
-      "ocel:timestamp": "2024-03-25T09:31:56Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "539": {
-      "ocel:timestamp": "2024-03-25T09:31:57Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "542": {
-      "ocel:timestamp": "2024-03-25T09:31:58Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "546": {
-      "ocel:timestamp": "2024-03-25T09:31:59Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "549": {
-      "ocel:timestamp": "2024-03-25T09:32:00Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "552": {
-      "ocel:timestamp": "2024-03-25T09:32:01Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "556": {
-      "ocel:timestamp": "2024-03-25T09:32:02Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "563": {
-      "ocel:timestamp": "2024-03-25T09:32:03Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "565": {
-      "ocel:timestamp": "2024-03-25T09:32:04Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "571": {
-      "ocel:timestamp": "2024-03-25T09:32:05Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "573": {
-      "ocel:timestamp": "2024-03-25T09:32:06Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "576": {
-      "ocel:timestamp": "2024-03-25T09:32:07Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "581": {
-      "ocel:timestamp": "2024-03-25T09:32:08Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "586": {
-      "ocel:timestamp": "2024-03-25T09:32:09Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "591": {
-      "ocel:timestamp": "2024-03-25T09:32:10Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "593": {
-      "ocel:timestamp": "2024-03-25T09:32:11Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "597": {
-      "ocel:timestamp": "2024-03-25T09:32:12Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "602": {
-      "ocel:timestamp": "2024-03-25T09:32:13Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "606": {
-      "ocel:timestamp": "2024-03-25T09:32:14Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "609": {
-      "ocel:timestamp": "2024-03-25T09:32:15Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "613": {
-      "ocel:timestamp": "2024-03-25T09:32:16Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "619": {
-      "ocel:timestamp": "2024-03-25T09:32:17Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "623": {
-      "ocel:timestamp": "2024-03-25T09:32:18Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "626": {
-      "ocel:timestamp": "2024-03-25T09:32:19Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "629": {
-      "ocel:timestamp": "2024-03-25T09:32:20Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "634": {
-      "ocel:timestamp": "2024-03-25T09:32:21Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "637": {
-      "ocel:timestamp": "2024-03-25T09:32:22Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "642": {
-      "ocel:timestamp": "2024-03-25T09:32:23Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "644": {
-      "ocel:timestamp": "2024-03-25T09:32:24Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "651": {
-      "ocel:timestamp": "2024-03-25T09:32:25Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "653": {
-      "ocel:timestamp": "2024-03-25T09:32:26Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "657": {
-      "ocel:timestamp": "2024-03-25T09:32:27Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "661": {
-      "ocel:timestamp": "2024-03-25T09:32:28Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "667": {
-      "ocel:timestamp": "2024-03-25T09:32:29Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "671": {
-      "ocel:timestamp": "2024-03-25T09:32:30Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "673": {
-      "ocel:timestamp": "2024-03-25T09:32:31Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "677": {
-      "ocel:timestamp": "2024-03-25T09:32:32Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "681": {
-      "ocel:timestamp": "2024-03-25T09:32:33Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "685": {
-      "ocel:timestamp": "2024-03-25T09:32:34Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "688": {
-      "ocel:timestamp": "2024-03-25T09:32:35Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "692": {
-      "ocel:timestamp": "2024-03-25T09:32:36Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "696": {
-      "ocel:timestamp": "2024-03-25T09:32:37Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "701": {
-      "ocel:timestamp": "2024-03-25T09:32:38Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "707": {
-      "ocel:timestamp": "2024-03-25T09:32:39Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "710": {
-      "ocel:timestamp": "2024-03-25T09:32:40Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "712": {
-      "ocel:timestamp": "2024-03-25T09:32:41Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "719": {
-      "ocel:timestamp": "2024-03-25T09:32:42Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "723": {
-      "ocel:timestamp": "2024-03-25T09:32:43Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "724": {
-      "ocel:timestamp": "2024-03-25T09:32:44Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "731": {
-      "ocel:timestamp": "2024-03-25T09:32:45Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "732": {
-      "ocel:timestamp": "2024-03-25T09:32:46Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "737": {
-      "ocel:timestamp": "2024-03-25T09:32:47Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "743": {
-      "ocel:timestamp": "2024-03-25T09:32:48Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "746": {
-      "ocel:timestamp": "2024-03-25T09:32:49Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "750": {
-      "ocel:timestamp": "2024-03-25T09:32:50Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "754": {
-      "ocel:timestamp": "2024-03-25T09:32:51Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "757": {
-      "ocel:timestamp": "2024-03-25T09:32:52Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "763": {
-      "ocel:timestamp": "2024-03-25T09:32:53Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "765": {
-      "ocel:timestamp": "2024-03-25T09:32:54Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "771": {
-      "ocel:timestamp": "2024-03-25T09:32:55Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "774": {
-      "ocel:timestamp": "2024-03-25T09:32:56Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "779": {
-      "ocel:timestamp": "2024-03-25T09:32:57Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "780": {
-      "ocel:timestamp": "2024-03-25T09:32:58Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "784": {
-      "ocel:timestamp": "2024-03-25T09:32:59Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "790": {
-      "ocel:timestamp": "2024-03-25T09:33:00Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "792": {
-      "ocel:timestamp": "2024-03-25T09:33:01Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "796": {
-      "ocel:timestamp": "2024-03-25T09:33:02Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "803": {
-      "ocel:timestamp": "2024-03-25T09:33:03Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "805": {
-      "ocel:timestamp": "2024-03-25T09:33:04Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "809": {
-      "ocel:timestamp": "2024-03-25T09:33:05Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "813": {
-      "ocel:timestamp": "2024-03-25T09:33:06Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "816": {
-      "ocel:timestamp": "2024-03-25T09:33:07Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "820": {
-      "ocel:timestamp": "2024-03-25T09:33:08Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "826": {
-      "ocel:timestamp": "2024-03-25T09:33:09Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "829": {
-      "ocel:timestamp": "2024-03-25T09:33:10Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "834": {
-      "ocel:timestamp": "2024-03-25T09:33:11Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "838": {
-      "ocel:timestamp": "2024-03-25T09:33:12Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "842": {
-      "ocel:timestamp": "2024-03-25T09:33:13Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "845": {
-      "ocel:timestamp": "2024-03-25T09:33:14Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "851": {
-      "ocel:timestamp": "2024-03-25T09:33:15Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "855": {
-      "ocel:timestamp": "2024-03-25T09:33:16Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "856": {
-      "ocel:timestamp": "2024-03-25T09:33:17Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "863": {
-      "ocel:timestamp": "2024-03-25T09:33:18Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "864": {
-      "ocel:timestamp": "2024-03-25T09:33:19Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "868": {
-      "ocel:timestamp": "2024-03-25T09:33:20Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "872": {
-      "ocel:timestamp": "2024-03-25T09:33:21Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "877": {
-      "ocel:timestamp": "2024-03-25T09:33:22Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "880": {
-      "ocel:timestamp": "2024-03-25T09:33:23Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "887": {
-      "ocel:timestamp": "2024-03-25T09:33:24Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "889": {
-      "ocel:timestamp": "2024-03-25T09:33:25Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "894": {
-      "ocel:timestamp": "2024-03-25T09:33:26Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "896": {
-      "ocel:timestamp": "2024-03-25T09:33:27Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "903": {
-      "ocel:timestamp": "2024-03-25T09:33:28Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "905": {
-      "ocel:timestamp": "2024-03-25T09:33:29Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "911": {
-      "ocel:timestamp": "2024-03-25T09:33:30Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "915": {
-      "ocel:timestamp": "2024-03-25T09:33:31Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "916": {
-      "ocel:timestamp": "2024-03-25T09:33:32Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "920": {
-      "ocel:timestamp": "2024-03-25T09:33:33Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "927": {
-      "ocel:timestamp": "2024-03-25T09:33:34Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "929": {
-      "ocel:timestamp": "2024-03-25T09:33:35Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "935": {
-      "ocel:timestamp": "2024-03-25T09:33:36Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "938": {
-      "ocel:timestamp": "2024-03-25T09:33:37Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "942": {
-      "ocel:timestamp": "2024-03-25T09:33:38Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "947": {
-      "ocel:timestamp": "2024-03-25T09:33:39Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "949": {
-      "ocel:timestamp": "2024-03-25T09:33:40Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "954": {
-      "ocel:timestamp": "2024-03-25T09:33:41Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "959": {
-      "ocel:timestamp": "2024-03-25T09:33:42Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "962": {
-      "ocel:timestamp": "2024-03-25T09:33:43Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "966": {
-      "ocel:timestamp": "2024-03-25T09:33:44Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "971": {
-      "ocel:timestamp": "2024-03-25T09:33:45Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "972": {
-      "ocel:timestamp": "2024-03-25T09:33:46Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "979": {
-      "ocel:timestamp": "2024-03-25T09:33:47Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "982": {
-      "ocel:timestamp": "2024-03-25T09:33:48Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "984": {
-      "ocel:timestamp": "2024-03-25T09:33:49Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "989": {
-      "ocel:timestamp": "2024-03-25T09:33:50Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "994": {
-      "ocel:timestamp": "2024-03-25T09:33:51Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "998": {
-      "ocel:timestamp": "2024-03-25T09:33:52Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1002": {
-      "ocel:timestamp": "2024-03-25T09:33:53Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1006": {
-      "ocel:timestamp": "2024-03-25T09:33:54Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1008": {
-      "ocel:timestamp": "2024-03-25T09:33:55Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1015": {
-      "ocel:timestamp": "2024-03-25T09:33:56Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1019": {
-      "ocel:timestamp": "2024-03-25T09:33:57Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1023": {
-      "ocel:timestamp": "2024-03-25T09:33:58Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1025": {
-      "ocel:timestamp": "2024-03-25T09:33:59Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1029": {
-      "ocel:timestamp": "2024-03-25T09:34:00Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1033": {
-      "ocel:timestamp": "2024-03-25T09:34:01Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1037": {
-      "ocel:timestamp": "2024-03-25T09:34:02Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1043": {
-      "ocel:timestamp": "2024-03-25T09:34:03Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1045": {
-      "ocel:timestamp": "2024-03-25T09:34:04Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1050": {
-      "ocel:timestamp": "2024-03-25T09:34:05Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1055": {
-      "ocel:timestamp": "2024-03-25T09:34:06Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1058": {
-      "ocel:timestamp": "2024-03-25T09:34:07Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1062": {
-      "ocel:timestamp": "2024-03-25T09:34:08Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1066": {
-      "ocel:timestamp": "2024-03-25T09:34:09Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1071": {
-      "ocel:timestamp": "2024-03-25T09:34:10Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1074": {
-      "ocel:timestamp": "2024-03-25T09:34:11Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1079": {
-      "ocel:timestamp": "2024-03-25T09:34:12Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1082": {
-      "ocel:timestamp": "2024-03-25T09:34:13Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1087": {
-      "ocel:timestamp": "2024-03-25T09:34:14Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1091": {
-      "ocel:timestamp": "2024-03-25T09:34:15Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1092": {
-      "ocel:timestamp": "2024-03-25T09:34:16Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1099": {
-      "ocel:timestamp": "2024-03-25T09:34:17Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1101": {
-      "ocel:timestamp": "2024-03-25T09:34:18Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1106": {
-      "ocel:timestamp": "2024-03-25T09:34:19Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1110": {
-      "ocel:timestamp": "2024-03-25T09:34:20Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1115": {
-      "ocel:timestamp": "2024-03-25T09:34:21Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1117": {
-      "ocel:timestamp": "2024-03-25T09:34:22Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1120": {
-      "ocel:timestamp": "2024-03-25T09:34:23Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1124": {
-      "ocel:timestamp": "2024-03-25T09:34:24Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1128": {
-      "ocel:timestamp": "2024-03-25T09:34:25Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1135": {
-      "ocel:timestamp": "2024-03-25T09:34:26Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1139": {
-      "ocel:timestamp": "2024-03-25T09:34:27Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1142": {
-      "ocel:timestamp": "2024-03-25T09:34:28Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1147": {
-      "ocel:timestamp": "2024-03-25T09:34:29Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1149": {
-      "ocel:timestamp": "2024-03-25T09:34:30Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1155": {
-      "ocel:timestamp": "2024-03-25T09:34:31Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1156": {
-      "ocel:timestamp": "2024-03-25T09:34:32Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1160": {
-      "ocel:timestamp": "2024-03-25T09:34:33Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1165": {
-      "ocel:timestamp": "2024-03-25T09:34:34Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1168": {
-      "ocel:timestamp": "2024-03-25T09:34:35Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1173": {
-      "ocel:timestamp": "2024-03-25T09:34:36Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1178": {
-      "ocel:timestamp": "2024-03-25T09:34:37Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1181": {
-      "ocel:timestamp": "2024-03-25T09:34:38Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1186": {
-      "ocel:timestamp": "2024-03-25T09:34:39Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1189": {
-      "ocel:timestamp": "2024-03-25T09:34:40Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1194": {
-      "ocel:timestamp": "2024-03-25T09:34:41Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1198": {
-      "ocel:timestamp": "2024-03-25T09:34:42Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1201": {
-      "ocel:timestamp": "2024-03-25T09:34:43Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1207": {
-      "ocel:timestamp": "2024-03-25T09:34:44Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1208": {
-      "ocel:timestamp": "2024-03-25T09:34:45Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1213": {
-      "ocel:timestamp": "2024-03-25T09:34:46Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1218": {
-      "ocel:timestamp": "2024-03-25T09:34:47Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1223": {
-      "ocel:timestamp": "2024-03-25T09:34:48Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1225": {
-      "ocel:timestamp": "2024-03-25T09:34:49Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1229": {
-      "ocel:timestamp": "2024-03-25T09:34:50Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1232": {
-      "ocel:timestamp": "2024-03-25T09:34:51Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1239": {
-      "ocel:timestamp": "2024-03-25T09:34:52Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1240": {
-      "ocel:timestamp": "2024-03-25T09:34:53Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1246": {
-      "ocel:timestamp": "2024-03-25T09:34:54Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1249": {
-      "ocel:timestamp": "2024-03-25T09:34:55Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1252": {
-      "ocel:timestamp": "2024-03-25T09:34:56Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1258": {
-      "ocel:timestamp": "2024-03-25T09:34:57Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1261": {
-      "ocel:timestamp": "2024-03-25T09:34:58Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1265": {
-      "ocel:timestamp": "2024-03-25T09:34:59Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1270": {
-      "ocel:timestamp": "2024-03-25T09:35:00Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1274": {
-      "ocel:timestamp": "2024-03-25T09:35:01Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1278": {
-      "ocel:timestamp": "2024-03-25T09:35:02Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1282": {
-      "ocel:timestamp": "2024-03-25T09:35:03Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1284": {
-      "ocel:timestamp": "2024-03-25T09:35:04Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1288": {
-      "ocel:timestamp": "2024-03-25T09:35:05Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1295": {
-      "ocel:timestamp": "2024-03-25T09:35:06Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1296": {
-      "ocel:timestamp": "2024-03-25T09:35:07Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1302": {
-      "ocel:timestamp": "2024-03-25T09:35:08Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1306": {
-      "ocel:timestamp": "2024-03-25T09:35:09Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1311": {
-      "ocel:timestamp": "2024-03-25T09:35:10Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1313": {
-      "ocel:timestamp": "2024-03-25T09:35:11Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1316": {
-      "ocel:timestamp": "2024-03-25T09:35:12Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1321": {
-      "ocel:timestamp": "2024-03-25T09:35:13Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1327": {
-      "ocel:timestamp": "2024-03-25T09:35:14Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1329": {
-      "ocel:timestamp": "2024-03-25T09:35:15Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1335": {
-      "ocel:timestamp": "2024-03-25T09:35:16Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1338": {
-      "ocel:timestamp": "2024-03-25T09:35:17Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1343": {
-      "ocel:timestamp": "2024-03-25T09:35:18Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1346": {
-      "ocel:timestamp": "2024-03-25T09:35:19Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1349": {
-      "ocel:timestamp": "2024-03-25T09:35:20Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1352": {
-      "ocel:timestamp": "2024-03-25T09:35:21Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1357": {
-      "ocel:timestamp": "2024-03-25T09:35:22Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1360": {
-      "ocel:timestamp": "2024-03-25T09:35:23Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1366": {
-      "ocel:timestamp": "2024-03-25T09:35:24Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1370": {
-      "ocel:timestamp": "2024-03-25T09:35:25Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1372": {
-      "ocel:timestamp": "2024-03-25T09:35:26Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1376": {
-      "ocel:timestamp": "2024-03-25T09:35:27Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1383": {
-      "ocel:timestamp": "2024-03-25T09:35:28Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1387": {
-      "ocel:timestamp": "2024-03-25T09:35:29Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1391": {
-      "ocel:timestamp": "2024-03-25T09:35:30Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1395": {
-      "ocel:timestamp": "2024-03-25T09:35:31Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1397": {
-      "ocel:timestamp": "2024-03-25T09:35:32Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1402": {
-      "ocel:timestamp": "2024-03-25T09:35:33Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1407": {
-      "ocel:timestamp": "2024-03-25T09:35:34Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1409": {
-      "ocel:timestamp": "2024-03-25T09:35:35Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1415": {
-      "ocel:timestamp": "2024-03-25T09:35:36Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1419": {
-      "ocel:timestamp": "2024-03-25T09:35:37Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1422": {
-      "ocel:timestamp": "2024-03-25T09:35:38Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1426": {
-      "ocel:timestamp": "2024-03-25T09:35:39Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1431": {
-      "ocel:timestamp": "2024-03-25T09:35:40Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1435": {
-      "ocel:timestamp": "2024-03-25T09:35:41Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1436": {
-      "ocel:timestamp": "2024-03-25T09:35:42Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1441": {
-      "ocel:timestamp": "2024-03-25T09:35:43Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1444": {
-      "ocel:timestamp": "2024-03-25T09:35:44Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1448": {
-      "ocel:timestamp": "2024-03-25T09:35:45Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1452": {
-      "ocel:timestamp": "2024-03-25T09:35:46Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1458": {
-      "ocel:timestamp": "2024-03-25T09:35:47Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1461": {
-      "ocel:timestamp": "2024-03-25T09:35:48Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1465": {
-      "ocel:timestamp": "2024-03-25T09:35:49Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1470": {
-      "ocel:timestamp": "2024-03-25T09:35:50Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1475": {
-      "ocel:timestamp": "2024-03-25T09:35:51Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1478": {
-      "ocel:timestamp": "2024-03-25T09:35:52Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1481": {
-      "ocel:timestamp": "2024-03-25T09:35:53Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1485": {
-      "ocel:timestamp": "2024-03-25T09:35:54Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1489": {
-      "ocel:timestamp": "2024-03-25T09:35:55Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1495": {
-      "ocel:timestamp": "2024-03-25T09:35:56Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1499": {
-      "ocel:timestamp": "2024-03-25T09:35:57Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1503": {
-      "ocel:timestamp": "2024-03-25T09:35:58Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1504": {
-      "ocel:timestamp": "2024-03-25T09:35:59Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1510": {
-      "ocel:timestamp": "2024-03-25T09:36:00Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1512": {
-      "ocel:timestamp": "2024-03-25T09:36:01Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1518": {
-      "ocel:timestamp": "2024-03-25T09:36:02Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1522": {
-      "ocel:timestamp": "2024-03-25T09:36:03Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1526": {
-      "ocel:timestamp": "2024-03-25T09:36:04Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1528": {
-      "ocel:timestamp": "2024-03-25T09:36:05Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1533": {
-      "ocel:timestamp": "2024-03-25T09:36:06Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1536": {
-      "ocel:timestamp": "2024-03-25T09:36:07Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1542": {
-      "ocel:timestamp": "2024-03-25T09:36:08Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1546": {
-      "ocel:timestamp": "2024-03-25T09:36:09Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1551": {
-      "ocel:timestamp": "2024-03-25T09:36:10Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1552": {
-      "ocel:timestamp": "2024-03-25T09:36:11Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1558": {
-      "ocel:timestamp": "2024-03-25T09:36:12Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1563": {
-      "ocel:timestamp": "2024-03-25T09:36:13Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1565": {
-      "ocel:timestamp": "2024-03-25T09:36:14Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1570": {
-      "ocel:timestamp": "2024-03-25T09:36:15Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1572": {
-      "ocel:timestamp": "2024-03-25T09:36:16Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1576": {
-      "ocel:timestamp": "2024-03-25T09:36:17Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1581": {
-      "ocel:timestamp": "2024-03-25T09:36:18Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1586": {
-      "ocel:timestamp": "2024-03-25T09:36:19Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1590": {
-      "ocel:timestamp": "2024-03-25T09:36:20Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1594": {
-      "ocel:timestamp": "2024-03-25T09:36:21Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1597": {
-      "ocel:timestamp": "2024-03-25T09:36:22Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1603": {
-      "ocel:timestamp": "2024-03-25T09:36:23Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1605": {
-      "ocel:timestamp": "2024-03-25T09:36:24Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1609": {
-      "ocel:timestamp": "2024-03-25T09:36:25Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1612": {
-      "ocel:timestamp": "2024-03-25T09:36:26Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1619": {
-      "ocel:timestamp": "2024-03-25T09:36:27Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1622": {
-      "ocel:timestamp": "2024-03-25T09:36:28Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1627": {
-      "ocel:timestamp": "2024-03-25T09:36:29Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1629": {
-      "ocel:timestamp": "2024-03-25T09:36:30Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1635": {
-      "ocel:timestamp": "2024-03-25T09:36:31Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1638": {
-      "ocel:timestamp": "2024-03-25T09:36:32Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1643": {
-      "ocel:timestamp": "2024-03-25T09:36:33Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1647": {
-      "ocel:timestamp": "2024-03-25T09:36:34Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1650": {
-      "ocel:timestamp": "2024-03-25T09:36:35Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1654": {
-      "ocel:timestamp": "2024-03-25T09:36:36Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1659": {
-      "ocel:timestamp": "2024-03-25T09:36:37Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1662": {
-      "ocel:timestamp": "2024-03-25T09:36:38Z",
-      "ocel:activity": "Walk",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1666": {
-      "ocel:timestamp": "2024-03-25T09:36:39Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1670": {
-      "ocel:timestamp": "2024-03-25T09:36:40Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1673": {
-      "ocel:timestamp": "2024-03-25T09:36:41Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1679": {
-      "ocel:timestamp": "2024-03-25T09:36:42Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1680": {
-      "ocel:timestamp": "2024-03-25T09:36:43Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1686": {
-      "ocel:timestamp": "2024-03-25T09:36:44Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1691": {
-      "ocel:timestamp": "2024-03-25T09:36:45Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1693": {
-      "ocel:timestamp": "2024-03-25T09:36:46Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1696": {
-      "ocel:timestamp": "2024-03-25T09:36:47Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1700": {
-      "ocel:timestamp": "2024-03-25T09:36:48Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1705": {
-      "ocel:timestamp": "2024-03-25T09:36:49Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1711": {
-      "ocel:timestamp": "2024-03-25T09:36:50Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1715": {
-      "ocel:timestamp": "2024-03-25T09:36:51Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1718": {
-      "ocel:timestamp": "2024-03-25T09:36:52Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1722": {
-      "ocel:timestamp": "2024-03-25T09:36:53Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1727": {
-      "ocel:timestamp": "2024-03-25T09:36:54Z",
-      "ocel:activity": "Stand",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
-    },
-    "1729": {
-      "ocel:timestamp": "2024-03-25T09:36:55Z",
-      "ocel:activity": "Handling",
-      "ocel:vmap": {},
-      "ocel:omap": [
-        "A1"
-      ]
+    "ocel:global-event": {
+        "ocel:activity": "__INVALID__"
+    },
+    "ocel:global-object": {
+        "ocel:type": "__INVALID__"
+    },
+    "ocel:global-log": {
+        "ocel:object-types": [
+            "case:concept:name",
+            "region"
+        ],
+        "ocel:attribute-names": [],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:events": {
+        "79": {
+            "ocel:timestamp": "2024-03-25T09:30:02Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "83": {
+            "ocel:timestamp": "2024-03-25T09:30:03Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "87": {
+            "ocel:timestamp": "2024-03-25T09:30:04Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "90": {
+            "ocel:timestamp": "2024-03-25T09:30:05Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "94": {
+            "ocel:timestamp": "2024-03-25T09:30:06Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "96": {
+            "ocel:timestamp": "2024-03-25T09:30:07Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "100": {
+            "ocel:timestamp": "2024-03-25T09:30:08Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "107": {
+            "ocel:timestamp": "2024-03-25T09:30:09Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "109": {
+            "ocel:timestamp": "2024-03-25T09:30:10Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "112": {
+            "ocel:timestamp": "2024-03-25T09:30:11Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "119": {
+            "ocel:timestamp": "2024-03-25T09:30:12Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "120": {
+            "ocel:timestamp": "2024-03-25T09:30:13Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "127": {
+            "ocel:timestamp": "2024-03-25T09:30:14Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "131": {
+            "ocel:timestamp": "2024-03-25T09:30:15Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "132": {
+            "ocel:timestamp": "2024-03-25T09:30:16Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "136": {
+            "ocel:timestamp": "2024-03-25T09:30:17Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "141": {
+            "ocel:timestamp": "2024-03-25T09:30:18Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "144": {
+            "ocel:timestamp": "2024-03-25T09:30:19Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "150": {
+            "ocel:timestamp": "2024-03-25T09:30:20Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "154": {
+            "ocel:timestamp": "2024-03-25T09:30:21Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "159": {
+            "ocel:timestamp": "2024-03-25T09:30:22Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "162": {
+            "ocel:timestamp": "2024-03-25T09:30:23Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "166": {
+            "ocel:timestamp": "2024-03-25T09:30:24Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "170": {
+            "ocel:timestamp": "2024-03-25T09:30:25Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "175": {
+            "ocel:timestamp": "2024-03-25T09:30:26Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "178": {
+            "ocel:timestamp": "2024-03-25T09:30:27Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "183": {
+            "ocel:timestamp": "2024-03-25T09:30:28Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "185": {
+            "ocel:timestamp": "2024-03-25T09:30:29Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "191": {
+            "ocel:timestamp": "2024-03-25T09:30:30Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "194": {
+            "ocel:timestamp": "2024-03-25T09:30:31Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "198": {
+            "ocel:timestamp": "2024-03-25T09:30:32Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "202": {
+            "ocel:timestamp": "2024-03-25T09:30:33Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "207": {
+            "ocel:timestamp": "2024-03-25T09:30:34Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "211": {
+            "ocel:timestamp": "2024-03-25T09:30:35Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "214": {
+            "ocel:timestamp": "2024-03-25T09:30:36Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "219": {
+            "ocel:timestamp": "2024-03-25T09:30:37Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "221": {
+            "ocel:timestamp": "2024-03-25T09:30:38Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "226": {
+            "ocel:timestamp": "2024-03-25T09:30:39Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "229": {
+            "ocel:timestamp": "2024-03-25T09:30:40Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "233": {
+            "ocel:timestamp": "2024-03-25T09:30:41Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "238": {
+            "ocel:timestamp": "2024-03-25T09:30:42Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "243": {
+            "ocel:timestamp": "2024-03-25T09:30:43Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "245": {
+            "ocel:timestamp": "2024-03-25T09:30:44Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "249": {
+            "ocel:timestamp": "2024-03-25T09:30:45Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "254": {
+            "ocel:timestamp": "2024-03-25T09:30:46Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "258": {
+            "ocel:timestamp": "2024-03-25T09:30:47Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "262": {
+            "ocel:timestamp": "2024-03-25T09:30:48Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "267": {
+            "ocel:timestamp": "2024-03-25T09:30:49Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "269": {
+            "ocel:timestamp": "2024-03-25T09:30:50Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "274": {
+            "ocel:timestamp": "2024-03-25T09:30:51Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "277": {
+            "ocel:timestamp": "2024-03-25T09:30:52Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "283": {
+            "ocel:timestamp": "2024-03-25T09:30:53Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "286": {
+            "ocel:timestamp": "2024-03-25T09:30:54Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "288": {
+            "ocel:timestamp": "2024-03-25T09:30:55Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Warehouse Area"
+            ]
+        },
+        "294": {
+            "ocel:timestamp": "2024-03-25T09:30:56Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "298": {
+            "ocel:timestamp": "2024-03-25T09:30:57Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "303": {
+            "ocel:timestamp": "2024-03-25T09:30:58Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "306": {
+            "ocel:timestamp": "2024-03-25T09:30:59Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "309": {
+            "ocel:timestamp": "2024-03-25T09:31:00Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "313": {
+            "ocel:timestamp": "2024-03-25T09:31:01Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "317": {
+            "ocel:timestamp": "2024-03-25T09:31:02Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "320": {
+            "ocel:timestamp": "2024-03-25T09:31:03Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "326": {
+            "ocel:timestamp": "2024-03-25T09:31:04Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "331": {
+            "ocel:timestamp": "2024-03-25T09:31:05Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "332": {
+            "ocel:timestamp": "2024-03-25T09:31:06Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "336": {
+            "ocel:timestamp": "2024-03-25T09:31:07Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "341": {
+            "ocel:timestamp": "2024-03-25T09:31:08Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "346": {
+            "ocel:timestamp": "2024-03-25T09:31:09Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "351": {
+            "ocel:timestamp": "2024-03-25T09:31:10Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "354": {
+            "ocel:timestamp": "2024-03-25T09:31:11Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "358": {
+            "ocel:timestamp": "2024-03-25T09:31:12Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "363": {
+            "ocel:timestamp": "2024-03-25T09:31:13Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "366": {
+            "ocel:timestamp": "2024-03-25T09:31:14Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "371": {
+            "ocel:timestamp": "2024-03-25T09:31:15Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "373": {
+            "ocel:timestamp": "2024-03-25T09:31:16Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "379": {
+            "ocel:timestamp": "2024-03-25T09:31:17Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "382": {
+            "ocel:timestamp": "2024-03-25T09:31:18Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "385": {
+            "ocel:timestamp": "2024-03-25T09:31:19Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "390": {
+            "ocel:timestamp": "2024-03-25T09:31:20Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "393": {
+            "ocel:timestamp": "2024-03-25T09:31:21Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "397": {
+            "ocel:timestamp": "2024-03-25T09:31:22Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "401": {
+            "ocel:timestamp": "2024-03-25T09:31:23Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "407": {
+            "ocel:timestamp": "2024-03-25T09:31:24Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "409": {
+            "ocel:timestamp": "2024-03-25T09:31:25Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "413": {
+            "ocel:timestamp": "2024-03-25T09:31:26Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "418": {
+            "ocel:timestamp": "2024-03-25T09:31:27Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "422": {
+            "ocel:timestamp": "2024-03-25T09:31:28Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "425": {
+            "ocel:timestamp": "2024-03-25T09:31:29Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "430": {
+            "ocel:timestamp": "2024-03-25T09:31:30Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "435": {
+            "ocel:timestamp": "2024-03-25T09:31:31Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "436": {
+            "ocel:timestamp": "2024-03-25T09:31:32Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "443": {
+            "ocel:timestamp": "2024-03-25T09:31:33Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "444": {
+            "ocel:timestamp": "2024-03-25T09:31:34Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "449": {
+            "ocel:timestamp": "2024-03-25T09:31:35Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "452": {
+            "ocel:timestamp": "2024-03-25T09:31:36Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "458": {
+            "ocel:timestamp": "2024-03-25T09:31:37Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "463": {
+            "ocel:timestamp": "2024-03-25T09:31:38Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "467": {
+            "ocel:timestamp": "2024-03-25T09:31:39Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "471": {
+            "ocel:timestamp": "2024-03-25T09:31:40Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "474": {
+            "ocel:timestamp": "2024-03-25T09:31:41Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "478": {
+            "ocel:timestamp": "2024-03-25T09:31:42Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "481": {
+            "ocel:timestamp": "2024-03-25T09:31:43Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "484": {
+            "ocel:timestamp": "2024-03-25T09:31:44Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "490": {
+            "ocel:timestamp": "2024-03-25T09:31:45Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "495": {
+            "ocel:timestamp": "2024-03-25T09:31:46Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "497": {
+            "ocel:timestamp": "2024-03-25T09:31:47Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "502": {
+            "ocel:timestamp": "2024-03-25T09:31:48Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "504": {
+            "ocel:timestamp": "2024-03-25T09:31:49Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "509": {
+            "ocel:timestamp": "2024-03-25T09:31:50Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Self-Service Lending Area"
+            ]
+        },
+        "513": {
+            "ocel:timestamp": "2024-03-25T09:31:51Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Self-Service Lending Area"
+            ]
+        },
+        "518": {
+            "ocel:timestamp": "2024-03-25T09:31:52Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Self-Service Lending Area"
+            ]
+        },
+        "521": {
+            "ocel:timestamp": "2024-03-25T09:31:53Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Self-Service Lending Area"
+            ]
+        },
+        "525": {
+            "ocel:timestamp": "2024-03-25T09:31:54Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Self-Service Lending Area"
+            ]
+        },
+        "531": {
+            "ocel:timestamp": "2024-03-25T09:31:55Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "532": {
+            "ocel:timestamp": "2024-03-25T09:31:56Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "539": {
+            "ocel:timestamp": "2024-03-25T09:31:57Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "542": {
+            "ocel:timestamp": "2024-03-25T09:31:58Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "546": {
+            "ocel:timestamp": "2024-03-25T09:31:59Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "549": {
+            "ocel:timestamp": "2024-03-25T09:32:00Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "552": {
+            "ocel:timestamp": "2024-03-25T09:32:01Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "556": {
+            "ocel:timestamp": "2024-03-25T09:32:02Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "563": {
+            "ocel:timestamp": "2024-03-25T09:32:03Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "565": {
+            "ocel:timestamp": "2024-03-25T09:32:04Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "571": {
+            "ocel:timestamp": "2024-03-25T09:32:05Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "573": {
+            "ocel:timestamp": "2024-03-25T09:32:06Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "576": {
+            "ocel:timestamp": "2024-03-25T09:32:07Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "581": {
+            "ocel:timestamp": "2024-03-25T09:32:08Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "586": {
+            "ocel:timestamp": "2024-03-25T09:32:09Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "591": {
+            "ocel:timestamp": "2024-03-25T09:32:10Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "593": {
+            "ocel:timestamp": "2024-03-25T09:32:11Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "597": {
+            "ocel:timestamp": "2024-03-25T09:32:12Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "602": {
+            "ocel:timestamp": "2024-03-25T09:32:13Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "606": {
+            "ocel:timestamp": "2024-03-25T09:32:14Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "609": {
+            "ocel:timestamp": "2024-03-25T09:32:15Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "613": {
+            "ocel:timestamp": "2024-03-25T09:32:16Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "619": {
+            "ocel:timestamp": "2024-03-25T09:32:17Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "623": {
+            "ocel:timestamp": "2024-03-25T09:32:18Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "626": {
+            "ocel:timestamp": "2024-03-25T09:32:19Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "629": {
+            "ocel:timestamp": "2024-03-25T09:32:20Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "634": {
+            "ocel:timestamp": "2024-03-25T09:32:21Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "637": {
+            "ocel:timestamp": "2024-03-25T09:32:22Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "642": {
+            "ocel:timestamp": "2024-03-25T09:32:23Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "644": {
+            "ocel:timestamp": "2024-03-25T09:32:24Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "651": {
+            "ocel:timestamp": "2024-03-25T09:32:25Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "653": {
+            "ocel:timestamp": "2024-03-25T09:32:26Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "657": {
+            "ocel:timestamp": "2024-03-25T09:32:27Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "661": {
+            "ocel:timestamp": "2024-03-25T09:32:28Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "667": {
+            "ocel:timestamp": "2024-03-25T09:32:29Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "671": {
+            "ocel:timestamp": "2024-03-25T09:32:30Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "673": {
+            "ocel:timestamp": "2024-03-25T09:32:31Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "677": {
+            "ocel:timestamp": "2024-03-25T09:32:32Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "681": {
+            "ocel:timestamp": "2024-03-25T09:32:33Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "685": {
+            "ocel:timestamp": "2024-03-25T09:32:34Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "688": {
+            "ocel:timestamp": "2024-03-25T09:32:35Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "692": {
+            "ocel:timestamp": "2024-03-25T09:32:36Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "696": {
+            "ocel:timestamp": "2024-03-25T09:32:37Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "701": {
+            "ocel:timestamp": "2024-03-25T09:32:38Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "707": {
+            "ocel:timestamp": "2024-03-25T09:32:39Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "710": {
+            "ocel:timestamp": "2024-03-25T09:32:40Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "712": {
+            "ocel:timestamp": "2024-03-25T09:32:41Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "719": {
+            "ocel:timestamp": "2024-03-25T09:32:42Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "723": {
+            "ocel:timestamp": "2024-03-25T09:32:43Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "724": {
+            "ocel:timestamp": "2024-03-25T09:32:44Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "731": {
+            "ocel:timestamp": "2024-03-25T09:32:45Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "732": {
+            "ocel:timestamp": "2024-03-25T09:32:46Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "737": {
+            "ocel:timestamp": "2024-03-25T09:32:47Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "743": {
+            "ocel:timestamp": "2024-03-25T09:32:48Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "746": {
+            "ocel:timestamp": "2024-03-25T09:32:49Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "750": {
+            "ocel:timestamp": "2024-03-25T09:32:50Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "754": {
+            "ocel:timestamp": "2024-03-25T09:32:51Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "757": {
+            "ocel:timestamp": "2024-03-25T09:32:52Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "763": {
+            "ocel:timestamp": "2024-03-25T09:32:53Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "765": {
+            "ocel:timestamp": "2024-03-25T09:32:54Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "771": {
+            "ocel:timestamp": "2024-03-25T09:32:55Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "774": {
+            "ocel:timestamp": "2024-03-25T09:32:56Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "779": {
+            "ocel:timestamp": "2024-03-25T09:32:57Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "780": {
+            "ocel:timestamp": "2024-03-25T09:32:58Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "784": {
+            "ocel:timestamp": "2024-03-25T09:32:59Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "790": {
+            "ocel:timestamp": "2024-03-25T09:33:00Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "792": {
+            "ocel:timestamp": "2024-03-25T09:33:01Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "796": {
+            "ocel:timestamp": "2024-03-25T09:33:02Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "803": {
+            "ocel:timestamp": "2024-03-25T09:33:03Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "805": {
+            "ocel:timestamp": "2024-03-25T09:33:04Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "809": {
+            "ocel:timestamp": "2024-03-25T09:33:05Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "813": {
+            "ocel:timestamp": "2024-03-25T09:33:06Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "816": {
+            "ocel:timestamp": "2024-03-25T09:33:07Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "820": {
+            "ocel:timestamp": "2024-03-25T09:33:08Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "826": {
+            "ocel:timestamp": "2024-03-25T09:33:09Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "829": {
+            "ocel:timestamp": "2024-03-25T09:33:10Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "834": {
+            "ocel:timestamp": "2024-03-25T09:33:11Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "838": {
+            "ocel:timestamp": "2024-03-25T09:33:12Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "842": {
+            "ocel:timestamp": "2024-03-25T09:33:13Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "845": {
+            "ocel:timestamp": "2024-03-25T09:33:14Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "851": {
+            "ocel:timestamp": "2024-03-25T09:33:15Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "855": {
+            "ocel:timestamp": "2024-03-25T09:33:16Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "856": {
+            "ocel:timestamp": "2024-03-25T09:33:17Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "863": {
+            "ocel:timestamp": "2024-03-25T09:33:18Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "864": {
+            "ocel:timestamp": "2024-03-25T09:33:19Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "868": {
+            "ocel:timestamp": "2024-03-25T09:33:20Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "872": {
+            "ocel:timestamp": "2024-03-25T09:33:21Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "877": {
+            "ocel:timestamp": "2024-03-25T09:33:22Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "880": {
+            "ocel:timestamp": "2024-03-25T09:33:23Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "887": {
+            "ocel:timestamp": "2024-03-25T09:33:24Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "889": {
+            "ocel:timestamp": "2024-03-25T09:33:25Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "894": {
+            "ocel:timestamp": "2024-03-25T09:33:26Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "896": {
+            "ocel:timestamp": "2024-03-25T09:33:27Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "903": {
+            "ocel:timestamp": "2024-03-25T09:33:28Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "905": {
+            "ocel:timestamp": "2024-03-25T09:33:29Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "911": {
+            "ocel:timestamp": "2024-03-25T09:33:30Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "915": {
+            "ocel:timestamp": "2024-03-25T09:33:31Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "916": {
+            "ocel:timestamp": "2024-03-25T09:33:32Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "920": {
+            "ocel:timestamp": "2024-03-25T09:33:33Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "927": {
+            "ocel:timestamp": "2024-03-25T09:33:34Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "929": {
+            "ocel:timestamp": "2024-03-25T09:33:35Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "935": {
+            "ocel:timestamp": "2024-03-25T09:33:36Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "938": {
+            "ocel:timestamp": "2024-03-25T09:33:37Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "942": {
+            "ocel:timestamp": "2024-03-25T09:33:38Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "947": {
+            "ocel:timestamp": "2024-03-25T09:33:39Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "949": {
+            "ocel:timestamp": "2024-03-25T09:33:40Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "954": {
+            "ocel:timestamp": "2024-03-25T09:33:41Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "959": {
+            "ocel:timestamp": "2024-03-25T09:33:42Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "962": {
+            "ocel:timestamp": "2024-03-25T09:33:43Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "966": {
+            "ocel:timestamp": "2024-03-25T09:33:44Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "971": {
+            "ocel:timestamp": "2024-03-25T09:33:45Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "972": {
+            "ocel:timestamp": "2024-03-25T09:33:46Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "979": {
+            "ocel:timestamp": "2024-03-25T09:33:47Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "982": {
+            "ocel:timestamp": "2024-03-25T09:33:48Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Working Area"
+            ]
+        },
+        "984": {
+            "ocel:timestamp": "2024-03-25T09:33:49Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Client Area"
+            ]
+        },
+        "989": {
+            "ocel:timestamp": "2024-03-25T09:33:50Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Client Area"
+            ]
+        },
+        "994": {
+            "ocel:timestamp": "2024-03-25T09:33:51Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Client Area"
+            ]
+        },
+        "998": {
+            "ocel:timestamp": "2024-03-25T09:33:52Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Client Area"
+            ]
+        },
+        "1002": {
+            "ocel:timestamp": "2024-03-25T09:33:53Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Client Area"
+            ]
+        },
+        "1006": {
+            "ocel:timestamp": "2024-03-25T09:33:54Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Client Area"
+            ]
+        },
+        "1008": {
+            "ocel:timestamp": "2024-03-25T09:33:55Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Client Area"
+            ]
+        },
+        "1015": {
+            "ocel:timestamp": "2024-03-25T09:33:56Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1019": {
+            "ocel:timestamp": "2024-03-25T09:33:57Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1023": {
+            "ocel:timestamp": "2024-03-25T09:33:58Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1025": {
+            "ocel:timestamp": "2024-03-25T09:33:59Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1029": {
+            "ocel:timestamp": "2024-03-25T09:34:00Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1033": {
+            "ocel:timestamp": "2024-03-25T09:34:01Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1037": {
+            "ocel:timestamp": "2024-03-25T09:34:02Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1043": {
+            "ocel:timestamp": "2024-03-25T09:34:03Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1045": {
+            "ocel:timestamp": "2024-03-25T09:34:04Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1050": {
+            "ocel:timestamp": "2024-03-25T09:34:05Z",
+            "ocel:activity": "Walk",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1055": {
+            "ocel:timestamp": "2024-03-25T09:34:06Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1058": {
+            "ocel:timestamp": "2024-03-25T09:34:07Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1062": {
+            "ocel:timestamp": "2024-03-25T09:34:08Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1066": {
+            "ocel:timestamp": "2024-03-25T09:34:09Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1071": {
+            "ocel:timestamp": "2024-03-25T09:34:10Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1074": {
+            "ocel:timestamp": "2024-03-25T09:34:11Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1079": {
+            "ocel:timestamp": "2024-03-25T09:34:12Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1082": {
+            "ocel:timestamp": "2024-03-25T09:34:13Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1087": {
+            "ocel:timestamp": "2024-03-25T09:34:14Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1091": {
+            "ocel:timestamp": "2024-03-25T09:34:15Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1092": {
+            "ocel:timestamp": "2024-03-25T09:34:16Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1099": {
+            "ocel:timestamp": "2024-03-25T09:34:17Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1101": {
+            "ocel:timestamp": "2024-03-25T09:34:18Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1106": {
+            "ocel:timestamp": "2024-03-25T09:34:19Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1110": {
+            "ocel:timestamp": "2024-03-25T09:34:20Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1115": {
+            "ocel:timestamp": "2024-03-25T09:34:21Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1117": {
+            "ocel:timestamp": "2024-03-25T09:34:22Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1120": {
+            "ocel:timestamp": "2024-03-25T09:34:23Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1124": {
+            "ocel:timestamp": "2024-03-25T09:34:24Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1128": {
+            "ocel:timestamp": "2024-03-25T09:34:25Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1135": {
+            "ocel:timestamp": "2024-03-25T09:34:26Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1139": {
+            "ocel:timestamp": "2024-03-25T09:34:27Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1142": {
+            "ocel:timestamp": "2024-03-25T09:34:28Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1147": {
+            "ocel:timestamp": "2024-03-25T09:34:29Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1149": {
+            "ocel:timestamp": "2024-03-25T09:34:30Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1155": {
+            "ocel:timestamp": "2024-03-25T09:34:31Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1156": {
+            "ocel:timestamp": "2024-03-25T09:34:32Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1160": {
+            "ocel:timestamp": "2024-03-25T09:34:33Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1165": {
+            "ocel:timestamp": "2024-03-25T09:34:34Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1168": {
+            "ocel:timestamp": "2024-03-25T09:34:35Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1173": {
+            "ocel:timestamp": "2024-03-25T09:34:36Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1178": {
+            "ocel:timestamp": "2024-03-25T09:34:37Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1181": {
+            "ocel:timestamp": "2024-03-25T09:34:38Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1186": {
+            "ocel:timestamp": "2024-03-25T09:34:39Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1189": {
+            "ocel:timestamp": "2024-03-25T09:34:40Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1194": {
+            "ocel:timestamp": "2024-03-25T09:34:41Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1198": {
+            "ocel:timestamp": "2024-03-25T09:34:42Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1201": {
+            "ocel:timestamp": "2024-03-25T09:34:43Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1207": {
+            "ocel:timestamp": "2024-03-25T09:34:44Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1208": {
+            "ocel:timestamp": "2024-03-25T09:34:45Z",
+            "ocel:activity": "Handling",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1213": {
+            "ocel:timestamp": "2024-03-25T09:34:46Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1218": {
+            "ocel:timestamp": "2024-03-25T09:34:47Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1223": {
+            "ocel:timestamp": "2024-03-25T09:34:48Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        },
+        "1225": {
+            "ocel:timestamp": "2024-03-25T09:34:49Z",
+            "ocel:activity": "Stand",
+            "ocel:vmap": {},
+            "ocel:omap": [
+                "A1",
+                "Issue Area"
+            ]
+        }
+    },
+    "ocel:objects": {
+        "A1": {
+            "ocel:type": "case:concept:name",
+            "ocel:ovmap": {}
+        },
+        "Issue Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        },
+        "Warehouse Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        },
+        "Self-Service Lending Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        },
+        "Client Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        },
+        "Working Area": {
+            "ocel:type": "region",
+            "ocel:ovmap": {}
+        }
     }
-  },
-  "ocel:objects": {
-    "A1": {
-      "ocel:type": "case:concept:name",
-      "ocel:ovmap": {}
-    }
-  }
 }
