@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="A1" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="admin1@fim-rc.de" />
+		<string key="first_name" value="Admin 1" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_4" />
+		<string key="obj.link" value="users/4" />
+		<string key="obj.id" value="A1" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44378" />
+			<date key="time:timestamp" value="2024-03-25T08:50:29+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T08:50:29Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44379" />
+			<date key="time:timestamp" value="2024-03-25T08:50:47+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T08:50:47Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44382" />
+			<date key="time:timestamp" value="2024-03-25T08:52:29+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T08:52:29Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44384" />
+			<date key="time:timestamp" value="2024-03-25T08:54:14+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T08:54:14Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44385" />
+			<date key="time:timestamp" value="2024-03-25T08:54:32+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T08:54:32Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44388" />
+			<date key="time:timestamp" value="2024-03-25T08:58:28+00:00" />
+			<string key="concept:name" value="create" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44389" />
+			<date key="time:timestamp" value="2024-03-25T09:00:32+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44390" />
+			<date key="time:timestamp" value="2024-03-25T09:08:59+00:00" />
+			<string key="concept:name" value="create" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44391" />
+			<date key="time:timestamp" value="2024-03-25T09:09:14+00:00" />
+			<string key="concept:name" value="update" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"}}' />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44392" />
+			<date key="time:timestamp" value="2024-03-25T09:11:10+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"},"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:11:10Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="note" value="checked in for repair by client 1" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44393" />
+			<date key="time:timestamp" value="2024-03-25T09:12:21+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T09:12:21Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44397" />
+			<date key="time:timestamp" value="2024-03-25T09:17:00+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T09:17:00Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44399" />
+			<date key="time:timestamp" value="2024-03-25T09:18:36+00:00" />
+			<string key="concept:name" value="update" />
+			<string key="log_meta" value='{"status_id":{"old":13,"new":"11"}}' />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44400" />
+			<date key="time:timestamp" value="2024-03-25T09:23:00+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:23:00Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44403" />
+			<date key="time:timestamp" value="2024-03-25T09:27:13+00:00" />
+			<string key="concept:name" value="update" />
+			<string key="log_meta" value='{"status_id":{"old":13,"new":"11"}}' />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44405" />
+			<date key="time:timestamp" value="2024-03-25T09:34:11+00:00" />
+			<string key="concept:name" value="create" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44406" />
+			<date key="time:timestamp" value="2024-03-25T09:36:08+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:36:08Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44407" />
+			<date key="time:timestamp" value="2024-03-25T09:36:28+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:36:28Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="note" value="was returned quite dirty. " />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44408" />
+			<date key="time:timestamp" value="2024-03-25T09:41:14+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44409" />
+			<date key="time:timestamp" value="2024-03-25T09:42:49+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44410" />
+			<date key="time:timestamp" value="2024-03-25T09:55:27+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:55:27Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44411" />
+			<date key="time:timestamp" value="2024-03-25T09:55:50+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:55:50Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="C5" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="client5@fim-rc.de" />
+		<string key="first_name" value="Client 5" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_1053" />
+		<string key="obj.link" value="users/1053" />
+		<string key="obj.id" value="C5" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44394" />
+			<date key="time:timestamp" value="2024-03-25T09:13:56+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T09:13:56Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44396" />
+			<date key="time:timestamp" value="2024-03-25T09:15:48+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-15-48.pdf" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44434" />
+			<date key="time:timestamp" value="2024-03-25T11:23:18+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:23:18Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44437" />
+			<date key="time:timestamp" value="2024-03-25T11:27:44+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-10-27-44.pdf" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="C4" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="client4@fim-rc.de" />
+		<string key="first_name" value="Client 4" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_1095" />
+		<string key="obj.link" value="users/1095" />
+		<string key="obj.id" value="C4" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44401" />
+			<date key="time:timestamp" value="2024-03-25T09:25:02+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T09:25:02Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44402" />
+			<date key="time:timestamp" value="2024-03-25T09:26:58+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-26-58.pdf" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44432" />
+			<date key="time:timestamp" value="2024-03-25T11:21:17+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:21:17Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44433" />
+			<date key="time:timestamp" value="2024-03-25T11:22:33+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-10-22-32.pdf" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="C10" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="client10@fim-rc.de" />
+		<string key="first_name" value="Client 10" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_1015" />
+		<string key="obj.link" value="users/1015" />
+		<string key="obj.id" value="C10" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44404" />
+			<date key="time:timestamp" value="2024-03-25T09:28:45+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T09:28:45Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="A2" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="admin2@fim-rc.de" />
+		<string key="first_name" value="Admin 2" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_5" />
+		<string key="obj.link" value="users/5" />
+		<string key="obj.id" value="A2" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44412" />
+			<date key="time:timestamp" value="2024-03-25T10:47:22+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T10:47:22Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="note" value="Mousepad slightly dirty" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44414" />
+			<date key="time:timestamp" value="2024-03-25T10:51:31+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T10:51:31Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44415" />
+			<date key="time:timestamp" value="2024-03-25T10:51:49+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T10:51:49Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44416" />
+			<date key="time:timestamp" value="2024-03-25T10:52:17+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T10:52:17Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44420" />
+			<date key="time:timestamp" value="2024-03-25T10:53:41+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T10:53:41Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44422" />
+			<date key="time:timestamp" value="2024-03-25T10:59:54+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44423" />
+			<date key="time:timestamp" value="2024-03-25T11:00:50+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44426" />
+			<date key="time:timestamp" value="2024-03-25T11:10:33+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"},"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T11:10:33Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="note" value="Returned because of bluescreen" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44427" />
+			<date key="time:timestamp" value="2024-03-25T11:11:45+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:11:45Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44431" />
+			<date key="time:timestamp" value="2024-03-25T11:16:05+00:00" />
+			<string key="concept:name" value="update" />
+			<string key="log_meta" value='{"status_id":{"old":13,"new":"11"}}' />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44432" />
+			<date key="time:timestamp" value="2024-03-25T11:21:17+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:21:17Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44434" />
+			<date key="time:timestamp" value="2024-03-25T11:23:18+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:23:18Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44435" />
+			<date key="time:timestamp" value="2024-03-25T11:26:20+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T11:26:20Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44436" />
+			<date key="time:timestamp" value="2024-03-25T11:27:43+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T11:27:43Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44438" />
+			<date key="time:timestamp" value="2024-03-25T11:36:07+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:36:07Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44439" />
+			<date key="time:timestamp" value="2024-03-25T11:36:26+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:36:26Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44440" />
+			<date key="time:timestamp" value="2024-03-25T11:36:43+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:36:43Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44444" />
+			<date key="time:timestamp" value="2024-03-25T11:40:05+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:40:05Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="note" value="Slightly dirty" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44445" />
+			<date key="time:timestamp" value="2024-03-25T11:41:50+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"},"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T11:41:50Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="note" value="Screen not working" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44447" />
+			<date key="time:timestamp" value="2024-03-25T11:43:02+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:43:02Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44450" />
+			<date key="time:timestamp" value="2024-03-25T11:48:25+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"},"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T11:48:25Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="note" value="Mouse not working" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44451" />
+			<date key="time:timestamp" value="2024-03-25T11:49:33+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:49:33Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44454" />
+			<date key="time:timestamp" value="2024-03-25T11:53:49+00:00" />
+			<string key="concept:name" value="update" />
+			<string key="log_meta" value='{"status_id":{"old":13,"new":"11"}}' />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44455" />
+			<date key="time:timestamp" value="2024-03-25T11:57:27+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:57:27Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44456" />
+			<date key="time:timestamp" value="2024-03-25T11:57:43+00:00" />
+			<string key="concept:name" value="checkout" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<string key="action_date" value="2024-03-25T11:57:43Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44459" />
+			<date key="time:timestamp" value="2024-03-25T11:59:59+00:00" />
+			<string key="concept:name" value="update" />
+			<string key="log_meta" value='{"status_id":{"old":13,"new":"11"}}' />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44460" />
+			<date key="time:timestamp" value="2024-03-25T12:01:56+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T12:01:56Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="C9" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="client9@fim-rc.de" />
+		<string key="first_name" value="Client 9" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_1054" />
+		<string key="obj.link" value="users/1054" />
+		<string key="obj.id" value="C9" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44424" />
+			<date key="time:timestamp" value="2024-03-25T11:04:59+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T11:04:59Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44430" />
+			<date key="time:timestamp" value="2024-03-25T11:15:16+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-10-15-16.pdf" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44436" />
+			<date key="time:timestamp" value="2024-03-25T11:27:43+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="log_meta" value="nan" />
+			<string key="action_date" value="2024-03-25T11:27:43Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+</log>
