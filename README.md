@@ -41,3 +41,10 @@ Der objekt_type in der Datei "convert_data_type" ist noch fragwürdig, noch nich
 ### Notizen:
 - Ich habe verstanden dass du die Prozesses von 36 zu 15 reduziert hast. Aber falls es dir nicht absichtig wars, da kannst du anpassen.
 - Welche Python Version hast du auf deine Rechner?
+
+
+### Resources:
+- https://video.fsmpi.rwth-aachen.de/21ss-bpi/16595
+- https://link.springer.com/article/10.1007/s10009-022-00668-w#:~:text=We%20have%20a%20convergence%20problem,instances%20of%20the%20same%20activity.
+- https://ieeexplore.ieee.org/abstract/document/7296188. https://www.link-labs.com/blog/rfid-cost
+- https://camunda.com/bpmn/reference/#gateways-data-based-inclusive-gateways
